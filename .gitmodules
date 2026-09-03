@@ -1,0 +1,18 @@
+[submodule "third_party/openvla-oft"]
+	path = third_party/openvla-oft
+	url = git@github.com:moojink/openvla-oft.git
+[submodule "third_party/AVA-VLA"]
+	path = third_party/AVA-VLA
+	url = git@github.com:LiAuto-DSR/AVA-VLA.git
+[submodule "third_party/SAFE"]
+	path = third_party/SAFE
+	url = git@github.com:vla-safe/SAFE.git
+[submodule "third_party/LIBERO-plus"]
+	path = third_party/LIBERO-plus
+	url = git@github.com:sylvestf/LIBERO-plus.git
+[submodule "third_party/AHA"]
+	path = third_party/AHA
+	url = https://github.com/NVlabs/AHA.git
+[submodule "third_party/SAFE-openvla"]
+	path = third_party/SAFE-openvla
+	url = https://github.com/vla-safe/openvla.git

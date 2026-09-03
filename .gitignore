@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Experiment outputs
+checkpoints/
+datasets/
+logs/
+outputs/
+results/
+runs/
+wandb/
+videos/
+*.mp4
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# OS and LaTeX
+.DS_Store
+Thumbs.db
+*.aux
+*.log
+*.out
+*.toc
