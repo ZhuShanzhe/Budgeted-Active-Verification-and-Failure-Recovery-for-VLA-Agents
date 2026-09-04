@@ -17,4 +17,4 @@ SAFE 的 VLA 内部特征、跨任务失败检测和 conformal prediction 构成
 
 上游提供两组 Google Drive rollout：Pi0-FAST 与 OpenVLA/WidowX。下载状态与人工处理要求见 [DATASETS.md](DATASETS.md)。
 
-服务器直连 Google Drive 会超时，`/etc/network_turbo` 代理访问 Google 下载域名会返回 503。仓库提供 `notebooks/colab_stream_safe_rollouts.ipynb`：在 Google Colab 中运行后，数据先进入 Colab 临时磁盘，再通过原生 `rsync` 断点续传至服务器；每完成一个文件立即删除 Colab 副本。文件不经过用户电脑，也不占用本地下载流量。Notebook 固定校验服务器 ED25519 指纹，密码使用隐藏输入且不写入文件。
+服务器直连 Google Drive 会超时，`/etc/network_turbo` 代理访问 Google 下载域名会返回 503。仓库提供 `notebooks/colab_fast_safe_rollouts_v2.ipynb`：在 Google Colab 中运行后，数据先进入 Colab 临时磁盘，再通过原生 `rsync` 断点续传至服务器；每完成一个文件立即删除 Colab 副本。文件不经过用户电脑，也不占用本地下载流量。Notebook 固定校验服务器 ED25519 指纹，密码使用隐藏输入且不写入文件。旧版 SFTP 会话必须先终止，避免 Colab 持续恢复旧执行状态。
