@@ -1,0 +1,64 @@
+{
+  "root": "/root/autodl-tmp/datasets/wcm-pick-place",
+  "revision": "0600e5a90f70a1695b14c0cfc5ad9feb04c3d413",
+  "generated_at_utc": "2026-09-04T07:50:22.562640+00:00",
+  "file_count": 11,
+  "total_bytes": 55180249,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2504,
+      "sha256": "9e75dd981de037ec3769f24f790e126bc5a160b6871f510214e68dc70649aeeb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 686,
+      "sha256": "b1b6c08ee4302c7f7c98125ef705553fb9026e9b63490cdefb45b52f2923e14e"
+    },
+    {
+      "path": "data/chunk-000/file-000.parquet",
+      "bytes": 1325890,
+      "sha256": "882365837c67bb615a429d84b7c817dc51bc6e910d74bc489f62be55e8baf9af"
+    },
+    {
+      "path": "meta/conversion_manifest.json",
+      "bytes": 1440,
+      "sha256": "c6bfbdbeb0e72ba1bcdaf210cde34beb070344da6b64c7a11903d70b86c0b3b1"
+    },
+    {
+      "path": "meta/episodes/chunk-000/file-000.parquet",
+      "bytes": 10432,
+      "sha256": "22b61b68c968f121b9f9197ccaa06defb6aec65df1c1e99b2601cb381a5b47a4"
+    },
+    {
+      "path": "meta/info.json",
+      "bytes": 2011,
+      "sha256": "30bbc22c20107b38aa59e01b6a0a907a2da39a4c7b6b60a9e13f9311d04f6052"
+    },
+    {
+      "path": "meta/tasks.parquet",
+      "bytes": 2150,
+      "sha256": "61270e5ecf6c5c4265b943ed01ef5755a3502763ae601de463affc69110cc27e"
+    },
+    {
+      "path": "videos/observation.images.front/chunk-000/file-000.mp4",
+      "bytes": 16003898,
+      "sha256": "1a6ed88ec393fd18d89e5e8ed3720f5bb09f39eba7986f36f073a4f525e23d69"
+    },
+    {
+      "path": "videos/observation.images.front/chunk-000/file-001.mp4",
+      "bytes": 15827291,
+      "sha256": "ad0fb0b97229cbc4d98b4b01e88929ee265b72fa5498091933920eefade55805"
+    },
+    {
+      "path": "videos/observation.images.front/chunk-000/file-002.mp4",
+      "bytes": 15881796,
+      "sha256": "d9ef9d14b3fbacea2538cdcd8df91b50455401d3e7c6f6a751d1cf305ee1bd7b"
+    },
+    {
+      "path": "videos/observation.images.front/chunk-000/file-003.mp4",
+      "bytes": 6122151,
+      "sha256": "bd1ae17aecf1172a0c2c95e148c39b2d59b797d308bc8389039b41730f38f444"
+    }
+  ]
+}

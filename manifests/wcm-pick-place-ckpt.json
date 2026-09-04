@@ -1,0 +1,29 @@
+{
+  "root": "/root/autodl-tmp/checkpoints/wcm-pick-place",
+  "revision": "9cbbda60ba72966cf3bf6c4684f28d31f28f66b9",
+  "generated_at_utc": "2026-09-04T07:50:54.077298+00:00",
+  "file_count": 4,
+  "total_bytes": 682646743,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1310,
+      "sha256": "55c3ee0c7d2b4acf52a7621bd2fbcbd1d9b9a570e0739418248f2aea757a9f11"
+    },
+    {
+      "path": "best.pt",
+      "bytes": 682642299,
+      "sha256": "8d77b7231b9a51fe28781b485bfaa712d08377671a01f7e848cfe4047ceb7a0c"
+    },
+    {
+      "path": "episode_split.json",
+      "bytes": 1615,
+      "sha256": "99c59d436ded4d691c7184d3b85ac18f1e3562a556bdeb67a476ea003c1daaa7"
+    }
+  ]
+}

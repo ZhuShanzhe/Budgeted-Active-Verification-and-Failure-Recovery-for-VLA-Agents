@@ -16,3 +16,6 @@
 [submodule "third_party/SAFE-openvla"]
 	path = third_party/SAFE-openvla
 	url = https://github.com/vla-safe/openvla.git
+[submodule "third_party/WCM"]
+	path = third_party/WCM
+	url = https://github.com/sylvestf/WCM.git
