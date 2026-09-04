@@ -1,0 +1,29 @@
+{
+  "root": "/root/autodl-tmp/datasets/libero-plus-4suite-lerobot-zips",
+  "revision": "1a0f5c97a96e4187fbe52331b9a484f21d244bb2",
+  "generated_at_utc": "2026-09-04T09:49:36.645899+00:00",
+  "file_count": 4,
+  "total_bytes": 17291020751,
+  "files": [
+    {
+      "path": "lerobot/libero_plus_10.zip",
+      "bytes": 4808902934,
+      "sha256": "d3d8fab3c3adc1679c4d8eae4096d2d701ab6e5b3cf255adcd3b843049647954"
+    },
+    {
+      "path": "lerobot/libero_plus_goal.zip",
+      "bytes": 3524474905,
+      "sha256": "306e2c5c8424ed20a181d2a5fcb2fad9499d9ab0331af2a27ca4aaa6c9d466ad"
+    },
+    {
+      "path": "lerobot/libero_plus_object.zip",
+      "bytes": 5013338201,
+      "sha256": "a6651f8e09d6efd7590dcfb9d76086c6e8fe021f96272c4d8d70a7d4cf80b9f4"
+    },
+    {
+      "path": "lerobot/libero_plus_spatial.zip",
+      "bytes": 3944304711,
+      "sha256": "fc8a82cd3e8028de7a941a4e038547a59ec4bca3d31384df3b5dc6660f5f1381"
+    }
+  ]
+}

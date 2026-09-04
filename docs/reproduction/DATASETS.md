@@ -5,7 +5,7 @@
 | 资源 | 服务器路径 | 规模/状态 | 用途 |
 |---|---|---:|---|
 | LIBERO-Plus assets | `/root/autodl-tmp/datasets/LIBERO-plus-assets` | 压缩包约 6.4 GB，解压约 16 GB | 环境与七维扰动 |
-| LIBERO-Plus LeRobot（四套压缩包） | `/root/autodl-tmp/datasets/libero-plus-4suite-lerobot-zips` | 约 17.3 GB | WCM 数据管线与 OOD 评测；官方版本仅含成功轨迹 |
+| LIBERO-Plus LeRobot（四套压缩包） | `/root/autodl-tmp/datasets/libero-plus-4suite-lerobot-zips` | 17,291,020,751 字节；四包均通过 `unzip -tq` | WCM 数据管线与 OOD 评测；官方版本仅含成功轨迹 |
 | WCM quick dataset | `/root/autodl-tmp/datasets/wcm-pick-place` | 约 55 MB | WCM 端到端快速复现 |
 | WCM checkpoint | `/root/autodl-tmp/checkpoints/wcm-pick-place` | `best.pt` 约 683 MB | WCM 官方基线 |
 | WCM backbones | `/root/autodl-tmp/checkpoints/wcm-backbones` 与 HF cache | ViT + CLIP | WCM 离线评测依赖 |
@@ -34,11 +34,11 @@
 
 每个进入实验的数据集必须记录仓库 revision、下载日期、文件数、字节数和 SHA-256 manifest。训练集、校准集、ID 测试集与 OOD 测试集按场景/任务划分，禁止同一轨迹切片跨集合泄漏。
 
-已生成 `manifests/wcm-pick-place.json` 与 `manifests/wcm-pick-place-ckpt.json`，分别覆盖 11 个数据文件/55,180,249 字节和 4 个检查点文件/682,646,743 字节。
+已生成三份 SHA-256 清单：`manifests/wcm-pick-place.json` 覆盖 11 个数据文件/55,180,249 字节，`manifests/wcm-pick-place-ckpt.json` 覆盖 4 个检查点文件/682,646,743 字节，`manifests/libero-plus-4suite-lerobot-zips.json` 覆盖 4 个压缩包/17,291,020,751 字节（revision `1a0f5c97a96e4187fbe52331b9a484f21d244bb2`）。
 
 ## 存储边界
 
-2026-09-04 数据盘 `/root/autodl-tmp` 总计 1 TB，已用 91 GB，可用 910 GB。当前不扩容。所有环境、缓存、数据、检查点与训练输出继续放在该数据盘；系统根盘不存放大型 artifact。数据盘可用空间低于 250 GB，或开始同时保留多组全量优化器状态时，再执行归档或扩容。
+2026-09-04 数据盘 `/root/autodl-tmp` 总计 1 TB，已用 111 GB，可用 890 GB；系统根盘总计 30 GB，已用 15 GB，可用 16 GB。当前不扩容。所有环境、缓存、数据、检查点与训练输出继续放在数据盘；系统根盘只保留操作系统和轻量工具。数据盘可用空间低于 250 GB，或开始同时保留多组全量优化器状态时，再执行归档或扩容。
 
 生成清单：
 
