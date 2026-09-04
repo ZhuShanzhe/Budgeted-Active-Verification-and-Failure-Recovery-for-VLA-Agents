@@ -20,3 +20,5 @@ SAFE 的 VLA 内部特征、跨任务失败检测和 conformal prediction 构成
 服务器直连 Google Drive 会超时，`/etc/network_turbo` 代理访问 Google 下载域名会返回 503。仓库提供 `notebooks/colab_fast_safe_rollouts_v2.ipynb`：在 Google Colab 中运行后，数据先进入 Colab 临时磁盘，再通过原生 `rsync` 断点续传至服务器；每完成一个文件立即删除 Colab 副本。文件不经过用户电脑，也不占用本地下载流量。Notebook 固定校验服务器 ED25519 指纹，密码使用隐藏输入且不写入文件。旧版 SFTP 会话必须先终止，避免 Colab 持续恢复旧执行状态。
 
 当公共文件触发 Google Drive 的热门文件下载配额时，改用 `notebooks/colab_drive_copy_safe_rollouts_v3.ipynb`。先在 `drive.google.com` 将一份 ZIP 制作成个人副本并放入 `我的云端硬盘/SAFE-rollouts`，V3 挂载个人 Drive 后直接通过 `rsync` 续传到服务器。可逐个文件处理，以减少个人 Drive 空间需求。
+
+如果网页只允许“添加快捷方式”，使用 `notebooks/colab_create_safe_drive_copy_v4.ipynb` 调用 Google Drive API 的 `files.copy`，直接尝试按原始文件 ID 创建个人副本。快捷方式菜单中的“复制”只会复制快捷方式，不会产生新的数据文件或下载配额。
