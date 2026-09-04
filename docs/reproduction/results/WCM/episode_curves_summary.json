@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "num_episodes": 18,
+  "num_points": 1617,
+  "directory": "/root/autodl-tmp/experiments/wcm/full-val/episode_curves",
+  "json": "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode_curves.json",
+  "episode_metrics": "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode_metrics.json",
+  "csv": "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode_curves.csv",
+  "plot_count": 18,
+  "plots": [
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-12.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-14.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-45.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-50.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-51.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-103.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-107.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-109.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-111.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-125.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-130.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-131.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-148.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-155.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-156.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-167.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-169.png",
+    "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode-177.png"
+  ],
+  "summary": "/root/autodl-tmp/experiments/wcm/full-val/episode_curves/episode_curves_summary.json",
+  "total_num_episodes": 18,
+  "max_episodes": null
+}
