@@ -1,0 +1,113 @@
+{
+  "openvla-oft": {
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "transformers": "4.40.1",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "wandb": "0.16.6",
+      "hydra-core": "1.3.6",
+      "omegaconf": "2.3.1",
+      "robosuite": "1.4.1",
+      "mujoco": "2.3.7",
+      "gymnasium": null,
+      "mani_skill": null,
+      "sapien": null,
+      "mplib": null,
+      "opencv-python": "4.10.0.84",
+      "h5py": "3.16.0"
+    }
+  },
+  "ava-vla": {
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "transformers": "4.40.1",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "wandb": "0.16.6",
+      "hydra-core": "1.3.6",
+      "omegaconf": "2.3.1",
+      "robosuite": "1.4.1",
+      "mujoco": "2.3.7",
+      "gymnasium": null,
+      "mani_skill": null,
+      "sapien": null,
+      "mplib": null,
+      "opencv-python": "4.10.0.84",
+      "h5py": "3.16.0"
+    }
+  },
+  "vla-safe": {
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "transformers": null,
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "wandb": "0.29.0",
+      "hydra-core": "1.3.6",
+      "omegaconf": "2.3.1",
+      "robosuite": null,
+      "mujoco": null,
+      "gymnasium": null,
+      "mani_skill": null,
+      "sapien": null,
+      "mplib": null,
+      "opencv-python": "5.0.0.93",
+      "h5py": null
+    }
+  },
+  "wcm": {
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+    "versions": {
+      "torch": "2.7.1+cu128",
+      "torchvision": "0.22.1+cu128",
+      "transformers": "5.16.1",
+      "numpy": "2.2.6",
+      "scipy": null,
+      "scikit-learn": null,
+      "wandb": "0.24.2",
+      "hydra-core": null,
+      "omegaconf": null,
+      "robosuite": null,
+      "mujoco": null,
+      "gymnasium": "1.3.0",
+      "mani_skill": null,
+      "sapien": null,
+      "mplib": null,
+      "opencv-python": null,
+      "h5py": "3.16.0"
+    }
+  },
+  "maniskill3": {
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "torchvision": "0.23.0+cu128",
+      "transformers": null,
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "scikit-learn": null,
+      "wandb": null,
+      "hydra-core": "1.3.6",
+      "omegaconf": "2.3.1",
+      "robosuite": null,
+      "mujoco": null,
+      "gymnasium": "0.29.1",
+      "mani_skill": "3.0.1",
+      "sapien": "3.0.3",
+      "mplib": "0.1.1",
+      "opencv-python": "4.11.0.86",
+      "h5py": "3.16.0"
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 5090, 580.105.08, 32607 MiB"
+}

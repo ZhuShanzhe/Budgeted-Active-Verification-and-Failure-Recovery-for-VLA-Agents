@@ -1,0 +1,29 @@
+{
+  "protocol_sha256": "4b7400f163b8affead6658c77f78deb59c316633c710a4d4f1a6988833973ce5",
+  "program_sha256": "de0f7276614ac6a995cbfbb11474f9b6d94e63bb30f678d5f20b4ae41f73dfb9",
+  "critic_artifact_id": "unconfigured",
+  "critic_target": "unconfigured",
+  "critic_calibrated": false,
+  "episodes": 1,
+  "roots": 1,
+  "decisions": 10,
+  "errors": 0,
+  "mean_units": 3.0,
+  "scored_decisions": 0,
+  "brier": null,
+  "coverage": null,
+  "selective_risk": null,
+  "result_scope": "engineering_only_no_critic",
+  "splits": [
+    "development"
+  ],
+  "root_ids": [
+    "598207a96f84bf018f7ba09f"
+  ],
+  "source_manifests": {
+    "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-dev-clean": "94da2a96b006885193dc58c02994a8a31a61d21c9763fb328448ceae69896e76"
+  },
+  "evaluator_sha256": "306821c1cf3a5fcfbf4551cd6cb55faee4c8084373169752d8d5e36e21c68706",
+  "code_generation_costs": null,
+  "limitations": "Correlated decisions require root/task-level uncertainty estimates. No closed-loop recovery or Pareto superiority claim from this offline run."
+}

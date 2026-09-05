@@ -1,0 +1,1072 @@
+{
+  "runs": [
+    {
+      "model": "lstm",
+      "seed": 0,
+      "metrics": {
+        "epoch": 1000,
+        "roc_auc/model_train_tq0.25": 1.0,
+        "roc_auc/model_train_tq0.5": 1.0,
+        "roc_auc/model_train_tq0.75": 1.0,
+        "roc_auc/model_train_tq1.0": 1.0,
+        "prc_auc/model_train_tq0.25": 1.0,
+        "prc_auc/model_train_tq0.5": 1.0,
+        "prc_auc/model_train_tq0.75": 1.0,
+        "prc_auc/model_train_tq1.0": 1.0,
+        "roc_auc/model_val_seen_tq0.25": 0.5579453441295547,
+        "roc_auc/model_val_seen_tq0.5": 0.6065283400809718,
+        "roc_auc/model_val_seen_tq0.75": 0.646255060728745,
+        "roc_auc/model_val_seen_tq1.0": 0.6971153846153846,
+        "prc_auc/model_val_seen_tq0.25": 0.7009731823263508,
+        "prc_auc/model_val_seen_tq0.5": 0.7255140523171959,
+        "prc_auc/model_val_seen_tq0.75": 0.7295979976023527,
+        "prc_auc/model_val_seen_tq1.0": 0.7563517681509359,
+        "roc_auc/model_val_unseen_tq0.25": 0.5804900744416873,
+        "roc_auc/model_val_unseen_tq0.5": 0.6162375930521091,
+        "roc_auc/model_val_unseen_tq0.75": 0.6723014888337469,
+        "roc_auc/model_val_unseen_tq1.0": 0.6304280397022333,
+        "prc_auc/model_val_unseen_tq0.25": 0.7343432328325014,
+        "prc_auc/model_val_unseen_tq0.5": 0.7427824391678528,
+        "prc_auc/model_val_unseen_tq0.75": 0.8098142325105585,
+        "prc_auc/model_val_unseen_tq1.0": 0.7157523129041556,
+        "falert_early_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_0": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_0": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_3": 0.9999999999999998,
+        "falert_end_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_3": 0.9999999999999998,
+        "falert_early_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_roc_auc/model_train": 1.0,
+        "falert_early_prc_auc/model_train": 1.0000000000000002,
+        "falert_end_roc_auc/model_train": 1.0,
+        "falert_end_prc_auc/model_train": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train": 1.0,
+        "falert_early_prc_auc_taskwise/model_train": 1.0,
+        "falert_end_roc_auc_taskwise/model_train": 1.0,
+        "falert_end_prc_auc_taskwise/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_val_seen_0": 0.49572649572649574,
+        "falert_early_prc_auc_taskwise/model_val_seen_0": 0.6254941315729599,
+        "falert_end_roc_auc_taskwise/model_val_seen_0": 0.49572649572649574,
+        "falert_end_prc_auc_taskwise/model_val_seen_0": 0.6254941315729599,
+        "falert_early_roc_auc_taskwise/model_val_seen_1": 0.7451923076923077,
+        "falert_early_prc_auc_taskwise/model_val_seen_1": 0.7245641817332994,
+        "falert_end_roc_auc_taskwise/model_val_seen_1": 0.7451923076923077,
+        "falert_end_prc_auc_taskwise/model_val_seen_1": 0.7245641817332994,
+        "falert_early_roc_auc_taskwise/model_val_seen_2": 0.5,
+        "falert_early_prc_auc_taskwise/model_val_seen_2": 0.7307240716185872,
+        "falert_end_roc_auc_taskwise/model_val_seen_2": 0.5,
+        "falert_end_prc_auc_taskwise/model_val_seen_2": 0.7307240716185872,
+        "falert_early_roc_auc_taskwise/model_val_seen_3": 0.8625,
+        "falert_early_prc_auc_taskwise/model_val_seen_3": 0.9600645065718596,
+        "falert_end_roc_auc_taskwise/model_val_seen_3": 0.8625,
+        "falert_end_prc_auc_taskwise/model_val_seen_3": 0.9600645065718596,
+        "falert_early_roc_auc_taskwise/model_val_seen_6": 0.7619047619047619,
+        "falert_early_prc_auc_taskwise/model_val_seen_6": 0.8740218042191725,
+        "falert_end_roc_auc_taskwise/model_val_seen_6": 0.7619047619047619,
+        "falert_end_prc_auc_taskwise/model_val_seen_6": 0.8740218042191725,
+        "falert_early_roc_auc_taskwise/model_val_seen_7": 0.7636363636363636,
+        "falert_early_prc_auc_taskwise/model_val_seen_7": 0.8267802566370678,
+        "falert_end_roc_auc_taskwise/model_val_seen_7": 0.7636363636363636,
+        "falert_end_prc_auc_taskwise/model_val_seen_7": 0.8267802566370678,
+        "falert_early_roc_auc/model_val_seen": 0.6146255060728745,
+        "falert_early_prc_auc/model_val_seen": 0.7320677626580033,
+        "falert_end_roc_auc/model_val_seen": 0.6146255060728745,
+        "falert_end_prc_auc/model_val_seen": 0.7320677626580033,
+        "falert_early_roc_auc_taskwise/model_val_seen": 0.6881599881599881,
+        "falert_early_prc_auc_taskwise/model_val_seen": 0.7902748253921578,
+        "falert_end_roc_auc_taskwise/model_val_seen": 0.6881599881599881,
+        "falert_end_prc_auc_taskwise/model_val_seen": 0.7902748253921578,
+        "falert_early_roc_auc_taskwise/model_val_unseen_4": 0.743951612903226,
+        "falert_early_prc_auc_taskwise/model_val_unseen_4": 0.8458080935253204,
+        "falert_end_roc_auc_taskwise/model_val_unseen_4": 0.743951612903226,
+        "falert_end_prc_auc_taskwise/model_val_unseen_4": 0.8458080935253204,
+        "falert_early_roc_auc_taskwise/model_val_unseen_5": 0.6192396313364056,
+        "falert_early_prc_auc_taskwise/model_val_unseen_5": 0.7680404192997409,
+        "falert_end_roc_auc_taskwise/model_val_unseen_5": 0.6192396313364056,
+        "falert_end_prc_auc_taskwise/model_val_unseen_5": 0.7680404192997409,
+        "falert_early_roc_auc/model_val_unseen": 0.6163926799007444,
+        "falert_early_prc_auc/model_val_unseen": 0.7656549054222418,
+        "falert_end_roc_auc/model_val_unseen": 0.6163926799007444,
+        "falert_end_prc_auc/model_val_unseen": 0.7656549054222418,
+        "falert_early_roc_auc_taskwise/model_val_unseen": 0.6815956221198158,
+        "falert_early_prc_auc_taskwise/model_val_unseen": 0.8069242564125306,
+        "falert_end_roc_auc_taskwise/model_val_unseen": 0.6815956221198158,
+        "falert_end_prc_auc_taskwise/model_val_unseen": 0.8069242564125306
+      },
+      "splits": {
+        "train": {
+          "episodes": 238,
+          "failures": 108,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "6",
+            "7"
+          ]
+        },
+        "val_seen": {
+          "episodes": 128,
+          "failures": 76,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "6",
+            "7"
+          ]
+        },
+        "val_unseen": {
+          "episodes": 166,
+          "failures": 104,
+          "tasks": [
+            "4",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "lstm",
+      "seed": 1,
+      "metrics": {
+        "epoch": 1000,
+        "roc_auc/model_train_tq0.25": 1.0,
+        "roc_auc/model_train_tq0.5": 1.0,
+        "roc_auc/model_train_tq0.75": 1.0,
+        "roc_auc/model_train_tq1.0": 1.0,
+        "prc_auc/model_train_tq0.25": 1.0,
+        "prc_auc/model_train_tq0.5": 1.0,
+        "prc_auc/model_train_tq0.75": 1.0,
+        "prc_auc/model_train_tq1.0": 1.0,
+        "roc_auc/model_val_seen_tq0.25": 0.5780379041248607,
+        "roc_auc/model_val_seen_tq0.5": 0.6028985507246377,
+        "roc_auc/model_val_seen_tq0.75": 0.6180602006688964,
+        "roc_auc/model_val_seen_tq1.0": 0.6414715719063546,
+        "prc_auc/model_val_seen_tq0.25": 0.5626831285828261,
+        "prc_auc/model_val_seen_tq0.5": 0.5995629450826455,
+        "prc_auc/model_val_seen_tq0.75": 0.6626728535424846,
+        "prc_auc/model_val_seen_tq1.0": 0.6892967086338434,
+        "roc_auc/model_val_unseen_tq0.25": 0.6051277163553184,
+        "roc_auc/model_val_unseen_tq0.5": 0.6620282119710255,
+        "roc_auc/model_val_unseen_tq0.75": 0.7184521540221122,
+        "roc_auc/model_val_unseen_tq1.0": 0.6909073579870377,
+        "prc_auc/model_val_unseen_tq0.25": 0.7032265532735962,
+        "prc_auc/model_val_unseen_tq0.5": 0.7733648588059281,
+        "prc_auc/model_val_unseen_tq0.75": 0.8137165285291934,
+        "prc_auc/model_val_unseen_tq1.0": 0.7840181292286054,
+        "falert_early_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_1": 1.0000000000000004,
+        "falert_end_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_1": 1.0000000000000004,
+        "falert_early_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_2": 1.0000000000000004,
+        "falert_end_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_2": 1.0000000000000004,
+        "falert_early_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_4": 0.9999999999999999,
+        "falert_end_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_4": 0.9999999999999999,
+        "falert_early_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_7": 0.9999999999999996,
+        "falert_end_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_7": 0.9999999999999996,
+        "falert_early_roc_auc/model_train": 1.0,
+        "falert_early_prc_auc/model_train": 1.0,
+        "falert_end_roc_auc/model_train": 1.0,
+        "falert_end_prc_auc/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_train": 1.0,
+        "falert_early_prc_auc_taskwise/model_train": 1.0,
+        "falert_end_roc_auc_taskwise/model_train": 1.0,
+        "falert_end_prc_auc_taskwise/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_val_seen_0": 0.44999999999999996,
+        "falert_early_prc_auc_taskwise/model_val_seen_0": 0.40214734611793435,
+        "falert_end_roc_auc_taskwise/model_val_seen_0": 0.44999999999999996,
+        "falert_end_prc_auc_taskwise/model_val_seen_0": 0.40214734611793435,
+        "falert_early_roc_auc_taskwise/model_val_seen_1": 0.6944444444444444,
+        "falert_early_prc_auc_taskwise/model_val_seen_1": 0.6801059807638756,
+        "falert_end_roc_auc_taskwise/model_val_seen_1": 0.6944444444444444,
+        "falert_end_prc_auc_taskwise/model_val_seen_1": 0.6801059807638756,
+        "falert_early_roc_auc_taskwise/model_val_seen_2": 0.37037037037037035,
+        "falert_early_prc_auc_taskwise/model_val_seen_2": 0.3352185663589172,
+        "falert_end_roc_auc_taskwise/model_val_seen_2": 0.37037037037037035,
+        "falert_end_prc_auc_taskwise/model_val_seen_2": 0.3352185663589172,
+        "falert_early_roc_auc_taskwise/model_val_seen_4": 0.6666666666666667,
+        "falert_early_prc_auc_taskwise/model_val_seen_4": 0.7139735964543475,
+        "falert_end_roc_auc_taskwise/model_val_seen_4": 0.6666666666666667,
+        "falert_end_prc_auc_taskwise/model_val_seen_4": 0.7139735964543475,
+        "falert_early_roc_auc_taskwise/model_val_seen_6": 0.6694214876033058,
+        "falert_early_prc_auc_taskwise/model_val_seen_6": 0.7106007605303974,
+        "falert_end_roc_auc_taskwise/model_val_seen_6": 0.6694214876033058,
+        "falert_end_prc_auc_taskwise/model_val_seen_6": 0.7106007605303974,
+        "falert_early_roc_auc_taskwise/model_val_seen_7": 0.6545454545454545,
+        "falert_early_prc_auc_taskwise/model_val_seen_7": 0.7910875953252114,
+        "falert_end_roc_auc_taskwise/model_val_seen_7": 0.6545454545454545,
+        "falert_end_prc_auc_taskwise/model_val_seen_7": 0.7910875953252114,
+        "falert_early_roc_auc/model_val_seen": 0.5874024526198438,
+        "falert_early_prc_auc/model_val_seen": 0.5580251337609746,
+        "falert_end_roc_auc/model_val_seen": 0.5874024526198438,
+        "falert_end_prc_auc/model_val_seen": 0.5580251337609746,
+        "falert_early_roc_auc_taskwise/model_val_seen": 0.5842414039383735,
+        "falert_early_prc_auc_taskwise/model_val_seen": 0.6055223075917806,
+        "falert_end_roc_auc_taskwise/model_val_seen": 0.5842414039383735,
+        "falert_end_prc_auc_taskwise/model_val_seen": 0.6055223075917806,
+        "falert_early_roc_auc_taskwise/model_val_unseen_3": 0.6555555555555556,
+        "falert_early_prc_auc_taskwise/model_val_unseen_3": 0.6924639488590104,
+        "falert_end_roc_auc_taskwise/model_val_unseen_3": 0.6555555555555556,
+        "falert_end_prc_auc_taskwise/model_val_unseen_3": 0.6924639488590104,
+        "falert_early_roc_auc_taskwise/model_val_unseen_5": 0.5826612903225807,
+        "falert_early_prc_auc_taskwise/model_val_unseen_5": 0.7399646229577674,
+        "falert_end_roc_auc_taskwise/model_val_unseen_5": 0.5826612903225807,
+        "falert_end_prc_auc_taskwise/model_val_unseen_5": 0.7399646229577674,
+        "falert_early_roc_auc/model_val_unseen": 0.6341021730842548,
+        "falert_early_prc_auc/model_val_unseen": 0.7321608017660325,
+        "falert_end_roc_auc/model_val_unseen": 0.6341021730842548,
+        "falert_end_prc_auc/model_val_unseen": 0.7321608017660325,
+        "falert_early_roc_auc_taskwise/model_val_unseen": 0.6191084229390682,
+        "falert_early_prc_auc_taskwise/model_val_unseen": 0.7162142859083889,
+        "falert_end_roc_auc_taskwise/model_val_unseen": 0.6191084229390682,
+        "falert_end_prc_auc_taskwise/model_val_unseen": 0.7162142859083889
+      },
+      "splits": {
+        "train": {
+          "episodes": 251,
+          "failures": 137,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_seen": {
+          "episodes": 134,
+          "failures": 65,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_unseen": {
+          "episodes": 147,
+          "failures": 86,
+          "tasks": [
+            "3",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "lstm",
+      "seed": 2,
+      "metrics": {
+        "epoch": 1000,
+        "roc_auc/model_train_tq0.25": 1.0,
+        "roc_auc/model_train_tq0.5": 1.0,
+        "roc_auc/model_train_tq0.75": 1.0,
+        "roc_auc/model_train_tq1.0": 1.0,
+        "prc_auc/model_train_tq0.25": 1.0,
+        "prc_auc/model_train_tq0.5": 1.0,
+        "prc_auc/model_train_tq0.75": 1.0,
+        "prc_auc/model_train_tq1.0": 1.0000000000000002,
+        "roc_auc/model_val_seen_tq0.25": 0.6361374943464495,
+        "roc_auc/model_val_seen_tq0.5": 0.6400949796472185,
+        "roc_auc/model_val_seen_tq0.75": 0.7299864314789689,
+        "roc_auc/model_val_seen_tq1.0": 0.7695612844866577,
+        "prc_auc/model_val_seen_tq0.25": 0.7165186833097247,
+        "prc_auc/model_val_seen_tq0.5": 0.7148380919737392,
+        "prc_auc/model_val_seen_tq0.75": 0.7718066281082049,
+        "prc_auc/model_val_seen_tq1.0": 0.8029469352913471,
+        "roc_auc/model_val_unseen_tq0.25": 0.5912124582869855,
+        "roc_auc/model_val_unseen_tq0.5": 0.6174453096032628,
+        "roc_auc/model_val_unseen_tq0.75": 0.7591768631813125,
+        "roc_auc/model_val_unseen_tq1.0": 0.7167222840192807,
+        "prc_auc/model_val_unseen_tq0.25": 0.6706110138418148,
+        "prc_auc/model_val_unseen_tq0.5": 0.7245270833929754,
+        "prc_auc/model_val_unseen_tq0.75": 0.8486110769881818,
+        "prc_auc/model_val_unseen_tq1.0": 0.7836088189928302,
+        "falert_early_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_1": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_1": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_2": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_2": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_3": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_3": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_4": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_4": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_roc_auc/model_train": 1.0,
+        "falert_early_prc_auc/model_train": 1.0,
+        "falert_end_roc_auc/model_train": 1.0,
+        "falert_end_prc_auc/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_train": 1.0,
+        "falert_early_prc_auc_taskwise/model_train": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train": 1.0,
+        "falert_end_prc_auc_taskwise/model_train": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_val_seen_1": 0.975,
+        "falert_early_prc_auc_taskwise/model_val_seen_1": 0.9183333333333332,
+        "falert_end_roc_auc_taskwise/model_val_seen_1": 0.975,
+        "falert_end_prc_auc_taskwise/model_val_seen_1": 0.9183333333333332,
+        "falert_early_roc_auc_taskwise/model_val_seen_2": 0.6181818181818183,
+        "falert_early_prc_auc_taskwise/model_val_seen_2": 0.7396478328173375,
+        "falert_end_roc_auc_taskwise/model_val_seen_2": 0.6181818181818183,
+        "falert_end_prc_auc_taskwise/model_val_seen_2": 0.7396478328173375,
+        "falert_early_roc_auc_taskwise/model_val_seen_3": 0.8055555555555556,
+        "falert_early_prc_auc_taskwise/model_val_seen_3": 0.8476399727222097,
+        "falert_end_roc_auc_taskwise/model_val_seen_3": 0.8055555555555556,
+        "falert_end_prc_auc_taskwise/model_val_seen_3": 0.8476399727222097,
+        "falert_early_roc_auc_taskwise/model_val_seen_4": 0.6363636363636364,
+        "falert_early_prc_auc_taskwise/model_val_seen_4": 0.7950115022912505,
+        "falert_end_roc_auc_taskwise/model_val_seen_4": 0.6363636363636364,
+        "falert_end_prc_auc_taskwise/model_val_seen_4": 0.7950115022912505,
+        "falert_early_roc_auc_taskwise/model_val_seen_6": 0.5892857142857143,
+        "falert_early_prc_auc_taskwise/model_val_seen_6": 0.7966535396516599,
+        "falert_end_roc_auc_taskwise/model_val_seen_6": 0.5892857142857143,
+        "falert_end_prc_auc_taskwise/model_val_seen_6": 0.7966535396516599,
+        "falert_early_roc_auc_taskwise/model_val_seen_7": 0.4454545454545455,
+        "falert_early_prc_auc_taskwise/model_val_seen_7": 0.5940120852659552,
+        "falert_end_roc_auc_taskwise/model_val_seen_7": 0.4454545454545455,
+        "falert_end_prc_auc_taskwise/model_val_seen_7": 0.5940120852659552,
+        "falert_early_roc_auc/model_val_seen": 0.6670058796924468,
+        "falert_early_prc_auc/model_val_seen": 0.7462040669211101,
+        "falert_end_roc_auc/model_val_seen": 0.6670058796924468,
+        "falert_end_prc_auc/model_val_seen": 0.7462040669211101,
+        "falert_early_roc_auc_taskwise/model_val_seen": 0.6783068783068784,
+        "falert_early_prc_auc_taskwise/model_val_seen": 0.7818830443469578,
+        "falert_end_roc_auc_taskwise/model_val_seen": 0.6783068783068784,
+        "falert_end_prc_auc_taskwise/model_val_seen": 0.7818830443469578,
+        "falert_early_roc_auc_taskwise/model_val_unseen_0": 0.6389177939646201,
+        "falert_early_prc_auc_taskwise/model_val_unseen_0": 0.644741355067152,
+        "falert_end_roc_auc_taskwise/model_val_unseen_0": 0.6389177939646201,
+        "falert_end_prc_auc_taskwise/model_val_unseen_0": 0.644741355067152,
+        "falert_early_roc_auc_taskwise/model_val_unseen_5": 0.601094470046083,
+        "falert_early_prc_auc_taskwise/model_val_unseen_5": 0.759129298173143,
+        "falert_end_roc_auc_taskwise/model_val_unseen_5": 0.601094470046083,
+        "falert_end_prc_auc_taskwise/model_val_unseen_5": 0.759129298173143,
+        "falert_early_roc_auc/model_val_unseen": 0.6330181683351872,
+        "falert_early_prc_auc/model_val_unseen": 0.721660705281614,
+        "falert_end_roc_auc/model_val_unseen": 0.6330181683351872,
+        "falert_end_prc_auc/model_val_unseen": 0.721660705281614,
+        "falert_early_roc_auc_taskwise/model_val_unseen": 0.6200061320053516,
+        "falert_early_prc_auc_taskwise/model_val_unseen": 0.7019353266201476,
+        "falert_end_roc_auc_taskwise/model_val_unseen": 0.6200061320053516,
+        "falert_end_prc_auc_taskwise/model_val_unseen": 0.7019353266201476
+      },
+      "splits": {
+        "train": {
+          "episodes": 250,
+          "failures": 134,
+          "tasks": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_seen": {
+          "episodes": 133,
+          "failures": 67,
+          "tasks": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_unseen": {
+          "episodes": 149,
+          "failures": 87,
+          "tasks": [
+            "0",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "indep",
+      "seed": 0,
+      "metrics": {
+        "epoch": 1000,
+        "roc_auc/model_train_tq0.25": 0.999928774928775,
+        "roc_auc/model_train_tq0.5": 1.0,
+        "roc_auc/model_train_tq0.75": 1.0,
+        "roc_auc/model_train_tq1.0": 1.0,
+        "prc_auc/model_train_tq0.25": 0.9999146593926582,
+        "prc_auc/model_train_tq0.5": 1.0000000000000002,
+        "prc_auc/model_train_tq0.75": 1.0000000000000002,
+        "prc_auc/model_train_tq1.0": 1.0000000000000002,
+        "roc_auc/model_val_seen_tq0.25": 0.6437246963562753,
+        "roc_auc/model_val_seen_tq0.5": 0.71584008097166,
+        "roc_auc/model_val_seen_tq0.75": 0.798076923076923,
+        "roc_auc/model_val_seen_tq1.0": 0.8426113360323887,
+        "prc_auc/model_val_seen_tq0.25": 0.7422768583297135,
+        "prc_auc/model_val_seen_tq0.5": 0.8145158687406143,
+        "prc_auc/model_val_seen_tq0.75": 0.8781927217089064,
+        "prc_auc/model_val_seen_tq1.0": 0.9071900859903443,
+        "roc_auc/model_val_unseen_tq0.25": 0.5314826302729528,
+        "roc_auc/model_val_unseen_tq0.5": 0.5530397022332506,
+        "roc_auc/model_val_unseen_tq0.75": 0.673076923076923,
+        "roc_auc/model_val_unseen_tq1.0": 0.7941997518610422,
+        "prc_auc/model_val_unseen_tq0.25": 0.6680977955014272,
+        "prc_auc/model_val_unseen_tq0.5": 0.7030402839956748,
+        "prc_auc/model_val_unseen_tq0.75": 0.8084415916796338,
+        "prc_auc/model_val_unseen_tq1.0": 0.8848794201778377,
+        "falert_early_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_1": 0.9999999999999998,
+        "falert_end_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_1": 0.9999999999999998,
+        "falert_early_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_3": 0.9999999999999998,
+        "falert_end_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_3": 0.9999999999999998,
+        "falert_early_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_roc_auc/model_train": 1.0,
+        "falert_early_prc_auc/model_train": 1.0000000000000002,
+        "falert_end_roc_auc/model_train": 1.0,
+        "falert_end_prc_auc/model_train": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train": 1.0,
+        "falert_early_prc_auc_taskwise/model_train": 1.0,
+        "falert_end_roc_auc_taskwise/model_train": 1.0,
+        "falert_end_prc_auc_taskwise/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_val_seen_0": 0.5897435897435898,
+        "falert_early_prc_auc_taskwise/model_val_seen_0": 0.7150722646674064,
+        "falert_end_roc_auc_taskwise/model_val_seen_0": 0.5897435897435898,
+        "falert_end_prc_auc_taskwise/model_val_seen_0": 0.7150722646674064,
+        "falert_early_roc_auc_taskwise/model_val_seen_1": 0.9807692307692308,
+        "falert_early_prc_auc_taskwise/model_val_seen_1": 0.9736111111111111,
+        "falert_end_roc_auc_taskwise/model_val_seen_1": 0.9807692307692308,
+        "falert_end_prc_auc_taskwise/model_val_seen_1": 0.9736111111111111,
+        "falert_early_roc_auc_taskwise/model_val_seen_2": 0.8469387755102041,
+        "falert_early_prc_auc_taskwise/model_val_seen_2": 0.9319809975272157,
+        "falert_end_roc_auc_taskwise/model_val_seen_2": 0.8469387755102041,
+        "falert_end_prc_auc_taskwise/model_val_seen_2": 0.9319809975272157,
+        "falert_early_roc_auc_taskwise/model_val_seen_3": 0.9875,
+        "falert_early_prc_auc_taskwise/model_val_seen_3": 0.9962086397058824,
+        "falert_end_roc_auc_taskwise/model_val_seen_3": 0.9875,
+        "falert_end_prc_auc_taskwise/model_val_seen_3": 0.9962086397058824,
+        "falert_early_roc_auc_taskwise/model_val_seen_6": 0.9333333333333333,
+        "falert_early_prc_auc_taskwise/model_val_seen_6": 0.9714846836170365,
+        "falert_end_roc_auc_taskwise/model_val_seen_6": 0.9333333333333333,
+        "falert_end_prc_auc_taskwise/model_val_seen_6": 0.9714846836170365,
+        "falert_early_roc_auc_taskwise/model_val_seen_7": 0.9454545454545455,
+        "falert_early_prc_auc_taskwise/model_val_seen_7": 0.96125,
+        "falert_end_roc_auc_taskwise/model_val_seen_7": 0.9454545454545455,
+        "falert_end_prc_auc_taskwise/model_val_seen_7": 0.96125,
+        "falert_early_roc_auc/model_val_seen": 0.8426113360323887,
+        "falert_early_prc_auc/model_val_seen": 0.9071900859903443,
+        "falert_end_roc_auc/model_val_seen": 0.8426113360323887,
+        "falert_end_prc_auc/model_val_seen": 0.9071900859903443,
+        "falert_early_roc_auc_taskwise/model_val_seen": 0.8806232458018174,
+        "falert_early_prc_auc_taskwise/model_val_seen": 0.9249346161047752,
+        "falert_end_roc_auc_taskwise/model_val_seen": 0.8806232458018174,
+        "falert_end_prc_auc_taskwise/model_val_seen": 0.9249346161047752,
+        "falert_early_roc_auc_taskwise/model_val_unseen_4": 0.855510752688172,
+        "falert_early_prc_auc_taskwise/model_val_unseen_4": 0.9250961627873282,
+        "falert_end_roc_auc_taskwise/model_val_unseen_4": 0.855510752688172,
+        "falert_end_prc_auc_taskwise/model_val_unseen_4": 0.9250961627873282,
+        "falert_early_roc_auc_taskwise/model_val_unseen_5": 0.8104838709677419,
+        "falert_early_prc_auc_taskwise/model_val_unseen_5": 0.8800012091817689,
+        "falert_end_roc_auc_taskwise/model_val_unseen_5": 0.8104838709677419,
+        "falert_end_prc_auc_taskwise/model_val_unseen_5": 0.8800012091817689,
+        "falert_early_roc_auc/model_val_unseen": 0.7941997518610422,
+        "falert_early_prc_auc/model_val_unseen": 0.8848794201778377,
+        "falert_end_roc_auc/model_val_unseen": 0.7941997518610422,
+        "falert_end_prc_auc/model_val_unseen": 0.8848794201778377,
+        "falert_early_roc_auc_taskwise/model_val_unseen": 0.832997311827957,
+        "falert_early_prc_auc_taskwise/model_val_unseen": 0.9025486859845486,
+        "falert_end_roc_auc_taskwise/model_val_unseen": 0.832997311827957,
+        "falert_end_prc_auc_taskwise/model_val_unseen": 0.9025486859845486
+      },
+      "splits": {
+        "train": {
+          "episodes": 238,
+          "failures": 108,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "6",
+            "7"
+          ]
+        },
+        "val_seen": {
+          "episodes": 128,
+          "failures": 76,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "6",
+            "7"
+          ]
+        },
+        "val_unseen": {
+          "episodes": 166,
+          "failures": 104,
+          "tasks": [
+            "4",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "indep",
+      "seed": 1,
+      "metrics": {
+        "epoch": 1000,
+        "roc_auc/model_train_tq0.25": 1.0,
+        "roc_auc/model_train_tq0.5": 1.0,
+        "roc_auc/model_train_tq0.75": 1.0,
+        "roc_auc/model_train_tq1.0": 1.0,
+        "prc_auc/model_train_tq0.25": 1.0,
+        "prc_auc/model_train_tq0.5": 1.0,
+        "prc_auc/model_train_tq0.75": 1.0,
+        "prc_auc/model_train_tq1.0": 1.0,
+        "roc_auc/model_val_seen_tq0.25": 0.6642140468227424,
+        "roc_auc/model_val_seen_tq0.5": 0.6885172798216276,
+        "roc_auc/model_val_seen_tq0.75": 0.7919732441471572,
+        "roc_auc/model_val_seen_tq1.0": 0.8617614269788183,
+        "prc_auc/model_val_seen_tq0.25": 0.6039140288141669,
+        "prc_auc/model_val_seen_tq0.5": 0.6437731092787213,
+        "prc_auc/model_val_seen_tq0.75": 0.7733611970237388,
+        "prc_auc/model_val_seen_tq1.0": 0.87921302376101,
+        "roc_auc/model_val_unseen_tq0.25": 0.5203964925657644,
+        "roc_auc/model_val_unseen_tq0.5": 0.6061761341974838,
+        "roc_auc/model_val_unseen_tq0.75": 0.7462828821959588,
+        "roc_auc/model_val_unseen_tq1.0": 0.8606557377049181,
+        "prc_auc/model_val_unseen_tq0.25": 0.6355453994788275,
+        "prc_auc/model_val_unseen_tq0.5": 0.7101152263149665,
+        "prc_auc/model_val_unseen_tq0.75": 0.8096785844348062,
+        "prc_auc/model_val_unseen_tq1.0": 0.9048113132172309,
+        "falert_early_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_0": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_0": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_1": 1.0000000000000004,
+        "falert_end_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_1": 1.0000000000000004,
+        "falert_early_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_2": 1.0000000000000004,
+        "falert_end_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_2": 1.0000000000000004,
+        "falert_early_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_4": 0.9999999999999999,
+        "falert_end_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_4": 0.9999999999999999,
+        "falert_early_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_roc_auc/model_train": 1.0,
+        "falert_early_prc_auc/model_train": 1.0,
+        "falert_end_roc_auc/model_train": 1.0,
+        "falert_end_prc_auc/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_train": 1.0,
+        "falert_early_prc_auc_taskwise/model_train": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train": 1.0,
+        "falert_end_prc_auc_taskwise/model_train": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_val_seen_0": 0.6749999999999999,
+        "falert_early_prc_auc_taskwise/model_val_seen_0": 0.6679524886877828,
+        "falert_end_roc_auc_taskwise/model_val_seen_0": 0.6749999999999999,
+        "falert_end_prc_auc_taskwise/model_val_seen_0": 0.6679524886877828,
+        "falert_early_roc_auc_taskwise/model_val_seen_1": 0.8888888888888888,
+        "falert_early_prc_auc_taskwise/model_val_seen_1": 0.8880409713743049,
+        "falert_end_roc_auc_taskwise/model_val_seen_1": 0.8888888888888888,
+        "falert_end_prc_auc_taskwise/model_val_seen_1": 0.8880409713743049,
+        "falert_early_roc_auc_taskwise/model_val_seen_2": 0.611111111111111,
+        "falert_early_prc_auc_taskwise/model_val_seen_2": 0.5377482357874515,
+        "falert_end_roc_auc_taskwise/model_val_seen_2": 0.611111111111111,
+        "falert_end_prc_auc_taskwise/model_val_seen_2": 0.5377482357874515,
+        "falert_early_roc_auc_taskwise/model_val_seen_4": 0.9722222222222222,
+        "falert_early_prc_auc_taskwise/model_val_seen_4": 0.9749962537462538,
+        "falert_end_roc_auc_taskwise/model_val_seen_4": 0.9722222222222222,
+        "falert_end_prc_auc_taskwise/model_val_seen_4": 0.9749962537462538,
+        "falert_early_roc_auc_taskwise/model_val_seen_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_val_seen_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_val_seen_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_val_seen_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_val_seen_7": 0.9636363636363636,
+        "falert_early_prc_auc_taskwise/model_val_seen_7": 0.9671575898848628,
+        "falert_end_roc_auc_taskwise/model_val_seen_7": 0.9636363636363636,
+        "falert_end_prc_auc_taskwise/model_val_seen_7": 0.9671575898848628,
+        "falert_early_roc_auc/model_val_seen": 0.8617614269788183,
+        "falert_early_prc_auc/model_val_seen": 0.87921302376101,
+        "falert_end_roc_auc/model_val_seen": 0.8617614269788183,
+        "falert_end_prc_auc/model_val_seen": 0.87921302376101,
+        "falert_early_roc_auc_taskwise/model_val_seen": 0.8518097643097643,
+        "falert_early_prc_auc_taskwise/model_val_seen": 0.839315923246776,
+        "falert_end_roc_auc_taskwise/model_val_seen": 0.8518097643097643,
+        "falert_end_prc_auc_taskwise/model_val_seen": 0.839315923246776,
+        "falert_early_roc_auc_taskwise/model_val_unseen_3": 0.8188888888888889,
+        "falert_early_prc_auc_taskwise/model_val_unseen_3": 0.8459728462165819,
+        "falert_end_roc_auc_taskwise/model_val_unseen_3": 0.8188888888888889,
+        "falert_end_prc_auc_taskwise/model_val_unseen_3": 0.8459728462165819,
+        "falert_early_roc_auc_taskwise/model_val_unseen_5": 0.8796082949308756,
+        "falert_early_prc_auc_taskwise/model_val_unseen_5": 0.9324884602720237,
+        "falert_end_roc_auc_taskwise/model_val_unseen_5": 0.8796082949308756,
+        "falert_end_prc_auc_taskwise/model_val_unseen_5": 0.9324884602720237,
+        "falert_early_roc_auc/model_val_unseen": 0.8606557377049181,
+        "falert_early_prc_auc/model_val_unseen": 0.9048113132172309,
+        "falert_end_roc_auc/model_val_unseen": 0.8606557377049181,
+        "falert_end_prc_auc/model_val_unseen": 0.9048113132172309,
+        "falert_early_roc_auc_taskwise/model_val_unseen": 0.8492485919098822,
+        "falert_early_prc_auc_taskwise/model_val_unseen": 0.8892306532443028,
+        "falert_end_roc_auc_taskwise/model_val_unseen": 0.8492485919098822,
+        "falert_end_prc_auc_taskwise/model_val_unseen": 0.8892306532443028
+      },
+      "splits": {
+        "train": {
+          "episodes": 251,
+          "failures": 137,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_seen": {
+          "episodes": 134,
+          "failures": 65,
+          "tasks": [
+            "0",
+            "1",
+            "2",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_unseen": {
+          "episodes": 147,
+          "failures": 86,
+          "tasks": [
+            "3",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "indep",
+      "seed": 2,
+      "metrics": {
+        "epoch": 1000,
+        "roc_auc/model_train_tq0.25": 1.0,
+        "roc_auc/model_train_tq0.5": 1.0,
+        "roc_auc/model_train_tq0.75": 1.0,
+        "roc_auc/model_train_tq1.0": 1.0,
+        "prc_auc/model_train_tq0.25": 1.0,
+        "prc_auc/model_train_tq0.5": 1.0,
+        "prc_auc/model_train_tq0.75": 1.0,
+        "prc_auc/model_train_tq1.0": 1.0,
+        "roc_auc/model_val_seen_tq0.25": 0.6770691994572592,
+        "roc_auc/model_val_seen_tq0.5": 0.7523744911804613,
+        "roc_auc/model_val_seen_tq0.75": 0.8432835820895522,
+        "roc_auc/model_val_seen_tq1.0": 0.8937132519222071,
+        "prc_auc/model_val_seen_tq0.25": 0.7104291577259318,
+        "prc_auc/model_val_seen_tq0.5": 0.7835824128117393,
+        "prc_auc/model_val_seen_tq0.75": 0.8612686054387242,
+        "prc_auc/model_val_seen_tq1.0": 0.9065939996462139,
+        "roc_auc/model_val_unseen_tq0.25": 0.6475713756025213,
+        "roc_auc/model_val_unseen_tq0.5": 0.6922506488691138,
+        "roc_auc/model_val_unseen_tq0.75": 0.7647385984427141,
+        "roc_auc/model_val_unseen_tq1.0": 0.8005190952910641,
+        "prc_auc/model_val_unseen_tq0.25": 0.7131188358094063,
+        "prc_auc/model_val_unseen_tq0.5": 0.7424460599919913,
+        "prc_auc/model_val_unseen_tq0.75": 0.7969423373046525,
+        "prc_auc/model_val_unseen_tq1.0": 0.830553100540361,
+        "falert_early_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_1": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_1": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_1": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_2": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_2": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_2": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_3": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train_3": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_3": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_4": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_4": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_4": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_6": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_6": 1.0,
+        "falert_early_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_roc_auc_taskwise/model_train_7": 1.0,
+        "falert_end_prc_auc_taskwise/model_train_7": 1.0,
+        "falert_early_roc_auc/model_train": 1.0,
+        "falert_early_prc_auc/model_train": 1.0,
+        "falert_end_roc_auc/model_train": 1.0,
+        "falert_end_prc_auc/model_train": 1.0,
+        "falert_early_roc_auc_taskwise/model_train": 1.0,
+        "falert_early_prc_auc_taskwise/model_train": 1.0000000000000002,
+        "falert_end_roc_auc_taskwise/model_train": 1.0,
+        "falert_end_prc_auc_taskwise/model_train": 1.0000000000000002,
+        "falert_early_roc_auc_taskwise/model_val_seen_1": 0.9375,
+        "falert_early_prc_auc_taskwise/model_val_seen_1": 0.8944444444444444,
+        "falert_end_roc_auc_taskwise/model_val_seen_1": 0.9375,
+        "falert_end_prc_auc_taskwise/model_val_seen_1": 0.8944444444444444,
+        "falert_early_roc_auc_taskwise/model_val_seen_2": 0.7545454545454545,
+        "falert_early_prc_auc_taskwise/model_val_seen_2": 0.7979679797326855,
+        "falert_end_roc_auc_taskwise/model_val_seen_2": 0.7545454545454545,
+        "falert_end_prc_auc_taskwise/model_val_seen_2": 0.7979679797326855,
+        "falert_early_roc_auc_taskwise/model_val_seen_3": 0.9537037037037036,
+        "falert_early_prc_auc_taskwise/model_val_seen_3": 0.9594737438487438,
+        "falert_end_roc_auc_taskwise/model_val_seen_3": 0.9537037037037036,
+        "falert_end_prc_auc_taskwise/model_val_seen_3": 0.9594737438487438,
+        "falert_early_roc_auc_taskwise/model_val_seen_4": 1.0,
+        "falert_early_prc_auc_taskwise/model_val_seen_4": 1.0,
+        "falert_end_roc_auc_taskwise/model_val_seen_4": 1.0,
+        "falert_end_prc_auc_taskwise/model_val_seen_4": 1.0,
+        "falert_early_roc_auc_taskwise/model_val_seen_6": 0.9107142857142857,
+        "falert_early_prc_auc_taskwise/model_val_seen_6": 0.9602560322374563,
+        "falert_end_roc_auc_taskwise/model_val_seen_6": 0.9107142857142857,
+        "falert_end_prc_auc_taskwise/model_val_seen_6": 0.9602560322374563,
+        "falert_early_roc_auc_taskwise/model_val_seen_7": 0.9181818181818182,
+        "falert_early_prc_auc_taskwise/model_val_seen_7": 0.9351756535947712,
+        "falert_end_roc_auc_taskwise/model_val_seen_7": 0.9181818181818182,
+        "falert_end_prc_auc_taskwise/model_val_seen_7": 0.9351756535947712,
+        "falert_early_roc_auc/model_val_seen": 0.8937132519222071,
+        "falert_early_prc_auc/model_val_seen": 0.9065939996462139,
+        "falert_end_roc_auc/model_val_seen": 0.8937132519222071,
+        "falert_end_prc_auc/model_val_seen": 0.9065939996462139,
+        "falert_early_roc_auc_taskwise/model_val_seen": 0.9124408770242103,
+        "falert_early_prc_auc_taskwise/model_val_seen": 0.9245529756430169,
+        "falert_end_roc_auc_taskwise/model_val_seen": 0.9124408770242103,
+        "falert_end_prc_auc_taskwise/model_val_seen": 0.9245529756430169,
+        "falert_early_roc_auc_taskwise/model_val_unseen_0": 0.6940686784599376,
+        "falert_early_prc_auc_taskwise/model_val_unseen_0": 0.6631408581125291,
+        "falert_end_roc_auc_taskwise/model_val_unseen_0": 0.6940686784599376,
+        "falert_end_prc_auc_taskwise/model_val_unseen_0": 0.6631408581125291,
+        "falert_early_roc_auc_taskwise/model_val_unseen_5": 0.8957373271889401,
+        "falert_early_prc_auc_taskwise/model_val_unseen_5": 0.9371959409837681,
+        "falert_end_roc_auc_taskwise/model_val_unseen_5": 0.8957373271889401,
+        "falert_end_prc_auc_taskwise/model_val_unseen_5": 0.9371959409837681,
+        "falert_early_roc_auc/model_val_unseen": 0.8005190952910641,
+        "falert_early_prc_auc/model_val_unseen": 0.830553100540361,
+        "falert_end_roc_auc/model_val_unseen": 0.8005190952910641,
+        "falert_end_prc_auc/model_val_unseen": 0.830553100540361,
+        "falert_early_roc_auc_taskwise/model_val_unseen": 0.7949030028244388,
+        "falert_early_prc_auc_taskwise/model_val_unseen": 0.8001683995481486,
+        "falert_end_roc_auc_taskwise/model_val_unseen": 0.7949030028244388,
+        "falert_end_prc_auc_taskwise/model_val_unseen": 0.8001683995481486
+      },
+      "splits": {
+        "train": {
+          "episodes": 250,
+          "failures": 134,
+          "tasks": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_seen": {
+          "episodes": 133,
+          "failures": 67,
+          "tasks": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "7"
+          ]
+        },
+        "val_unseen": {
+          "episodes": 149,
+          "failures": 87,
+          "tasks": [
+            "0",
+            "5"
+          ]
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "lstm": {
+      "roc_auc/model_val_seen_tq0.25": {
+        "mean": 0.5907069142002882,
+        "sample_std": 0.04060641514716397
+      },
+      "roc_auc/model_val_seen_tq0.5": {
+        "mean": 0.6165072901509426,
+        "sample_std": 0.02050800245080881
+      },
+      "roc_auc/model_val_seen_tq0.75": {
+        "mean": 0.6647672309588701,
+        "sample_std": 0.0582142218088437
+      },
+      "roc_auc/model_val_seen_tq1.0": {
+        "mean": 0.7027160803361324,
+        "sample_std": 0.0642282606151176
+      },
+      "prc_auc/model_val_seen_tq0.25": {
+        "mean": 0.6600583314063004,
+        "sample_std": 0.08468685402050666
+      },
+      "prc_auc/model_val_seen_tq0.5": {
+        "mean": 0.6799716964578603,
+        "sample_std": 0.06984031432922236
+      },
+      "prc_auc/model_val_seen_tq0.75": {
+        "mean": 0.721359159751014,
+        "sample_std": 0.05503139126531193
+      },
+      "prc_auc/model_val_seen_tq1.0": {
+        "mean": 0.7495318040253754,
+        "sample_std": 0.05713122996952664
+      },
+      "roc_auc/model_val_unseen_tq0.25": {
+        "mean": 0.5922767496946638,
+        "sample_std": 0.012353254102317355
+      },
+      "roc_auc/model_val_unseen_tq0.5": {
+        "mean": 0.6319037048754658,
+        "sample_std": 0.02609557607392105
+      },
+      "roc_auc/model_val_unseen_tq0.75": {
+        "mean": 0.7166435020123906,
+        "sample_std": 0.04346591864411265
+      },
+      "roc_auc/model_val_unseen_tq1.0": {
+        "mean": 0.6793525605695172,
+        "sample_std": 0.04429231488737661
+      },
+      "prc_auc/model_val_unseen_tq0.25": {
+        "mean": 0.7027269333159708,
+        "sample_std": 0.0318690468863716
+      },
+      "prc_auc/model_val_unseen_tq0.5": {
+        "mean": 0.7468914604555854,
+        "sample_std": 0.024676813383797763
+      },
+      "prc_auc/model_val_unseen_tq0.75": {
+        "mean": 0.8240472793426447,
+        "sample_std": 0.021362165026804738
+      },
+      "prc_auc/model_val_unseen_tq1.0": {
+        "mean": 0.761126420375197,
+        "sample_std": 0.039295662678118695
+      },
+      "falert_early_roc_auc/model_val_seen": {
+        "mean": 0.6230112794617217,
+        "sample_std": 0.04045883459669385
+      },
+      "falert_early_prc_auc/model_val_seen": {
+        "mean": 0.6787656544466959,
+        "sample_std": 0.10480297598899145
+      },
+      "falert_end_roc_auc/model_val_seen": {
+        "mean": 0.6230112794617217,
+        "sample_std": 0.04045883459669385
+      },
+      "falert_end_prc_auc/model_val_seen": {
+        "mean": 0.6787656544466959,
+        "sample_std": 0.10480297598899145
+      },
+      "falert_early_roc_auc/model_val_unseen": {
+        "mean": 0.6278376737733955,
+        "sample_std": 0.009926463626728561
+      },
+      "falert_early_prc_auc/model_val_unseen": {
+        "mean": 0.7398254708232961,
+        "sample_std": 0.022976787750280385
+      },
+      "falert_end_roc_auc/model_val_unseen": {
+        "mean": 0.6278376737733955,
+        "sample_std": 0.009926463626728561
+      },
+      "falert_end_prc_auc/model_val_unseen": {
+        "mean": 0.7398254708232961,
+        "sample_std": 0.022976787750280385
+      }
+    },
+    "indep": {
+      "roc_auc/model_val_seen_tq0.25": {
+        "mean": 0.6616693142120923,
+        "sample_std": 0.016817274446463113
+      },
+      "roc_auc/model_val_seen_tq0.5": {
+        "mean": 0.7189106173245831,
+        "sample_std": 0.03203914801852035
+      },
+      "roc_auc/model_val_seen_tq0.75": {
+        "mean": 0.8111112497712107,
+        "sample_std": 0.02802869867155383
+      },
+      "roc_auc/model_val_seen_tq1.0": {
+        "mean": 0.8660286716444713,
+        "sample_std": 0.02581682561199046
+      },
+      "prc_auc/model_val_seen_tq0.25": {
+        "mean": 0.6855400149566041,
+        "sample_std": 0.07246150853198571
+      },
+      "prc_auc/model_val_seen_tq0.5": {
+        "mean": 0.7472904636103584,
+        "sample_std": 0.09097308206163061
+      },
+      "prc_auc/model_val_seen_tq0.75": {
+        "mean": 0.8376075080571231,
+        "sample_std": 0.05627875077620708
+      },
+      "prc_auc/model_val_seen_tq1.0": {
+        "mean": 0.8976657031325227,
+        "sample_std": 0.01598326818029731
+      },
+      "roc_auc/model_val_unseen_tq0.25": {
+        "mean": 0.5664834994804129,
+        "sample_std": 0.07044258905528313
+      },
+      "roc_auc/model_val_unseen_tq0.5": {
+        "mean": 0.6171554950999495,
+        "sample_std": 0.07025191591823834
+      },
+      "roc_auc/model_val_unseen_tq0.75": {
+        "mean": 0.7280328012385319,
+        "sample_std": 0.04847952943181682
+      },
+      "roc_auc/model_val_unseen_tq1.0": {
+        "mean": 0.8184581949523414,
+        "sample_std": 0.03668048508557772
+      },
+      "prc_auc/model_val_unseen_tq0.25": {
+        "mean": 0.6722540102632203,
+        "sample_std": 0.03895337080270718
+      },
+      "prc_auc/model_val_unseen_tq0.5": {
+        "mean": 0.7185338567675442,
+        "sample_std": 0.021008541108101034
+      },
+      "prc_auc/model_val_unseen_tq0.75": {
+        "mean": 0.8050208378063642,
+        "sample_std": 0.007023472469954188
+      },
+      "prc_auc/model_val_unseen_tq1.0": {
+        "mean": 0.8734146113118099,
+        "sample_std": 0.038433734130861145
+      },
+      "falert_early_roc_auc/model_val_seen": {
+        "mean": 0.8660286716444713,
+        "sample_std": 0.02581682561199046
+      },
+      "falert_early_prc_auc/model_val_seen": {
+        "mean": 0.8976657031325227,
+        "sample_std": 0.01598326818029731
+      },
+      "falert_end_roc_auc/model_val_seen": {
+        "mean": 0.8660286716444713,
+        "sample_std": 0.02581682561199046
+      },
+      "falert_end_prc_auc/model_val_seen": {
+        "mean": 0.8976657031325227,
+        "sample_std": 0.01598326818029731
+      },
+      "falert_early_roc_auc/model_val_unseen": {
+        "mean": 0.8184581949523414,
+        "sample_std": 0.03668048508557772
+      },
+      "falert_early_prc_auc/model_val_unseen": {
+        "mean": 0.8734146113118099,
+        "sample_std": 0.038433734130861145
+      },
+      "falert_end_roc_auc/model_val_unseen": {
+        "mean": 0.8184581949523414,
+        "sample_std": 0.03668048508557772
+      },
+      "falert_end_prc_auc/model_val_unseen": {
+        "mean": 0.8734146113118099,
+        "sample_std": 0.038433734130861145
+      }
+    }
+  }
+}

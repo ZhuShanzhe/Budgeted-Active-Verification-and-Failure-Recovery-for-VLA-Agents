@@ -1,0 +1,74 @@
+[
+  {
+    "task": "FailPickCube-v1",
+    "failure_type": "grasp",
+    "stage": 2,
+    "seed": 7,
+    "task_success": false,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailPickCube-v1",
+    "failure_type": "grasp",
+    "stage": 2,
+    "seed": 8,
+    "task_success": true,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailPickCube-v1",
+    "failure_type": "trans_x",
+    "stage": 0,
+    "seed": 7,
+    "task_success": false,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailPickCube-v1",
+    "failure_type": "trans_x",
+    "stage": 0,
+    "seed": 8,
+    "task_success": true,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailStackCube-v1",
+    "failure_type": "grasp",
+    "stage": 3,
+    "seed": 7,
+    "task_success": false,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailStackCube-v1",
+    "failure_type": "grasp",
+    "stage": 3,
+    "seed": 8,
+    "task_success": false,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailStackCube-v1",
+    "failure_type": "trans_x",
+    "stage": 0,
+    "seed": 7,
+    "task_success": true,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  },
+  {
+    "task": "FailStackCube-v1",
+    "failure_type": "trans_x",
+    "stage": 0,
+    "seed": 8,
+    "task_success": true,
+    "status": "completed_rollout",
+    "result_type": "tuple"
+  }
+]

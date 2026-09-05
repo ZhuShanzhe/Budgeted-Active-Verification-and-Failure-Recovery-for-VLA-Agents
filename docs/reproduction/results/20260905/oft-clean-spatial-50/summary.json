@@ -1,0 +1,33 @@
+{
+  "episodes": 50,
+  "successes": 50,
+  "success_rate": 1.0,
+  "wilson95": [
+    0.9286524008666414,
+    1.0
+  ],
+  "seed": 7,
+  "total_policy_queries": 659,
+  "total_inference_seconds": 67.93140070140362,
+  "total_episode_seconds": 396.909665979445,
+  "peak_cuda_memory_gb": 16.082931712,
+  "per_task": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0
+  },
+  "per_category": {
+    "clean": {
+      "successes": 50,
+      "episodes": 50
+    }
+  },
+  "limitation": "Single seed, first N initial states per task; no full 50-trial published-score claim. Wilson interval is descriptive; episodes cluster by task."
+}

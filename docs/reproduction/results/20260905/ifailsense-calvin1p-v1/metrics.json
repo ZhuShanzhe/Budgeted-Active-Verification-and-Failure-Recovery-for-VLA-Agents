@@ -1,0 +1,24 @@
+{
+  "samples": 203,
+  "success_count": 106,
+  "failure_count": 97,
+  "accuracy": 0.9064039408866995,
+  "balanced_accuracy": 0.9046878039291967,
+  "failure_f1": 0.8983957219251337,
+  "failure_auroc": 0.9431530830577709,
+  "failure_auprc_trapezoid": 0.9583469983549812,
+  "confusion_true_rows_pred_columns_success_failure": [
+    [
+      100,
+      6
+    ],
+    [
+      13,
+      84
+    ]
+  ],
+  "scope": "One released CALVIN checkpoint, author 10% validation-derived split; not full paper reproduction or a proven untouched OOD benchmark",
+  "scores": "Vote fractions, not calibrated probabilities",
+  "inference_wall_seconds": 10.182749876752496,
+  "peak_allocated_bytes": 14070218752
+}

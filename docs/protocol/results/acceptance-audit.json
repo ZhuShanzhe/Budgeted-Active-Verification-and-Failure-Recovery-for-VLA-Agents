@@ -1,0 +1,268 @@
+{
+  "status": "passed",
+  "episodes": 21,
+  "independent_roots": 13,
+  "decisions": 166,
+  "terminal_success_decisions": 8,
+  "right_censored_episodes": 12,
+  "semantic_labels_pending": 166,
+  "bytes": 167426824,
+  "splits": {
+    "development": 7,
+    "train": 3,
+    "development_ood": 7,
+    "development_external": 3,
+    "calibration": 1
+  },
+  "terminations": {
+    "collection_limit": 12,
+    "goal_satisfied": 8,
+    "horizon": 1
+  },
+  "evidence": {
+    "global_rgb:ok": 166,
+    "crop_rgb:ok": 166,
+    "wrist_rgb:ok": 157,
+    "third_rgb:ok": 123,
+    "depth:ok": 166,
+    "proprio:ok": 166,
+    "segmentation_model:unavailable": 166,
+    "strong_vlm:unavailable": 166,
+    "wrist_rgb:unavailable": 9,
+    "third_rgb:unavailable": 43
+  },
+  "results": [
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/oft-dev-smoke-v3",
+      "episode_id": "a46b5525d7ee479cb3f17c3e",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 3,
+      "success": false,
+      "checked_files": 15,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/oft-train-clean-v1",
+      "episode_id": "f32b7008a2c2551fe53a20c6",
+      "root_id": "57ada58aa9c25ab080c003e4",
+      "split": "train",
+      "decisions": 11,
+      "success": true,
+      "checked_files": 31,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/oft-dev-camera-v1",
+      "episode_id": "92f24a2e9bd55f7b5bf3bf27",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 10,
+      "success": true,
+      "checked_files": 30,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/ava-dev-smoke-v1",
+      "episode_id": "aff92f910683302eeb85940e",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 4,
+      "success": false,
+      "checked_files": 17,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/oft-plus-spatial-v2",
+      "episode_id": "e3ae97a670bdb56b6f17c2bb",
+      "root_id": "5844087df33747a6f45b30ed",
+      "split": "development_ood",
+      "decisions": 6,
+      "success": false,
+      "checked_files": 21,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/maniskill-pick-v2",
+      "episode_id": "ee9c5b15a1d1a62f9367ea54",
+      "root_id": "49f1f29a9e4f6e8d36bc983f",
+      "split": "development_external",
+      "decisions": 9,
+      "success": true,
+      "checked_files": 35,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/maniskill-stack-v2",
+      "episode_id": "4dfcfdc87e2bfc7f57807c82",
+      "root_id": "c0bb0145de49622577dcf1a0",
+      "split": "development_external",
+      "decisions": 13,
+      "success": true,
+      "checked_files": 47,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/maniskill-peg-v2",
+      "episode_id": "0958d71cc662a57b4afa2c87",
+      "root_id": "1aff90afe4fe6bde6614e340",
+      "split": "development_external",
+      "decisions": 21,
+      "success": true,
+      "checked_files": 71,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-calibration-clean",
+      "episode_id": "36e6c7aa336f73a5e19fecad",
+      "root_id": "93eba981aaa0b2ddb735baf6",
+      "split": "calibration",
+      "decisions": 10,
+      "success": true,
+      "checked_files": 29,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-dev-clean",
+      "episode_id": "eac398df321cfaf8b11dc643",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 10,
+      "success": true,
+      "checked_files": 29,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-train-action-noise",
+      "episode_id": "5bd8e20c788835528a28264c",
+      "root_id": "57ada58aa9c25ab080c003e4",
+      "split": "train",
+      "decisions": 11,
+      "success": true,
+      "checked_files": 31,
+      "termination": "goal_satisfied",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-dev-object",
+      "episode_id": "1857cf7c0640bbfc500a5e55",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 6,
+      "success": false,
+      "checked_files": 22,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-dev-delay",
+      "episode_id": "ba9445e145bdaa0a351ba753",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 6,
+      "success": false,
+      "checked_files": 21,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/acceptance-v2/oft-dev-occlusion",
+      "episode_id": "f1d5980852f907ad57ac406c",
+      "root_id": "598207a96f84bf018f7ba09f",
+      "split": "development",
+      "decisions": 6,
+      "success": false,
+      "checked_files": 21,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/oft-train-actuator-hold-v1",
+      "episode_id": "9927d65c95d8685afce731de",
+      "root_id": "57ada58aa9c25ab080c003e4",
+      "split": "train",
+      "decisions": 28,
+      "success": false,
+      "checked_files": 65,
+      "termination": "horizon",
+      "outcome_status": "observed"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/plus-axis-258-v1",
+      "episode_id": "104564ffabf5f5df811543d3",
+      "root_id": "27c14fe77f29ab8e326392bc",
+      "split": "development_ood",
+      "decisions": 2,
+      "success": false,
+      "checked_files": 13,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/plus-axis-608-v1",
+      "episode_id": "a508b0f57c3f97c136951921",
+      "root_id": "ed364b741938f80b521a9000",
+      "split": "development_ood",
+      "decisions": 2,
+      "success": false,
+      "checked_files": 13,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/plus-axis-984-v1",
+      "episode_id": "c59533e3af2e60297b83a1f1",
+      "root_id": "f2f78558e227f9845fcb1c23",
+      "split": "development_ood",
+      "decisions": 2,
+      "success": false,
+      "checked_files": 13,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/plus-axis-1374-v1",
+      "episode_id": "85bd30a2a1f45f7c0316c63b",
+      "root_id": "e0b2fa77207578800a51e9c9",
+      "split": "development_ood",
+      "decisions": 2,
+      "success": false,
+      "checked_files": 13,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/plus-axis-1725-v1",
+      "episode_id": "fde2ae68552ccac159656688",
+      "root_id": "2c8e55e649cbe4baaae16384",
+      "split": "development_ood",
+      "decisions": 2,
+      "success": false,
+      "checked_files": 13,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/bav-pipeline-v1/plus-axis-2110-v1",
+      "episode_id": "2058b0571ce2b9cc1e3a369a",
+      "root_id": "8a8142c2d9c6ae83343154cc",
+      "split": "development_ood",
+      "decisions": 2,
+      "success": false,
+      "checked_files": 13,
+      "termination": "collection_limit",
+      "outcome_status": "right_censored"
+    }
+  ],
+  "scope": "Engineering acceptance only; these small pilots are not statistically powered benchmark scores."
+}

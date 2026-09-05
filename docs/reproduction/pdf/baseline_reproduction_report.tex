@@ -1,0 +1,369 @@
+% Compile with XeLaTeX twice. Fonts: Microsoft YaHei or Noto Sans CJK SC.
+\documentclass[UTF8,11pt,a4paper,fontset=none]{ctexart}
+\usepackage[margin=23mm,top=21mm,bottom=22mm]{geometry}
+\usepackage{fontspec,booktabs,tabularx,array,enumitem,fancyhdr,amsmath}
+\usepackage[hidelinks,unicode]{hyperref}
+\IfFontExistsTF{Microsoft YaHei}{\setCJKmainfont{Microsoft YaHei}\setCJKsansfont{Microsoft YaHei}\setCJKmonofont{Microsoft YaHei}}{\setCJKmainfont{Noto Sans CJK SC}\setCJKsansfont{Noto Sans CJK SC}\setCJKmonofont{Noto Sans CJK SC}}
+\IfFontExistsTF{Arial}{\setmainfont{Arial}}{\setmainfont{TeX Gyre Heros}}
+\setmonofont{Latin Modern Mono}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\renewcommand{\arraystretch}{1.38}
+\setlength{\tabcolsep}{5pt}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\setlist[itemize]{leftmargin=1.5em,itemsep=0.3em,topsep=0.3em}
+\ctexset{section={format=\Large\bfseries,beforeskip=0pt,afterskip=0.8em},subsection={format=\normalsize\bfseries,beforeskip=0.8em,afterskip=0.3em}}
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\hypersetup{pdftitle={Baseline 复现、测试与分析报告},pdfauthor={},pdfsubject={VLA 主动验证与失败恢复研究的实测基线}}
+\newcommand{\nextsection}[1]{\clearpage\section{#1}}
+\newcommand{\evidence}[2]{\par\href{https://github.com/ZhuShanzhe/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/blob/main/docs/reproduction/#1}{证据：#2}}
+\begin{document}
+\begin{titlepage}\thispagestyle{empty}\vspace*{0.32\textheight}
+\begin{center}{\fontsize{27}{39}\selectfont\bfseries Baseline 复现、测试\par 与分析报告}\end{center}
+\end{titlepage}
+\setcounter{page}{1}
+\section{结果总览与证据等级}
+本报告汇总截至 2026 年 9 月 5 日已完成的本地及服务器实验，服务于“预算约束主动多模态证据获取、VLA 验证与失败恢复、跨分布泛化”研究。数据来自实际日志、逐轨迹记录、独立测试和校准表，不以论文原始成绩替代本项目实测值。
+
+\begin{tabularx}{\linewidth}{L{30mm}L{25mm}Y}
+\toprule 工作 & 完成程度 & 已获得证据 \\\midrule
+OpenVLA-OFT & 有限协议 & 原版 Spatial：50/50 成功；公开权重闭环评测。\\
+AVA-VLA & 有限协议 & 同一组 Spatial：48/50 成功；不是 ActiveVLA。\\
+SAFE / WidowX & 固定配置 & LSTM、MLP 各 3 种子、1,000 epoch；测试与校准。\\
+SAFE / DROID & 固定配置 & 同上；增加标签异常审计及敏感性测试。\\
+WCM & 公开子集 & pick-place 官方验证集：18 条轨迹、1,617 窗口。\\
+LIBERO-Plus & 实现诊断 & 七维各 10 次；提示词混杂使其不进入主 OOD 表。\\
+ManiSkill3 / FailGen & 链路验证 & 官方动作回放、失败注入及实际终局结果。\\
+SAFE 距离型 & 固定配置 & cosine、Euclidean 两域各 3 种子，共 12 组。\\
+SAFE RND & 固定配置 & 两域各 3 种子、200 epoch，保存后加载评测。\\
+I-FailSense & 公开检查点 & CALVIN 单视角 203 样本，完整模型及组件对照。\\
+其余参考工作 & 未达定量复现 & 缺失可执行资源或完整运行条件，详见资源核查。\\
+\bottomrule
+\end{tabularx}
+
+\subsection{等级与使用规则}
+L3 指在声明的配置及数据上得到可追溯定量结果；L2 指真实模型、数据或环境完成端到端执行；L1 为源码、接口或依赖核验；L0 为关键实现缺失、尚未复现。L3 不自动等于整篇论文全任务、全参数网格的复现。
+
+策略成功率、失败检测 AUROC、世界模型误差分别回答不同问题，本报告不混排。现有结果尚非本项目新方法的统一主表：输入权限、数据域、训练范围、预算和恢复能力仍有差异。
+
+\subsection{当前核心结论}
+标准 Spatial 小样本成绩接近饱和；SAFE 的跨任务排序和报警校准存在明显域依赖；DROID 固定配置并未获得强泛化结果。以上是基线现象，不是本项目已解决的问题，也不能据此保证新方法创新或投稿结果。
+\evidence{README.md}{复现状态总表及各工作分项记录}
+
+\nextsection{固定执行策略：OpenVLA-OFT 与 AVA-VLA}
+\subsection{实验协议}
+采用原版 LIBERO Spatial 的 10 个任务，每任务前 5 个官方初始状态，共 50 次。两策略使用相同任务、提示词及初始状态。策略种子为 7；上游环境种子固定为 0。环境图像为 256 像素，双相机与本体状态输入，动作块为 8 步，稳定等待 10 步，任务执行上限 220 步。
+
+\begin{tabularx}{\linewidth}{YrrL{41mm}}
+\toprule 策略 & 成功数 & 成功率 & Wilson 95\% 区间 \\\midrule
+OpenVLA-OFT & 50/50 & 100\% & [92.87\%, 100\%]\\
+AVA-VLA & 48/50 & 96\% & [86.54\%, 98.90\%]\\
+\bottomrule
+\end{tabularx}
+
+上述区间只作描述性参考；轨迹按任务聚集，不满足简单独立样本的全部解释条件，不能据此宣称显著优劣。两者均成功 48 次，仅 OFT 成功 2 次。
+
+\subsection{可比较与不可归因的部分}
+OFT 使用 Spatial 专用发布权重；AVA 使用四套件联合权重。训练范围不同，不能把观测到的差异全部归因于主动注意力、历史特征或结构设计。AVA-VLA 与 ActiveVLA 是不同工作。
+
+两者都使用公开策略权重，本轮未重新训练这两个 7B 级策略。有限 50 次评测也不是官方每任务 50 次的完整评测规模。
+
+\subsection{工程核对与效率边界}
+标准 LIBERO 与 LIBERO-Plus 已隔离安装并核对实际导入路径；早期错误入口的试跑未纳入正式汇总。标准与扰动共 240 次策略执行的配对审计通过，没有基础设施错误。
+
+已保存策略调用次数、推理耗时与显存记录，但部分运行与其他任务共享 GPU，不能作为严格的算法延迟对比。效率主表需要在相同负载、预热、重复测量及计费口径下重新测量；离线采集全部候选证据的耗时不等于在线路由实际成本。
+
+\subsection{在本研究中的位置}
+OFT 固定为主执行策略，AVA 作为另一策略接口及视觉注意力参考。验证器的贡献要在同一冻结策略上衡量，并分别报告检出率、误报、恢复收益和成本，不能仅用接近饱和的标准成功率替代。
+\evidence{OPENVLA_AVA_VLA.md}{策略协议、权重范围及运行边界}
+\evidence{results/20260905/paired_policy_audit.json}{逐例配对审计}
+
+\nextsection{LIBERO-Plus：七维扰动实现诊断}
+固定子集按七类扰动各抽 10 个任务、每任务执行一次。抽样种子 20260905，策略种子 7，环境种子 0。两个策略共享同一名单；不根据成绩选择任务。
+
+\begin{tabularx}{\linewidth}{Yrr}
+\toprule 扰动类别 & OFT 成功数 & AVA 成功数 \\\midrule
+背景纹理 & 10/10 & 10/10\\
+相机视角 & 9/10 & 6/10\\
+语言指令 & 7/10 & 8/10\\
+光照条件 & 10/10 & 10/10\\
+物体布局 & 9/10 & 9/10\\
+机器人初始状态 & 3/10 & 4/10\\
+传感器噪声 & 10/10 & 8/10\\\midrule
+合计 & 58/70（82.86\%） & 55/70（78.57\%）\\
+\bottomrule
+\end{tabularx}
+
+逐例配对：两者均成功 50 次，仅 OFT 成功 8 次，仅 AVA 成功 5 次，两者均失败 7 次。140 次执行均无基础设施错误。
+
+\subsection{关键协议问题}
+上游提示词生成会将部分非语言扰动的文件名后缀写入指令，例如 view、initstate、table 等。因而图像或初态变化时，语言输入也可能改变。本批保留发布实现行为并记录实际提示词，可以复核实现，但不能做严格的单一视觉因素归因。
+
+本表属于实现诊断，不进入论文主 OOD 对照。后续采集接口已按标准 BDDL 指令处理非语言变体，但修正后的七类小型执行检查不是这 70 次成绩的重测，不能把两个版本拼接。
+
+\subsection{分析结论}
+本子集中机器人初始状态变体失败较多；这只反映当前样本与设置，不等于整个套件最难维度的排名。小样本、任务构成和提示词混杂限制了泛化解释。
+
+主 OOD 协议必须保留提示词版本、原生变体身份、初态根及扰动轴，区分单轴变化与任务和扰动同时变化。当前未完成四套件全量、多种子评测；10,030 个变体索引不是 10,030 次已执行实验。
+\evidence{LIBERO_PLUS.md}{七维分项结果及提示词混杂审计}
+
+\nextsection{SAFE：OpenVLA / WidowX 失败检测}
+\subsection{训练、输入与划分}
+使用作者发布的 532 条轨迹、8 个任务，策略内部 token 特征取均值，输入为 4,096 维白盒表征，不是仅靠外部 RGB 的黑盒检测器。每次留出 2 个未见任务；官方 unseen-task 比例 0.25、seen-train 比例 0.66。精确路径与任务隔离检查通过。
+
+LSTM、MLP（官方 indep）各运行种子 0、1、2，每次 1,000 epoch；batch 64，学习率 $10^{-4}$；正则分别为 0.001 和 0.01。其余结构、损失使用官方默认，不做全数据特征标准化。最终权重重新加载测试，不按未见任务成绩选择 checkpoint，不进行完整网格搜索。
+
+\begin{tabularx}{\linewidth}{Ycc}
+\toprule 未见任务指标 & LSTM & MLP \\\midrule
+early-stop AUROC & $0.6278\pm0.0099$ & $0.8185\pm0.0367$\\
+early-stop AUPRC & $0.7398\pm0.0230$ & $0.8734\pm0.0384$\\
+窗口 50\% 时刻 AUROC & $0.6319\pm0.0261$ & $0.6172\pm0.0703$\\
+窗口 100\% 时刻 AUROC & $0.6794\pm0.0443$ & $0.8185\pm0.0367$\\
+\bottomrule
+\end{tabularx}
+
+均值及样本标准差来自三个种子，包含任务划分及训练随机性的变化。失败为正类；AUPRC 为官方曲线积分，不是 average precision。early-stop 是该任务最短轨迹长度定义的统一窗口内最大分数，并不代表已经找出最早可干预时点。
+
+\subsection{校准与检出结论}
+在已见任务成功轨迹上校准，nominal $\alpha=0.10$；未见任务窗口末端实测 FPR（at earliest stop，非窗口内累计报警口径）：
+
+\begin{tabularx}{\linewidth}{Yrrr}
+\toprule 模型 & seed 0 & seed 1 & seed 2 \\\midrule
+LSTM & 4.84\% & 27.87\% & 38.71\%\\
+MLP & 53.23\% & 1.64\% & 14.52\%\\
+\bottomrule
+\end{tabularx}
+
+MLP 在累计窗口排序上较好，但在 50\% 时刻没有同等优势。跨任务误报率不稳定；低误报也可能对应低检出，例如 LSTM seed 0 的 TPR 仅 7.69\%。nominal alpha 不能直接写成 OOD 保证。
+\evidence{SAFE_20260905.md}{完整配置、数据指纹及指标定义}
+\evidence{results/20260905/safe_conformal_alpha01.json}{各种子阈值、FPR 与 TPR}
+
+\nextsection{SAFE：Pi0-FAST / DROID 补充复现}
+\subsection{数据完整性与标签问题}
+用户下载的 27,370,430,312 字节 ZIP 已上传，双端 SHA-256 一致；74,337 个条目完成解压及 CRC 检查。这是 SAFE 的 Pi0-FAST/DROID rollout、特征与视频包，不是整个原始 DROID 数据集。
+
+原始 1,464 条、13 个任务描述，按作者读取规则计 558 成功、906 失败。审计发现 15 条异常：5 条非二元元数据、10 条二元元数据与文件名不一致。官方复现沿用作者对元数据取 int 的规则，不改原标签。另有 1 条标准腕部视频链接缺失，存在非标准命名记录，未擅自改名。
+
+官方 full-length、任务内成败平衡与最多 60 条的筛选后，使用 780 条（390 成功、390 失败）。每种子 train 450、val\_seen 150、val\_unseen 180；训练 10 任务、未见 3 任务。输入为 2,048 维 pre-logits token 均值，不能与 WidowX 特征混用。
+
+\subsection{实际结果}
+两种结构、三个种子各训练 1,000 epoch，其余固定配置与前节一致。六组最终权重独立复核通过，对应 AUROC/AUPRC 与训练结束记录最大差为 0。
+
+\begin{tabularx}{\linewidth}{Ycc}
+\toprule 未见任务指标 & LSTM & MLP \\\midrule
+early-stop AUROC & $0.5358\pm0.0208$ & $0.5353\pm0.0445$\\
+early-stop AUPRC & $0.5393\pm0.0475$ & $0.6134\pm0.0300$\\
+窗口 100\% 时刻 AUROC & $0.5768\pm0.0471$ & $0.5353\pm0.0445$\\
+排除异常后 early AUROC & $0.5387\pm0.0205$ & $0.5361\pm0.0455$\\
+\bottomrule
+\end{tabularx}
+
+敏感性测试沿用原训练权重，仅排除评测与校准中的异常，不是清洗后重训。8 条异常进入官方筛选集合；种子 0 的未见集不移除，种子 1、2 各移除 1 条；各校准集移除 2 条。该检查不能排除训练标签异常的影响。
+
+\begin{tabularx}{\linewidth}{Yrrr}
+\toprule $\alpha=0.10$，窗口末端 FPR / TPR & seed 0 & seed 1 & seed 2 \\\midrule
+LSTM & .2222 / .2889 & .0889 / .2222 & .3444 / .3667\\
+MLP & .2889 / .3222 & .1556 / .2667 & .2667 / .3444\\
+\bottomrule
+\end{tabularx}
+
+当前配置下跨任务排序接近随机，不能据此否定 SAFE 全部配置；没有对测试集反复调参。两域分别训练，不是 WidowX 到 DROID 的零样本迁移。15 条异常已从新管线的可靠外部监督候选中隔离。
+\evidence{SAFE_DROID_20260905.md}{补充复现、哈希、独立测试与敏感性结果}
+
+\nextsection{补充对照：SAFE 距离型检测器}
+\subsection{补充范围与固定协议}
+使用 SAFE 官方 EmbedModel，分别建立 cosine 与 Euclidean 距离的 $k=5$ 近邻基线；WidowX、DROID 各运行三个既定种子，共 12 组。沿用此前相同轨迹筛选、任务划分、特征输入与指标函数，不根据测试成绩调整距离或 $k$。
+
+成功和失败特征库只来自训练轨迹的有效时间步，风险分数为到成功库与失败库的距离之差。不开启累计求和，不进行全数据标准化。该模型建立特征库而非梯度训练，不能写作训练了 1,000 epoch。
+
+\begin{tabularx}{\linewidth}{L{27mm}Ycc}
+\toprule 数据域 & 距离 & early AUROC & early AUPRC \\\midrule
+WidowX & cosine & $.6364\pm.0751$ & $.6761\pm.0732$\\
+WidowX & Euclidean & $.5367\pm.0692$ & $.6445\pm.0730$\\
+DROID & cosine & $.4943\pm.0357$ & $.4919\pm.0254$\\
+DROID & Euclidean & $.5374\pm.0397$ & $.5260\pm.0151$\\
+\bottomrule
+\end{tabularx}
+
+指标仍为未见任务统一窗口内最大风险分数的 AUROC / AUPRC，均值及样本标准差来自三个种子。这些是预先固定配置的结果，不是原论文全部参数网格的最优值。
+
+\subsection{独立复核与校准}
+每组实际训练特征库单独保存并记录 SHA-256；重新加载后，对完整 val\_seen、val\_unseen 逐轨迹分数复核，12 组最大差均为 0。训练库检索自身造成的训练分数优势不用于泛化结论。
+
+在成功轨迹上按 $\alpha=0.10$ 校准后，窗口末端未见任务 FPR 范围为：WidowX cosine 6.45\%--30.65\%，Euclidean 9.68\%--77.05\%；DROID cosine 5.56\%--13.33\%，Euclidean 6.67\%--17.78\%。这些是末端时刻误报，不能写成窗口内累计误报保证。
+
+\subsection{分析结论}
+简单距离型对照已补齐。WidowX 的 cosine 在当前三种子均值上低于既有 MLP；DROID 两种距离的窗口累计排序仍较弱。未作显著性检验，不据小样本均值宣称所有配置的模型优劣。距离分数没有利用外部主动视觉证据，是后续判断新增查询是否产生收益的基础对照；特征库检索成本仍需统一实测。
+
+DROID 已追加固定特征库下的标签异常排除敏感性检查；未清洗训练库重建，因而不能排除训练标签问题的影响。
+\evidence{EXTENDED_BASELINES_20260905.md}{补充配置、各种子结果、校准与复核}
+
+\nextsection{补充对照：SAFE RND 检测器}
+\subsection{训练与复核}
+沿用 SAFE 官方 RND 网络及损失，WidowX、DROID 各训练种子 0、1、2，共六组，每组 200 epoch。学习率 $10^{-4}$、Adam、weight decay 0.01，成功与失败样本均参与；数据筛选及划分与此前基线逐路径一致。
+
+名义 batch 为 32。为降低显存占用并避免极小尾批只有单类、导致作者损失的分类均值出现 NaN，将不足半个 batch 的尾批并入前一批。每轮保留全部训练轨迹，网络及损失不变；这属于明确披露的 batch 工程调整，不是完整官方参数网格复现。
+
+六组最终权重重新加载后完成全划分评测；各组首条 val\_seen 轨迹的保存前后预测差为 0。DROID 另从已保存逐时间步预测独立重算全部标量指标，最大差为 0；该检查不冒充第二次完整模型前向。
+
+\begin{tabularx}{\linewidth}{Ycc}
+\toprule 未见任务指标 & WidowX & DROID \\\midrule
+early-stop AUROC & $.4941\pm.0401$ & $.4887\pm.0196$\\
+early-stop AUPRC & $.5956\pm.0496$ & $.4938\pm.0098$\\
+窗口 50\% 时刻 AUROC & $.5316\pm.0680$ & $.4975\pm.0183$\\
+窗口 100\% 时刻 AUROC & $.5754\pm.0705$ & $.5955\pm.0324$\\
+\bottomrule
+\end{tabularx}
+
+\subsection{低误报不等于有效检出}
+以下改用窗口内曾经报警口径（by earliest stop），对窗口内最大分数校准及测试；不是前述末端时刻 FPR 表。校准仍仅使用已见任务成功轨迹，$\alpha=0.10$。
+
+\begin{tabularx}{\linewidth}{Yrrr}
+\toprule 窗口累计 FPR / TPR & seed 0 & seed 1 & seed 2 \\\midrule
+WidowX & .0484 / .0288 & .0000 / .0000 & .0000 / .0115\\
+DROID & .0667 / .0556 & .0778 / .0556 & .0778 / .0556\\
+\bottomrule
+\end{tabularx}
+
+当前累计排序接近随机，累计报警的低 FPR 同时伴随很低的 TPR。即使末端时刻 AUROC 高于累计口径，也不能据此称为可靠的早期失败检测。此结果保留，不按测试成绩更换训练轮数、距离或权重。
+
+DROID 标签异常排除检查使用同一权重和原始任务窗口，只从校准与测试中移除异常，不是清洗后重训。完整配置、各 epoch 日志、权重哈希及敏感性数值进入仓库记录。
+\evidence{SAFE_RND_20260905.md}{六组训练、独立指标、校准和结果边界}
+
+\nextsection{I-FailSense：外部视觉失败检测}
+\subsection{固定模型与评测样本}
+采用作者发布的 CALVIN 1p 模型：PaliGemma2 3B、配套 LoRA 与 epoch 10 FS 分类器。权重在推理前固定；底座授权、文件哈希和压缩包 CRC 检查均通过。
+
+数据为 ACIDE/AHA-Calvin-1p 的 2,022 条 validation，沿用作者 test\_size=0.1、seed=42 得到 203 条测试样本，其中失败 97、成功 106。batch 4、FP32，保持作者提示词、特征层、池化及投票逻辑；未重新训练。两个运行均完成全部样本，没有静默跳过。
+
+\begin{tabularx}{\linewidth}{Ycc}
+\toprule 指标 & 完整 I-FailSense & VLM 组件 \\\midrule
+正确数 / 总样本 & 184/203 & 174/203\\
+准确率 & 90.64\% & 85.71\%\\
+平衡准确率 & 90.47\% & 85.71\%\\
+失败样本正确数 & 84/97 & 83/97\\
+成功样本正确数 & 100/106 & 91/106\\
+failure AUROC & 0.943153 & 不报告\\
+failure AUPRC & 0.958347 & 不报告\\
+\bottomrule
+\end{tabularx}
+
+VLM 组件只使用下一 token 硬标签，不调用随机 FS 分类器，不报告连续风险 AUROC。完整模型的加权票数比例不是校准概率；AUPRC 为曲线积分。
+
+\subsection{逐例核对与分析}
+203 个源行号及标签完全一致：共同正确 171 条，仅完整模型正确 13 条，仅组件正确 3 条，共同错误 16 条。准确率增加 4.93 个百分点，主要来自成功样本的误报减少，失败检出仅净增 1 条。
+
+从保存预测重算准确率、平衡准确率、AUROC 和 AUPRC，最大差为 0。本机推理约 10.18 秒，不含加载与数据准备，仅作运行审计。
+
+\subsection{数据与论证边界}
+这是作者 validation 派生的静态图像检测，不是 SAFE 白盒时序任务或 LIBERO 策略成功率。公开训练代码存在使用外部测试资源作模型选择的路径；发布权重的全部训练暴露尚未充分证明，不能称为完全未见 OOD 测试。
+
+该模型作为外部视觉 critic 参考；数据不含主动换视角反事实或可重置恢复分支，不能单凭此结果证明预算查询、跨场景泛化或恢复收益。
+\evidence{IFAILSENSE_20260905.md}{固定 revision、完整结果、组件对照与逐例审计}
+
+\nextsection{WCM 与环境、失败生成链路}
+\subsection{WCM：公开 pick-place 验证集}
+使用官方数据、检查点及 episode split，在 18 条验证轨迹上评测全部 1,617 个时序窗口，102 个 batch。没有重训 WCM，也没有复现其论文所有环境。
+
+\begin{tabularx}{\linewidth}{Yr}
+\toprule 指标 & 实测值 \\\midrule
+value RMSE & 0.380342\\
+value MAE & 0.196550\\
+value Pearson & 0.720664\\
+token value RMSE & 0.383271\\
+token value Pearson & 0.716935\\
+next-state MSE & 0.007358\\
+token next-state MSE & 0.007333\\
+\bottomrule
+\end{tabularx}
+
+上述结果证明公开子集上的时序预测入口与数值复核可用。回归误差不等于失败分类能力；成功轨迹资源不能单独形成充分的失败/恢复验证集。WCM 后续对照必须在相同任务及失败划分上评测，不能把此 RMSE 与 SAFE AUROC 排名。
+
+\subsection{ManiSkill3 与 FailGen：不是学习模型成绩}
+ManiSkill3 的 PickCube、StackCube、PegInsertionSide 三任务，分别重放 3 条官方 motion-planning 动作，9/9 成功。该结果验证控制器、RGB-D 渲染及环境终局标签，不代表 VLA 跨环境成功率。
+
+FailGen 在 PickCube、StackCube 上执行 grasp、trans\_x 两类注入，种子 7、8，共 8 次，终局成功 4 条、失败 4 条。没有把注入事件直接当作失败。当前上游输出以多视角拼接帧为主，完整时序 HDF5 保存未启用，不能将这 8 次视为完整训练集。
+
+AHA 的 57 条 REFLECT 记录与图像可读，但未获得可直接评测的最终 critic 权重；FailGen 运行通过不等于 AHA 模型复现。
+\evidence{WCM.md}{WCM 范围及原始数值入口}
+\evidence{AHA_FAILGEN.md}{失败注入、实际结果及环境兼容记录}
+\evidence{MANISKILL3.md}{三任务环境验证}
+
+\nextsection{未完成定量复现的工作与原因}
+2026 年 9 月 5 日重新核查作者仓库、论文入口及发布权重。以下区分资源缺失与完整运行条件不足；未找到资源不等于证明其永久不存在。I-FailSense 的授权和传输问题已经解决，定量结果单列于前文。
+
+\begin{tabularx}{\linewidth}{L{28mm}L{13mm}Y}
+\toprule 工作 & 状态 & 未完成原因及研究位置 \\\midrule
+ActiveVLA & L0 & 审计副本仅说明与素材，代码、权重、评测仍标为待发布。用于任务区域定位、视角与尺度动作设计，不填写模型分数。\\
+ADV / VeGAS & L0 & ADV 尚未定位到官方可执行入口；VeGAS 作者仓库已找到，但仍为 Code Coming Soon。用于候选与验证器排序参考，不以自写替代实现冒充复现。\\
+AHA & L1 & 数据与源码可检查，最终可直接评测的 critic 权重未具备。失败解释结构可借鉴，性能未知。\\
+VAP-TAMP & L1 & 完整运行涉及 ROS2、OmniGibson、在线 API 与实体机器人配置；当前单服务器条件不齐。用于前置条件、效果验证和场景图接口参考。\\
+Thea & L1 & 预览代码需要自备策略、episode 与 evaluator。工具协议和 exit code 可审计，未复现论文级仿真成功率。\\
+Self-Harness / Zetta & L1 & Zetta 具备 campaign 框架，但原实验需特定策略、环境及真实 coding 模型后端；当前 OFT 不等同于其原协议。用于代码迭代与回归门控参考。\\
+\bottomrule
+\end{tabularx}
+
+\subsection{引用与对照边界}
+以上工作可以进入相关工作和系统设计依据，不能进入“已复现数值”主表。环境安装、单元测试、代码导入或少量前向均不能升级为论文性能复现。
+
+本项目的程序式决策、预算运行时、失败案例包及拒绝式回归检查属于自建基础设施，不是对 Self-Harness、Zetta 或 Thea 整套系统的替代复现，也不能报告这些方法的“提升幅度”。
+
+公开数据、发布权重和可重现脚本具备时，仍须按同任务、同输入权限、同预算冻结协议；引用相近思想不等于把若干模型拼接后称作新方法。
+\evidence{UPSTREAM_FEASIBILITY_20260905.md}{作者资源链接、审计提交及运行条件}
+
+\nextsection{综合分析与统一对照边界}
+\subsection{从当前实测得到的结论}
+\begin{itemize}
+\item 标准任务的策略成功率不能充分暴露验证器价值。必须同时测量错误是否被及时发现、查询是否改变判断、恢复是否有效，以及额外成本。
+\item 失败分数的排序能力与报警可靠性不同。WidowX 的 MLP 累计 AUROC 较高，仍可出现高误报；DROID 的固定配置跨任务排序较弱。OOD 校准必须报告实际 FPR/TPR，不能只写 alpha。
+\item 历史表征、白盒特征和主动证据的输入权限不同。WCM、SAFE、外部视觉 critic 的比较需要明确可见信息及成本，不能直接跨数据集排优劣。
+\item 现有实验支持“跨任务风险判断与证据充分性值得建模”的问题定位，但尚未证明主动查询一定改善结果，也未证明任何自建新方法优于基线。
+\end{itemize}
+
+\subsection{已实现的统一协议与采集接续}
+固定协议区分训练、校准、开发和默认密封测试；同初态根的扰动、证据及恢复分支不跨集合。真值与决策上下文分离，缺失监督使用有效性掩码，不将 null 填成负类。候选程序只能在受限语法中表达决策，预算和工具权限由固定运行时执行。
+
+初批验收 21 条、13 根、166 个决策点；接续新增 12 条、6 根、168 点，合计 33 条、19 根。新批 clean 为 6 成功；动作噪声为 5 成功、1 超时失败。40 项自动测试通过，完整记录复跑跳过，无覆盖。以上是工程验收，不是统计充分的模型主表。
+
+DROID 登记为外部诊断资源，15 条异常隔离，拒绝进入主训练/校准；已用于基线的 780 条不标记为未触碰测试。视频时序对齐未核实，不生成虚构的主动视角或恢复反事实。
+
+\subsection{尚未完成的研究模块}
+630 条正式训练采集计划已冻结，尚未全量执行。多层失败语义、最早有效干预与可恢复性标签仍不齐；主环境多模态 critic 训练校准、真实 ROI/强模型工具、coding 模型后端及完整在线恢复闭环未完成。
+
+论文统一主表必须固定 critic、输入、任务根与预算，再比较无查询、固定查询、路由和恢复。当前结果不能提前写成新模型性能、完整自进化收益或顶会可接受性的保证。
+\href{https://github.com/ZhuShanzhe/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/blob/main/docs/protocol/DATA_PREPARATION_CONTINUATION.md}{证据：协议、采集接续和有效监督审计}
+
+\nextsection{实验溯源与复查入口}
+\subsection{代码与运行环境}
+主计算设备为单张 RTX 5090 32 GB。策略、SAFE、WCM、ManiSkill/FailGen 使用隔离环境；不同任务的依赖和计时条件分别记录，不能假设软件栈完全相同。
+
+\begin{tabularx}{\linewidth}{YL{58mm}}
+\toprule 上游源码 & 实验审计提交（缩写） \\\midrule
+OpenVLA-OFT & \texttt{e4287e94541f}\\
+AVA-VLA & \texttt{69ae5dfb90f4}\\
+SAFE & \texttt{b6036abe07b2}\\
+WCM & \texttt{d028ebbff2cf}\\
+LIBERO-original & \texttt{8f1084e3132a}\\
+LIBERO-plus & \texttt{4976dc30028e}\\
+ManiSkill-FailGen & \texttt{fa697a57219c}\\
+I-FailSense & \texttt{0c71f564cece}\\
+\bottomrule
+\end{tabularx}
+
+完整提交、逐运行配置、精确 split 和结果文件属于复现证据。报告数字保留必要小数位，原始精度留在机器可读结果中；不同随机划分的样本标准差不是任务级置信区间。
+
+\subsection{仓库中可直接复查的内容}
+\begin{itemize}
+\item \href{https://github.com/ZhuShanzhe/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/tree/main/docs/reproduction}{docs/reproduction}：逐工作结果、配置说明、失败原因、数据状态。
+\item \href{https://github.com/ZhuShanzhe/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/tree/main/docs/reproduction/results/20260905}{results/20260905}：策略配对、SAFE 两域 LSTM/MLP、12 组距离型与 6 组 RND、标签敏感性分析、I-FailSense 完整模型及组件逐样本证据。
+\item \href{https://github.com/ZhuShanzhe/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/tree/main/docs/reproduction/results/WCM}{results/WCM}：WCM 汇总与逐 episode 曲线记录。
+\item \href{https://github.com/ZhuShanzhe/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/tree/main/docs/protocol}{docs/protocol}：固定协议、私有标签边界、采集验收、续跑检查和代码反馈案例。
+\end{itemize}
+
+\subsection{大文件与完整复现实验}
+原始数据、视频、SAFE 最终权重、训练特征库及逐轨迹预测数组保留在服务器数据盘，不上传 GitHub。以下目录均位于 \path{/root/autodl-tmp/} 下：基线 \path{experiments/baselines-20260905}；WCM \path{experiments/wcm/full-val}；新管线 \path{experiments/bav-pipeline-v1} 和 \path{experiments/bav-train-multitask-v1}。
+
+训练与评测入口位于仓库 scripts；分项文档记录完整命令与路径。报告源文件与 PDF 一并版本管理；本轮新增实验使用独立版本目录，不覆盖既有结果。
+\end{document}

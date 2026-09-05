@@ -1,0 +1,1030 @@
+{
+  "clean": {
+    "episodes": 50,
+    "checks": "complete; no infrastructure errors; identical selected tasks, prompts and state indices",
+    "selection_sha256": "fd65617be9643ec38e112cfcf0a2e37988437d8a3ce5750522e34398bb7bba0e",
+    "per_category": {
+      "clean": {
+        "episodes": 50,
+        "oft_successes": 50,
+        "ava_successes": 48
+      }
+    },
+    "both_success": 48,
+    "oft_only_success": 2,
+    "ava_only_success": 0,
+    "both_failure": 0,
+    "paired_episodes": [
+      {
+        "task_id": 0,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 0,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 0,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 0,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 0,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 3,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 3,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 3,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 3,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 3,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 4,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 4,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 4,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 4,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 4,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 5,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 5,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 5,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 5,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 5,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 6,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 6,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 6,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 6,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 6,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 7,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 7,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 7,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 7,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 7,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 8,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 8,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 8,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 8,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 8,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 9,
+        "initial_state_index": 0,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 9,
+        "initial_state_index": 1,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 9,
+        "initial_state_index": 2,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 9,
+        "initial_state_index": 3,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 9,
+        "initial_state_index": 4,
+        "category": "clean",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "oft_success": true,
+        "ava_success": true
+      }
+    ],
+    "caveat": "Different checkpoint training scopes; finite clustered samples. Plus uses upstream prompts with perturbation suffixes; diagnostic only."
+  },
+  "plus": {
+    "episodes": 70,
+    "checks": "complete; no infrastructure errors; identical selected tasks, prompts and state indices",
+    "selection_sha256": "ca72db5986dff357b771bf3230b38ae426531148d2453d15f5fa7c1c9dcee03b",
+    "per_category": {
+      "Background Textures": {
+        "episodes": 10,
+        "oft_successes": 10,
+        "ava_successes": 10
+      },
+      "Camera Viewpoints": {
+        "episodes": 10,
+        "oft_successes": 9,
+        "ava_successes": 6
+      },
+      "Language Instructions": {
+        "episodes": 10,
+        "oft_successes": 7,
+        "ava_successes": 8
+      },
+      "Light Conditions": {
+        "episodes": 10,
+        "oft_successes": 10,
+        "ava_successes": 10
+      },
+      "Objects Layout": {
+        "episodes": 10,
+        "oft_successes": 9,
+        "ava_successes": 9
+      },
+      "Robot Initial States": {
+        "episodes": 10,
+        "oft_successes": 3,
+        "ava_successes": 4
+      },
+      "Sensor Noise": {
+        "episodes": 10,
+        "oft_successes": 10,
+        "ava_successes": 8
+      }
+    },
+    "both_success": 50,
+    "oft_only_success": 8,
+    "ava_only_success": 5,
+    "both_failure": 7,
+    "paired_episodes": [
+      {
+        "task_id": 138,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate table 12",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 42,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate table 24",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 161,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate tb 22",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 243,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate tb 9",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 53,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate tb 10",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 116,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate tb 2",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 21,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate tb 2",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 152,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate tb 13",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 106,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate table 22",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 65,
+        "initial_state_index": 0,
+        "category": "Background Textures",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate tb 21",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 674,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate view 39 0 100 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 821,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate view 296 0 100 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 854,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate view 306 15 100 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 664,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate view 33 15 100 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 948,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 192 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 611,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate view 13 15 100 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 851,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate view 305 0 100 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 873,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate view 0 0 173 0 0 initstate 0",
+        "oft_success": false,
+        "ava_success": true
+      },
+      {
+        "task_id": 951,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 195 0 0 initstate 0",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 883,
+        "initial_state_index": 0,
+        "category": "Camera Viewpoints",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate view 0 0 100 354 354 initstate 0",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1147,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "pick up the darkcolored rounded container in the uppermost storage compartment of the timber storage unit and place it on the ceramic dish",
+        "oft_success": false,
+        "ava_success": true
+      },
+      {
+        "task_id": 1135,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "before the guests arrive pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate on the counter",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1271,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "lift the darkcolored rounded container situated on the cooking appliance and set it upon the flat dish",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1302,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "to prevent spills were putting bowls on plates today please move the black bowl accordingly",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 1280,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "can you move the black bowl from the stove to the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1191,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "remember we need to serve this soon go ahead and transfer the black bowl from the ramekin to the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1012,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "could you move the black bowl thats between the plate and the ramekin onto the plate for me",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1070,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "pick up the darkcolored rounded vessel from the middle of the flat surface used for dining and place it on the flat dish",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1331,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "grab the darkhued rounded container resting atop the surface made from timber and transfer it onto the dish",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 1037,
+        "initial_state_index": 0,
+        "category": "Language Instructions",
+        "task_prompt": "attention please pick up the black bowl positioned next to the ramekin and place it onto the plate",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2134,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate light 34",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2259,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate light 31",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2173,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate light 29",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2326,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate light 21",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2125,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate light 25",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2399,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate light 39",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2129,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate light 29",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2381,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate light 1",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2309,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate light 47",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2163,
+        "initial_state_index": 0,
+        "category": "Light Conditions",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate light 2",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2095,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate level2 sample2",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1752,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate level1 sample4",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1817,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate add 20",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1987,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate level4 sample3",
+        "oft_success": false,
+        "ava_success": true
+      },
+      {
+        "task_id": 1828,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate add 30",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 2027,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate level4 sample2",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 2009,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate add 3",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1772,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate add 15",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1863,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate add 25",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1942,
+        "initial_state_index": 0,
+        "category": "Objects Layout",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate level4 sample3",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 508,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 298",
+        "oft_success": false,
+        "ava_success": true
+      },
+      {
+        "task_id": 387,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 55",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 456,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 476",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 333,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 123",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 278,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 351",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 470,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate view 0 0 100 0 0 initstate 317",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 327,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl next to the ramekin and place it on the plate view 0 0 100 0 0 initstate 492",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 507,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl on the stove and place it on the plate view 0 0 100 0 0 initstate 288",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 558,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate view 0 0 100 0 0 initstate 409",
+        "oft_success": false,
+        "ava_success": false
+      },
+      {
+        "task_id": 562,
+        "initial_state_index": 0,
+        "category": "Robot Initial States",
+        "task_prompt": "pick up the black bowl next to the plate and place it on the plate view 0 0 100 0 0 initstate 459",
+        "oft_success": false,
+        "ava_success": true
+      },
+      {
+        "task_id": 1578,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 46",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 1480,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl on the cookie box and place it on the plate view 0 0 100 0 0 initstate 0 noise 10",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1397,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 40",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1534,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 38",
+        "oft_success": true,
+        "ava_success": false
+      },
+      {
+        "task_id": 1462,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl from table center and place it on the plate view 0 0 100 0 0 initstate 0 noise 36",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1613,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl next to the cookie box and place it on the plate view 0 0 100 0 0 initstate 0 noise 47",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1710,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl on the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 35",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1549,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 5",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1509,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate view 0 0 100 0 0 initstate 0 noise 7",
+        "oft_success": true,
+        "ava_success": true
+      },
+      {
+        "task_id": 1551,
+        "initial_state_index": 0,
+        "category": "Sensor Noise",
+        "task_prompt": "pick up the black bowl on the ramekin and place it on the plate view 0 0 100 0 0 initstate 0 noise 7",
+        "oft_success": true,
+        "ava_success": true
+      }
+    ],
+    "caveat": "Different checkpoint training scopes; finite clustered samples. Plus uses upstream prompts with perturbation suffixes; diagnostic only."
+  }
+}

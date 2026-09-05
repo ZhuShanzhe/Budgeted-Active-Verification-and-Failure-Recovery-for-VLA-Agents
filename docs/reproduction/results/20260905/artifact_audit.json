@@ -1,0 +1,354 @@
+{
+  "weights_and_configs": [
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/action_head--40000_checkpoint.pt",
+      "bytes": 302242270,
+      "sha256": "165a2a51a5e8d3f061a15d6ff480a4bf963a913246537758e597b327ba15cba0"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/added_tokens.json",
+      "bytes": 21,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/config.json",
+      "bytes": 61574,
+      "sha256": "22d1258e0e676a53eb0ab531ae4055876f3edbf0dbd14f12a91eaa6392c304d1"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/configuration_prismatic.py",
+      "bytes": 5865,
+      "sha256": "68cc5ae34f1b46af3168d8d479cb81bb776965653453fd904aa8eefb6c8f9f68"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/dataset_statistics.json",
+      "bytes": 11871,
+      "sha256": "6ec6ef68d0d5bae4cb5f9fc9acb715a22b9f4545e9e9b300d0d88695cd7afec3"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/generation_config.json",
+      "bytes": 136,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/model-00001-of-00004.safetensors",
+      "bytes": 4925122448,
+      "sha256": "84a8f32f7d5a7bbd8d15fd9fda5d3206d08e70bbe93c8256f98fc0c30f2111eb"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/model-00002-of-00004.safetensors",
+      "bytes": 4947392496,
+      "sha256": "3e2bb3906a5629869d1521a44c04a1e1523387a186d8050ed713763bc36f7b14"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/model-00003-of-00004.safetensors",
+      "bytes": 4947417456,
+      "sha256": "75f140702befe90674dfc3a30d29afc3ded0e47ed3f7e657aa2aea4149c99e59"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/model-00004-of-00004.safetensors",
+      "bytes": 262668432,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/model.safetensors.index.json",
+      "bytes": 94764,
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/modeling_prismatic.py",
+      "bytes": 54233,
+      "sha256": "ad464d540f93e4ac1971aac3af9346a5b572c5b9c0fcbea8da3bf78b6b261597"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/preprocessor_config.json",
+      "bytes": 1650,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/processing_prismatic.py",
+      "bytes": 12718,
+      "sha256": "06563586bbc73d36501a14a231a3174904ede830d33174d0c625ece8e931ef1e"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/processor_config.json",
+      "bytes": 130,
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/proprio_projector--40000_checkpoint.pt",
+      "bytes": 67275120,
+      "sha256": "59a5f17c51fc4798e28e28e7fa9eb943808e744cfa363c72aa49a4910399ffd1"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/special_tokens_map.json",
+      "bytes": 552,
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/tokenizer.json",
+      "bytes": 1842976,
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/tokenizer.model",
+      "bytes": 499723,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/tokenizer_config.json",
+      "bytes": 1192,
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/avavla-libero-4in1/vision_attn_weight_generator--40000_checkpoint.pt",
+      "bytes": 100913314,
+      "sha256": "9cf07e15999695f5e0ffc4089f569dbeffd70f4684a15ada84cf2472d7d45118"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/action_head--150000_checkpoint.pt",
+      "bytes": 302242674,
+      "sha256": "809858636cf0a65009dd567d2f4e116249442790f02b8fe31f24500ea6118908"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/added_tokens.json",
+      "bytes": 21,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/config.json",
+      "bytes": 60711,
+      "sha256": "bcb688a66f3e94a42311b77d37b7e1484886701f7b2aa8e36d165dfccac92ae6"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/configuration_prismatic.py",
+      "bytes": 5865,
+      "sha256": "68cc5ae34f1b46af3168d8d479cb81bb776965653453fd904aa8eefb6c8f9f68"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/dataset_statistics.json",
+      "bytes": 2957,
+      "sha256": "3f8b7854c8634ea6ccfd6ef6b8f983e3b30b067c2cdaf690b152c0899d5d9282"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/generation_config.json",
+      "bytes": 136,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/model-00001-of-00004.safetensors",
+      "bytes": 4925122448,
+      "sha256": "2809bd7be9422315c5ecbe91eea612f5b02925f37e0051728ad45bc993c79251"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/model-00002-of-00004.safetensors",
+      "bytes": 4947392496,
+      "sha256": "a00a7c5f2b6586ccfc89c693a9c36f3552ff455ff2b1bfea3e92642e4cd2b6d3"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/model-00003-of-00004.safetensors",
+      "bytes": 4947417456,
+      "sha256": "a894b7230a08b471af55c57dd7385fd3b51fae2c4d9307a36a8017ef57abf22a"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/model-00004-of-00004.safetensors",
+      "bytes": 262668432,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/model.safetensors.index.json",
+      "bytes": 94764,
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/modeling_prismatic.py",
+      "bytes": 49029,
+      "sha256": "f40ee7883e16aab1a2d89b6e8f31cc81f6b8055120b1fefe169e05c7031098fa"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/preprocessor_config.json",
+      "bytes": 1650,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/processing_prismatic.py",
+      "bytes": 12718,
+      "sha256": "06563586bbc73d36501a14a231a3174904ede830d33174d0c625ece8e931ef1e"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/processor_config.json",
+      "bytes": 130,
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/proprio_projector--150000_checkpoint.pt",
+      "bytes": 67275256,
+      "sha256": "438d28e81e125166d0771762424aaf017de3a8daaebde06a5cb71157e62b3bf3"
+    },
+    {
+      "path": "/root/autodl-tmp/checkpoints/openvla-7b-oft-libero-spatial/tokenizer.model",
+      "bytes": 499723,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/baselines-20260905/safe-v2-indep-seed0/model_final.ckpt",
+      "bytes": 4199045,
+      "sha256": "6d855528ea92f4ce73d2ebce928aa8309d269c349c36e4b5a003901c4dfa23ec"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/baselines-20260905/safe-v2-indep-seed1/model_final.ckpt",
+      "bytes": 4199045,
+      "sha256": "72100f67ca0146f41da8bf019c429563edfe34dec4c676fb3cdbbae900cb7a7e"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/baselines-20260905/safe-v2-indep-seed2/model_final.ckpt",
+      "bytes": 4199045,
+      "sha256": "b27b2feabdb06737cd77b84fba136602e7f32e271fed2ce95c1bdc6c6323bd17"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/baselines-20260905/safe-v2-lstm-seed0/model_final.ckpt",
+      "bytes": 17837573,
+      "sha256": "d50abaf9d91e66e3ebd34e915a737ec255b733472cfcad9b76669bfedafe56e2"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/baselines-20260905/safe-v2-lstm-seed1/model_final.ckpt",
+      "bytes": 17837573,
+      "sha256": "e2c53d2161264865855820a3371f90cc51da346fc403f88e0ac5972460a38148"
+    },
+    {
+      "path": "/root/autodl-tmp/experiments/baselines-20260905/safe-v2-lstm-seed2/model_final.ckpt",
+      "bytes": 17837573,
+      "sha256": "2430ac509e3f9ceda3d65f9973ed9cf328d35484456a8f9bbe663f9f266939fe"
+    }
+  ],
+  "safe_arrays": [
+    {
+      "run": "safe-v2-lstm-seed0",
+      "split": "train",
+      "episodes": 238,
+      "valid_scores": 11900,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed0",
+      "split": "val_seen",
+      "episodes": 128,
+      "valid_scores": 6400,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed0",
+      "split": "val_unseen",
+      "episodes": 166,
+      "valid_scores": 8300,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed0",
+      "split": "train",
+      "episodes": 238,
+      "valid_scores": 11900,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed0",
+      "split": "val_seen",
+      "episodes": 128,
+      "valid_scores": 6400,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed0",
+      "split": "val_unseen",
+      "episodes": 166,
+      "valid_scores": 8300,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed1",
+      "split": "train",
+      "episodes": 251,
+      "valid_scores": 12550,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed1",
+      "split": "val_seen",
+      "episodes": 134,
+      "valid_scores": 6700,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed1",
+      "split": "val_unseen",
+      "episodes": 147,
+      "valid_scores": 7350,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed1",
+      "split": "train",
+      "episodes": 251,
+      "valid_scores": 12550,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed1",
+      "split": "val_seen",
+      "episodes": 134,
+      "valid_scores": 6700,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed1",
+      "split": "val_unseen",
+      "episodes": 147,
+      "valid_scores": 7350,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed2",
+      "split": "train",
+      "episodes": 250,
+      "valid_scores": 12500,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed2",
+      "split": "val_seen",
+      "episodes": 133,
+      "valid_scores": 6650,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-lstm-seed2",
+      "split": "val_unseen",
+      "episodes": 149,
+      "valid_scores": 7450,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed2",
+      "split": "train",
+      "episodes": 250,
+      "valid_scores": 12500,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed2",
+      "split": "val_seen",
+      "episodes": 133,
+      "valid_scores": 6650,
+      "finite_and_labels_passed": true
+    },
+    {
+      "run": "safe-v2-indep-seed2",
+      "split": "val_unseen",
+      "episodes": 149,
+      "valid_scores": 7450,
+      "finite_and_labels_passed": true
+    }
+  ],
+  "same_seed_mlp_lstm_splits_equal": true,
+  "caveat": "SHA-256 fingerprints the exact local artifacts; it does not by itself establish publisher authenticity."
+}

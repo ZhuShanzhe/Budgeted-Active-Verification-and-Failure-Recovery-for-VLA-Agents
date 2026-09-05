@@ -1,0 +1,35 @@
+test_calibration_cannot_feed_coder (test_data_contract.DataContractTests) ... ok
+test_censored_is_unknown (test_data_contract.DataContractTests) ... ok
+test_corrupted_bundle_rejected (test_data_contract.DataContractTests) ... ok
+test_nonfinite_critic_rejected (test_data_contract.DataContractTests) ... ok
+test_null_critic_never_fabricates_probability (test_data_contract.DataContractTests) ... ok
+test_test_sealed_at_reader (test_data_contract.DataContractTests) ... ok
+test_truth_not_in_critic_inputs (test_data_contract.DataContractTests) ... ok
+test_unknown_role_rejected (test_data_contract.DataContractTests) ... ok
+test_incomplete_evaluation_never_promoted (test_harness_gate.GateTests) ... ok
+test_action_delay_counted (test_protocol_runtime.Tests) ... ok
+test_action_noise_bounds (test_protocol_runtime.Tests) ... ok
+test_actuator_hold_is_explicit (test_protocol_runtime.Tests) ... ok
+test_budget_enforced (test_protocol_runtime.Tests) ... ok
+test_deterministic_perturbation (test_protocol_runtime.Tests) ... ok
+test_duplicate_query_denied (test_protocol_runtime.Tests) ... ok
+test_failing_provider_consumes_budget (test_protocol_runtime.Tests) ... ok
+test_heldout_perturbation (test_protocol_runtime.Tests) ... ok
+test_no_attribute_escape (test_protocol_runtime.Tests) ... ok
+test_no_call (test_protocol_runtime.Tests) ... ok
+test_no_context_mutation (test_protocol_runtime.Tests) ... ok
+test_no_import (test_protocol_runtime.Tests) ... ok
+test_no_loop (test_protocol_runtime.Tests) ... ok
+test_no_pow_memory_attack (test_protocol_runtime.Tests) ... ok
+test_no_private_context (test_protocol_runtime.Tests) ... ok
+test_privileged_tool_denied (test_protocol_runtime.Tests) ... ok
+test_programs_terminate (test_protocol_runtime.Tests) ... ok
+test_root_policy_independent (test_protocol_runtime.Tests) ... ok
+test_sealed_test (test_protocol_runtime.Tests) ... ok
+test_split_roles (test_protocol_runtime.Tests) ... ok
+test_unavailable_not_faked (test_protocol_runtime.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.032s
+
+OK

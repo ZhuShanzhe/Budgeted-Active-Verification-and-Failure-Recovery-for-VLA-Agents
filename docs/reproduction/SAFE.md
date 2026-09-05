@@ -1,6 +1,14 @@
 # SAFE
 
-- **状态：L1 工程核验。**
+## 当前结果（2026-09-05）
+
+已完成 OpenVLA/WidowX 上 LSTM、MLP 各 3 个种子的 1,000 epoch 训练、独立测试和校准表导出。详见 [定量实验记录](SAFE_20260905.md)。固定配置下未见任务最大报警分数 AUROC 分别为 0.6278 ± 0.0099、0.8185 ± 0.0367。不是论文全量超参数搜索结果。
+
+Pi0-FAST/DROID 也已完整上传、双端哈希与 CRC 校验，完成 LSTM、MLP 各 3 种子训练、独立测试与标签异常敏感性评测。未见任务 early-stop AUROC 分别为 0.5358 ± 0.0208、0.5353 ± 0.0445；详见 [DROID 补充复现](SAFE_DROID_20260905.md)。下面的环境与下载排障记录仅为历史背景，不代表仍需下载。
+
+## 历史工程核验记录
+
+- **2026-09-04 状态：L1 工程核验。**
 - `third_party/SAFE` 与 `third_party/SAFE-openvla` 已安装。
 - Hydra 配置、包导入和训练/评测入口可启动。
 - 尚未用冻结 rollout 训练 detector，也未得到 AUROC、AUPRC、FPR 或 conformal coverage。

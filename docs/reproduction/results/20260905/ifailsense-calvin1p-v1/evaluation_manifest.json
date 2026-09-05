@@ -1,0 +1,1017 @@
+[
+  {
+    "source_row": 1016,
+    "task": "move the door to the right side",
+    "success": 0
+  },
+  {
+    "source_row": 1190,
+    "task": "push the blue block towards the left",
+    "success": 0
+  },
+  {
+    "source_row": 1443,
+    "task": "in the sliding cabinet grasp the red block",
+    "success": 1
+  },
+  {
+    "source_row": 792,
+    "task": "move the door to the right",
+    "success": 0
+  },
+  {
+    "source_row": 1466,
+    "task": "grasp the blue block on the table and lift it up",
+    "success": 0
+  },
+  {
+    "source_row": 1059,
+    "task": "move to the drawer, then store the object",
+    "success": 1
+  },
+  {
+    "source_row": 1368,
+    "task": "stack blocks on top of each other",
+    "success": 0
+  },
+  {
+    "source_row": 1451,
+    "task": "grasp the blue block and lift it up",
+    "success": 1
+  },
+  {
+    "source_row": 1152,
+    "task": "pick up the pink block from the table",
+    "success": 0
+  },
+  {
+    "source_row": 1129,
+    "task": "take the red block and turn it left",
+    "success": 1
+  },
+  {
+    "source_row": 146,
+    "task": "sweep the blue block to the right",
+    "success": 0
+  },
+  {
+    "source_row": 1955,
+    "task": "grasp the blue block, then rotate it right",
+    "success": 1
+  },
+  {
+    "source_row": 945,
+    "task": "push the red block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1221,
+    "task": "grasp the blue block, then turn it left",
+    "success": 1
+  },
+  {
+    "source_row": 1389,
+    "task": "grasp the red block on the table and lift it up",
+    "success": 1
+  },
+  {
+    "source_row": 1230,
+    "task": "take the blue block and turn it left",
+    "success": 0
+  },
+  {
+    "source_row": 285,
+    "task": "close the cabinet drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1319,
+    "task": "slide up the switch",
+    "success": 1
+  },
+  {
+    "source_row": 502,
+    "task": "put the block in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 48,
+    "task": "put the object in the slider",
+    "success": 0
+  },
+  {
+    "source_row": 1684,
+    "task": "grasp the red block and rotate it right",
+    "success": 0
+  },
+  {
+    "source_row": 338,
+    "task": "close the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1495,
+    "task": "slide left the blue block",
+    "success": 1
+  },
+  {
+    "source_row": 250,
+    "task": "in the cabinet pick up the pink block",
+    "success": 0
+  },
+  {
+    "source_row": 1122,
+    "task": "go towards the blue block in the drawer and lift it",
+    "success": 0
+  },
+  {
+    "source_row": 1097,
+    "task": "sweep the object into the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1107,
+    "task": "sweep the object into the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1619,
+    "task": "grasp the pink block from the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1370,
+    "task": "toggle the light switch to turn on the yellow light",
+    "success": 0
+  },
+  {
+    "source_row": 427,
+    "task": "take the red block and rotate it left",
+    "success": 1
+  },
+  {
+    "source_row": 997,
+    "task": "slide right the pink block",
+    "success": 1
+  },
+  {
+    "source_row": 868,
+    "task": "lift the pink block",
+    "success": 0
+  },
+  {
+    "source_row": 772,
+    "task": "grasp the handle of the drawer, then close it",
+    "success": 0
+  },
+  {
+    "source_row": 1512,
+    "task": "take the blue block and turn it right",
+    "success": 0
+  },
+  {
+    "source_row": 166,
+    "task": "go push the blue block to the left",
+    "success": 0
+  },
+  {
+    "source_row": 1434,
+    "task": "slide right the blue block",
+    "success": 0
+  },
+  {
+    "source_row": 767,
+    "task": "move the sliding door to the left",
+    "success": 1
+  },
+  {
+    "source_row": 921,
+    "task": "lift the red block lying in the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 790,
+    "task": "grasp the pink block lying in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 365,
+    "task": "rotate the pink block towards the right",
+    "success": 1
+  },
+  {
+    "source_row": 1598,
+    "task": "grasp the drawer handle, then open it",
+    "success": 0
+  },
+  {
+    "source_row": 1354,
+    "task": "turn the blue block left",
+    "success": 0
+  },
+  {
+    "source_row": 1548,
+    "task": "toggle the button to turn on the led",
+    "success": 0
+  },
+  {
+    "source_row": 1715,
+    "task": "grasp the blue block, then rotate it left",
+    "success": 1
+  },
+  {
+    "source_row": 610,
+    "task": "go towards the blue block in the drawer and lift it",
+    "success": 0
+  },
+  {
+    "source_row": 1318,
+    "task": "toggle the light switch to turn off the yellow light",
+    "success": 0
+  },
+  {
+    "source_row": 1141,
+    "task": "turn off the yellow lamp",
+    "success": 1
+  },
+  {
+    "source_row": 425,
+    "task": "go push the pink block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 927,
+    "task": "turn the pink block right",
+    "success": 1
+  },
+  {
+    "source_row": 1061,
+    "task": "grasp the red block lying in the slider",
+    "success": 1
+  },
+  {
+    "source_row": 1248,
+    "task": "take the pink block and turn it right",
+    "success": 0
+  },
+  {
+    "source_row": 435,
+    "task": "slide right the blue block",
+    "success": 1
+  },
+  {
+    "source_row": 361,
+    "task": "place the grasped block on top of another block",
+    "success": 1
+  },
+  {
+    "source_row": 1260,
+    "task": "slide the blue block towards the left",
+    "success": 0
+  },
+  {
+    "source_row": 1447,
+    "task": "grasp the pink block and turn it left",
+    "success": 1
+  },
+  {
+    "source_row": 1311,
+    "task": "move to the drawer, then store the object",
+    "success": 1
+  },
+  {
+    "source_row": 743,
+    "task": "toggle the button to turn off the led light",
+    "success": 1
+  },
+  {
+    "source_row": 818,
+    "task": "lift the red block lying on the shelf",
+    "success": 0
+  },
+  {
+    "source_row": 1176,
+    "task": "in the slider grasp the pink block",
+    "success": 0
+  },
+  {
+    "source_row": 1682,
+    "task": "grasp the blue block, then turn it left",
+    "success": 0
+  },
+  {
+    "source_row": 1077,
+    "task": "in the cabinet pick up the pink block",
+    "success": 1
+  },
+  {
+    "source_row": 1971,
+    "task": "push the blue block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1069,
+    "task": "close the cabinet drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1644,
+    "task": "turn off the yellow light",
+    "success": 0
+  },
+  {
+    "source_row": 692,
+    "task": "sweep the object into the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1217,
+    "task": "turn the pink block left",
+    "success": 1
+  },
+  {
+    "source_row": 47,
+    "task": "grasp the pink block lying in the cabinet",
+    "success": 1
+  },
+  {
+    "source_row": 298,
+    "task": "push the door to the right",
+    "success": 0
+  },
+  {
+    "source_row": 1660,
+    "task": "grasp the blue block in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1085,
+    "task": "pull the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1003,
+    "task": "go towards the pink block in the drawer and pick it up",
+    "success": 1
+  },
+  {
+    "source_row": 729,
+    "task": "slide the pink block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1156,
+    "task": "grasp the blue block and turn it left",
+    "success": 0
+  },
+  {
+    "source_row": 1485,
+    "task": "push the red block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 379,
+    "task": "go push the red block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 454,
+    "task": "push the red block to the right",
+    "success": 0
+  },
+  {
+    "source_row": 1876,
+    "task": "grasp the door handle and move the door to the right",
+    "success": 0
+  },
+  {
+    "source_row": 1896,
+    "task": "grasp the red block and lift it up",
+    "success": 0
+  },
+  {
+    "source_row": 1040,
+    "task": "go push the red block to the right",
+    "success": 0
+  },
+  {
+    "source_row": 1491,
+    "task": "push the pink block to the right",
+    "success": 1
+  },
+  {
+    "source_row": 28,
+    "task": "lift the red block lying in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 175,
+    "task": "in the slider pick up the blue block",
+    "success": 1
+  },
+  {
+    "source_row": 463,
+    "task": "take the red block and rotate it right",
+    "success": 1
+  },
+  {
+    "source_row": 795,
+    "task": "push down the button to turn off the led",
+    "success": 1
+  },
+  {
+    "source_row": 1881,
+    "task": "slide the block into the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 80,
+    "task": "push the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 70,
+    "task": "in the slider pick up the red block",
+    "success": 0
+  },
+  {
+    "source_row": 1515,
+    "task": "push the red block towards the right",
+    "success": 1
+  },
+  {
+    "source_row": 489,
+    "task": "toggle the light switch to turn off the yellow light",
+    "success": 1
+  },
+  {
+    "source_row": 1640,
+    "task": "rotate the red block to the right",
+    "success": 0
+  },
+  {
+    "source_row": 343,
+    "task": "grasp the blue block lying in the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1651,
+    "task": "pick up the blue block from the table",
+    "success": 1
+  },
+  {
+    "source_row": 1277,
+    "task": "go slide the pink block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1592,
+    "task": "move to the drawer and place the object",
+    "success": 0
+  },
+  {
+    "source_row": 180,
+    "task": "pick up the pink block from the sliding cabinet",
+    "success": 0
+  },
+  {
+    "source_row": 1026,
+    "task": "in the sliding cabinet grasp the red block",
+    "success": 0
+  },
+  {
+    "source_row": 1231,
+    "task": "turn the pink block left",
+    "success": 1
+  },
+  {
+    "source_row": 896,
+    "task": "grasp the red block and lift it up",
+    "success": 0
+  },
+  {
+    "source_row": 107,
+    "task": "grasp the red block on the table, then lift it up",
+    "success": 1
+  },
+  {
+    "source_row": 643,
+    "task": "take the red block and turn it right",
+    "success": 1
+  },
+  {
+    "source_row": 728,
+    "task": "slide the blue block to the right",
+    "success": 0
+  },
+  {
+    "source_row": 510,
+    "task": "grasp the pink block from the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1560,
+    "task": "grasp the pink block from the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1775,
+    "task": "pick up the pink block in the sliding cabinet",
+    "success": 1
+  },
+  {
+    "source_row": 1144,
+    "task": "grasp the red block, then lift it up",
+    "success": 0
+  },
+  {
+    "source_row": 1185,
+    "task": "grasp the red block, then rotate it left",
+    "success": 1
+  },
+  {
+    "source_row": 686,
+    "task": "take the pink block and turn it right",
+    "success": 0
+  },
+  {
+    "source_row": 1455,
+    "task": "push the blue block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1473,
+    "task": "take the pink block and rotate it right",
+    "success": 1
+  },
+  {
+    "source_row": 234,
+    "task": "lift the red block lying in the slider",
+    "success": 0
+  },
+  {
+    "source_row": 208,
+    "task": "slide the pink block to the right",
+    "success": 0
+  },
+  {
+    "source_row": 554,
+    "task": "slide the door to the right side",
+    "success": 0
+  },
+  {
+    "source_row": 1620,
+    "task": "pick up the blue block from the shelf",
+    "success": 0
+  },
+  {
+    "source_row": 1953,
+    "task": "rotate the pink block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1309,
+    "task": "turn on the yellow light",
+    "success": 1
+  },
+  {
+    "source_row": 748,
+    "task": "pick up the pink block from the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 263,
+    "task": "grasp the drawer handle, then open it",
+    "success": 1
+  },
+  {
+    "source_row": 1629,
+    "task": "grasp the door handle and slide the door to the right",
+    "success": 1
+  },
+  {
+    "source_row": 957,
+    "task": "go push the pink block to the right",
+    "success": 1
+  },
+  {
+    "source_row": 248,
+    "task": "turn off the green lamp",
+    "success": 0
+  },
+  {
+    "source_row": 811,
+    "task": "grasp the door handle, then slide the door to the right",
+    "success": 1
+  },
+  {
+    "source_row": 1827,
+    "task": "push down the button to turn on the green light",
+    "success": 1
+  },
+  {
+    "source_row": 131,
+    "task": "sweep the red block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 585,
+    "task": "move the light switch to turn on the yellow light",
+    "success": 1
+  },
+  {
+    "source_row": 1585,
+    "task": "push the button to turn off the green light",
+    "success": 1
+  },
+  {
+    "source_row": 1027,
+    "task": "grasp the red block on the table, then lift it up",
+    "success": 1
+  },
+  {
+    "source_row": 1071,
+    "task": "grasp the pink block and turn it left",
+    "success": 1
+  },
+  {
+    "source_row": 1348,
+    "task": "grasp the handle of the drawer and close it",
+    "success": 0
+  },
+  {
+    "source_row": 1944,
+    "task": "take the red block and rotate it left",
+    "success": 0
+  },
+  {
+    "source_row": 683,
+    "task": "push left the red block",
+    "success": 1
+  },
+  {
+    "source_row": 701,
+    "task": "slide the blue block towards the left",
+    "success": 1
+  },
+  {
+    "source_row": 111,
+    "task": "grasp the red block lying in the slider",
+    "success": 1
+  },
+  {
+    "source_row": 174,
+    "task": "grasp the pink block lying in the slider",
+    "success": 0
+  },
+  {
+    "source_row": 1376,
+    "task": "move down the switch",
+    "success": 0
+  },
+  {
+    "source_row": 1121,
+    "task": "lift the pink block",
+    "success": 1
+  },
+  {
+    "source_row": 393,
+    "task": "pick up the blue block from the shelf",
+    "success": 1
+  },
+  {
+    "source_row": 472,
+    "task": "push the block into the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 797,
+    "task": "turn off the yellow light",
+    "success": 1
+  },
+  {
+    "source_row": 532,
+    "task": "push right the red block",
+    "success": 0
+  },
+  {
+    "source_row": 1416,
+    "task": "close the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 350,
+    "task": "in the slider grasp the blue block",
+    "success": 0
+  },
+  {
+    "source_row": 936,
+    "task": "grasp the blue block, then lift it up",
+    "success": 0
+  },
+  {
+    "source_row": 631,
+    "task": "turn the pink block left",
+    "success": 1
+  },
+  {
+    "source_row": 581,
+    "task": "grasp the door handle and slide the door to the right",
+    "success": 1
+  },
+  {
+    "source_row": 158,
+    "task": "lift the blue block lying in the slider",
+    "success": 0
+  },
+  {
+    "source_row": 579,
+    "task": "lift the pink block up",
+    "success": 1
+  },
+  {
+    "source_row": 1387,
+    "task": "move down the switch",
+    "success": 1
+  },
+  {
+    "source_row": 679,
+    "task": "lift the pink block lying in the slider",
+    "success": 1
+  },
+  {
+    "source_row": 1555,
+    "task": "grasp the handle of the drawer and open it",
+    "success": 1
+  },
+  {
+    "source_row": 1297,
+    "task": "lift the blue block up",
+    "success": 1
+  },
+  {
+    "source_row": 1461,
+    "task": "rotate the pink block towards the left",
+    "success": 1
+  },
+  {
+    "source_row": 1918,
+    "task": "lift the blue block lying on the shelf",
+    "success": 0
+  },
+  {
+    "source_row": 1255,
+    "task": "go slide the blue block to the left",
+    "success": 1
+  },
+  {
+    "source_row": 422,
+    "task": "turn the red block left",
+    "success": 0
+  },
+  {
+    "source_row": 103,
+    "task": "take off the block that is on top of the other one",
+    "success": 1
+  },
+  {
+    "source_row": 923,
+    "task": "collapse the stacked blocks",
+    "success": 1
+  },
+  {
+    "source_row": 1883,
+    "task": "toggle the light switch to turn on the light bulb",
+    "success": 1
+  },
+  {
+    "source_row": 607,
+    "task": "pick up the blue block",
+    "success": 1
+  },
+  {
+    "source_row": 1340,
+    "task": "move the door all the way to the right and let go",
+    "success": 0
+  },
+  {
+    "source_row": 593,
+    "task": "grasp the door handle and slide the door to the left",
+    "success": 1
+  },
+  {
+    "source_row": 1824,
+    "task": "toggle the button to turn off the green light",
+    "success": 0
+  },
+  {
+    "source_row": 150,
+    "task": "pick up the pink block lying in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1789,
+    "task": "pick up the pink block in the sliding cabinet",
+    "success": 1
+  },
+  {
+    "source_row": 1167,
+    "task": "go to the tower of blocks and take off the top one",
+    "success": 1
+  },
+  {
+    "source_row": 184,
+    "task": "grasp the pink block, then rotate it left",
+    "success": 0
+  },
+  {
+    "source_row": 1669,
+    "task": "in the slider pick up the red block",
+    "success": 1
+  },
+  {
+    "source_row": 1164,
+    "task": "pick up the blue block lying in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 699,
+    "task": "grasp the blue block and turn it right",
+    "success": 1
+  },
+  {
+    "source_row": 1274,
+    "task": "go slide the blue block to the left",
+    "success": 0
+  },
+  {
+    "source_row": 252,
+    "task": "turn off the led light",
+    "success": 0
+  },
+  {
+    "source_row": 1951,
+    "task": "lift the red block in the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 871,
+    "task": "lift the red block from the table",
+    "success": 1
+  },
+  {
+    "source_row": 935,
+    "task": "take the blue block and rotate it left",
+    "success": 1
+  },
+  {
+    "source_row": 1742,
+    "task": "grasp the red block, then turn it right",
+    "success": 0
+  },
+  {
+    "source_row": 1998,
+    "task": "take the blue block and turn it left",
+    "success": 0
+  },
+  {
+    "source_row": 230,
+    "task": "grasp the pink block lying in the sliding cabinet",
+    "success": 0
+  },
+  {
+    "source_row": 1166,
+    "task": "put the object in the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1288,
+    "task": "push the red block to the left",
+    "success": 0
+  },
+  {
+    "source_row": 1043,
+    "task": "push the object into the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 448,
+    "task": "slide the block into the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 940,
+    "task": "sweep the object into the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 630,
+    "task": "grasp the red block and turn it left",
+    "success": 0
+  },
+  {
+    "source_row": 415,
+    "task": "go slide the red block to the right",
+    "success": 1
+  },
+  {
+    "source_row": 1250,
+    "task": "go slide the blue block to the left",
+    "success": 0
+  },
+  {
+    "source_row": 1611,
+    "task": "slide the blue block to the right",
+    "success": 1
+  },
+  {
+    "source_row": 1536,
+    "task": "sweep the red block to the left",
+    "success": 0
+  },
+  {
+    "source_row": 125,
+    "task": "sweep the block into the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 1566,
+    "task": "turn on the yellow lamp",
+    "success": 0
+  },
+  {
+    "source_row": 1404,
+    "task": "go towards the red block in the drawer and grasp it",
+    "success": 0
+  },
+  {
+    "source_row": 1677,
+    "task": "go towards the pink block in the drawer and grasp it",
+    "success": 1
+  },
+  {
+    "source_row": 1895,
+    "task": "stack blocks on top of each other",
+    "success": 1
+  },
+  {
+    "source_row": 563,
+    "task": "place the grasped object in the slider",
+    "success": 1
+  },
+  {
+    "source_row": 1916,
+    "task": "unstack the blocks",
+    "success": 0
+  },
+  {
+    "source_row": 1080,
+    "task": "move down the switch",
+    "success": 0
+  },
+  {
+    "source_row": 734,
+    "task": "push the handle of the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 1909,
+    "task": "grasp the red block, then turn it left",
+    "success": 1
+  },
+  {
+    "source_row": 1241,
+    "task": "rotate the blue block towards the left",
+    "success": 1
+  },
+  {
+    "source_row": 75,
+    "task": "lift the red block lying in the drawer",
+    "success": 1
+  },
+  {
+    "source_row": 334,
+    "task": "slide the door to the left, then let it go",
+    "success": 0
+  },
+  {
+    "source_row": 738,
+    "task": "turn on the led",
+    "success": 0
+  },
+  {
+    "source_row": 608,
+    "task": "in the slider grasp the red block",
+    "success": 0
+  },
+  {
+    "source_row": 140,
+    "task": "pick up the blue block from the drawer",
+    "success": 0
+  },
+  {
+    "source_row": 651,
+    "task": "pick up the red block from the drawer",
+    "success": 1
+  }
+]

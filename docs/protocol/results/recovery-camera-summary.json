@@ -1,0 +1,16 @@
+{
+  "source_episode": "92f24a2e9bd55f7b5bf3bf27",
+  "root_id": "598207a96f84bf018f7ba09f",
+  "split": "development",
+  "protocol_sha256": "4b7400f163b8affead6658c77f78deb59c316633c710a4d4f1a6988833973ce5",
+  "source_manifest_sha256": "3bcda620e6049ce80e9d5c38b359538954ef0e6f95689ce3e3a1f85751d3d638",
+  "tested_decisions": [
+    4
+  ],
+  "horizon_steps": 32,
+  "branches": 3,
+  "observed_beneficial_interventions": [],
+  "earliest_observed_beneficial_step": null,
+  "recoverability": "undetermined",
+  "limitation": "Earliest only among tested points and these skills/horizon; absence of success is not irreversibility. Query-risk effects are a separate fixed-critic evaluation."
+}

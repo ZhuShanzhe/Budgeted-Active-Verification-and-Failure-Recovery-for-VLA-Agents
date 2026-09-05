@@ -1,0 +1,3732 @@
+{
+  "train": [
+    {
+      "task_id": "7",
+      "episode_idx": 11,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep11--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_2/task_put_the_red_block_into_the_pot--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 59,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep59--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 30,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep30--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 48,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep48--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 23,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep23--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 10,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep10--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 42,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep42--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 14,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep14--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 47,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep47--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 32,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep32--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 56,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep56--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 13,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep13--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 58,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep58--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 24,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep24--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 45,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep45--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 44,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep44--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 55,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep55--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 54,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep54--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 36,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep36--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 38,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep38--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 53,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep53--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 28,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep28--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 46,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep46--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 57,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep57--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 51,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep51--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 22,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep22--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 43,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep43--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 34,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep34--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 34,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep34--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_2/task_lift_red_bottle--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 25,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep25--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 35,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep35--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_2/task_lift_red_bottle--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 20,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep20--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 17,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep17--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 15,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep15--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_2/task_lift_red_bottle--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_2/task_lift_red_bottle--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 22,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep22--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 23,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep23--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 27,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep27--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 16,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep16--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 11,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep11--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 8,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep8--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 32,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep32--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 31,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep31--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 30,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep30--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 24,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep24--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 6,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep6--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 36,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep36--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 29,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep29--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 13,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep13--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_2/task_lift_eggplant--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 14,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep14--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 36,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep36--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 20,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep20--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 40,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep40--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 44,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep44--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 42,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep42--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 49,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep49--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 48,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep48--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 37,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep37--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 33,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep33--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 17,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep17--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 51,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep51--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 16,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep16--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 29,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep29--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 25,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep25--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 39,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep39--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 50,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep50--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 53,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep53--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 27,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep27--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 28,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep28--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 45,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep45--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 41,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep41--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 52,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep52--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 13,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep13--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 34,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep34--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 35,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep35--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 55,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep55--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 30,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep30--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 11,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep11--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 13,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep13--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 20,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep20--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 14,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep14--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 7,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep7--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 18,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep18--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 1,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep1--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 25,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep25--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 16,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep16--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 20,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep20--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 8,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep8--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 13,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep13--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 12,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep12--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 24,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep24--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 22,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep22--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 19,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep19--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 12,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep12--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 1,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep1--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 17,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep17--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 21,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep21--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 15,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep15--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 22,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep22--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 23,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep23--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 17,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep17--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 11,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep11--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 35,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep35--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 40,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep40--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 17,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep17--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 39,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep39--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 30,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep30--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 10,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep10--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 45,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep45--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 9,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep9--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 44,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep44--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 25,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep25--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 16,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep16--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 11,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep11--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 1,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep1--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 28,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep28--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 41,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep41--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 42,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep42--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 27,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep27--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 6,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep6--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 36,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep36--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 38,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep38--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 11,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep11--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 47,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep47--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 22,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep22--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 43,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep43--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 8,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep8--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 19,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep19--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 33,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep33--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 48,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep48--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 11,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep11--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 22,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep22--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 11,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep11--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 32,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep32--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 43,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep43--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 23,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep23--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 7,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep7--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 39,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep39--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 22,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep22--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 33,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep33--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 16,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep16--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 1,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep1--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 30,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep30--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 45,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep45--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 27,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep27--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 29,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep29--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 28,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep28--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 35,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep35--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 17,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep17--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 38,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep38--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 17,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep17--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 36,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep36--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 26,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep26--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 40,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep40--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 26,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep26--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 42,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep42--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 25,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep25--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 24,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep24--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 31,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep31--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 37,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep37--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 41,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep41--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 23,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep23--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 13,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep13--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 6,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep6--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 21,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep21--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 19,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep19--succ1.mp4",
+      "steps": 50
+    }
+  ],
+  "val_seen": [
+    {
+      "task_id": "7",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 49,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep49--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 41,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep41--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 27,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep27--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 52,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep52--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 35,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep35--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 37,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep37--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 31,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep31--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 29,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep29--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 33,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep33--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 20,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep20--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 40,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep40--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 50,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep50--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 39,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep39--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 17,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep17--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 25,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep25--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "7",
+      "episode_idx": 16,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_block_into_the_pot_1/task_put_the_red_block_into_the_pot--ep16--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 33,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep33--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 6,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep6--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 1,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_3/task_lift_red_bottle--ep1--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 9,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep9--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_4/task_lift_red_bottle--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 28,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_1/task_lift_red_bottle--ep28--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "2",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_red_bottle_2/task_lift_red_bottle--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 10,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep10--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 32,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep32--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 24,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep24--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 57,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep57--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 58,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep58--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 43,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep43--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 46,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep46--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 54,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep54--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 47,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep47--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 22,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep22--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 31,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep31--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 18,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep18--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 23,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep23--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 38,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep38--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 15,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep15--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "1",
+      "episode_idx": 56,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_eggplant_1/task_lift_eggplant--ep56--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 15,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep15--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 10,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep10--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 24,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep24--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 6,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep6--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 23,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep23--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 25,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep25--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 27,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep27--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 8,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep8--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 6,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep6--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 16,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/put_the_carrot_on_plate_1/task_put_the_carrot_on_plate--ep16--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "6",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_carrot_on_plate_2/task_put_the_carrot_on_plate--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 7,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep7--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 46,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep46--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 37,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep37--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 34,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep34--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 29,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep29--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 31,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep31--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 32,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep32--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 24,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep24--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 23,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep23--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_2/task_lift_aaa_battery--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 20,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep20--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 8,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep8--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "0",
+      "episode_idx": 49,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_aaa_battery_1/task_lift_aaa_battery--ep49--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 24,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep24--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 29,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep29--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 19,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep19--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 13,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep13--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 34,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep34--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 16,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep16--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 44,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep44--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 27,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep27--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 5,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep5--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 30,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep30--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 20,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep20--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 20,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep20--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 10,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep10--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 12,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep12--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 25,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep25--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 32,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep32--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 28,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_1/task_put_blue_cup_on_plate--ep28--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "4",
+      "episode_idx": 31,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_blue_cup_on_plate_2/task_put_blue_cup_on_plate--ep31--succ1.mp4",
+      "steps": 50
+    }
+  ],
+  "val_unseen": [
+    {
+      "task_id": "5",
+      "episode_idx": 16,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep16--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 11,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep11--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 22,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep22--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 23,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep23--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 10,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep10--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 7,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep7--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 17,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep17--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 18,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep18--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 21,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep21--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 14,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep14--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 13,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep13--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 20,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep20--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_1/task_put_the_red_bottle_into_pot--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 32,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep32--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 43,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep43--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 28,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep28--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 60,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep60--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 20,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep20--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 37,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep37--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 41,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep41--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 18,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep18--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 44,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep44--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 59,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep59--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 56,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep56--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 51,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep51--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 33,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep33--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 3,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep3--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 35,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep35--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 4,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep4--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 13,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep13--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 30,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep30--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 47,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep47--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 39,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep39--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 21,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep21--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 25,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep25--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 16,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep16--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 57,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep57--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 38,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep38--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 29,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep29--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 49,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep49--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 46,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep46--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 24,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep24--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 27,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep27--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 45,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep45--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 40,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep40--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 7,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep7--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 22,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep22--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 53,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep53--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 55,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep55--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 23,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep23--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 52,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep52--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 50,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep50--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 42,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep42--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 34,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep34--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 17,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep17--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 54,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep54--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 11,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep11--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 48,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep48--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 58,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep58--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 36,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep36--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 9,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep9--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "3",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_lift_blue_cup/task_lift_blue_cup--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 0,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_3/task_put_the_red_bottle_into_pot--ep0--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 2,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_3/task_put_the_red_bottle_into_pot--ep2--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_3/task_put_the_red_bottle_into_pot--ep1--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 43,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep43--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 31,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep31--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 46,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep46--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 30,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep30--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 37,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep37--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 3,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep3--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 14,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep14--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 18,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep18--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 36,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep36--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 27,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep27--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 54,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep54--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 23,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep23--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 4,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep4--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 8,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep8--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 40,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep40--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 24,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep24--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 35,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep35--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 9,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep9--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 12,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep12--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 10,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep10--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 48,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep48--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 25,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep25--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 15,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep15--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 47,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep47--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 17,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep17--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 2,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep2--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 26,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep26--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 0,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep0--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 6,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep6--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 33,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep33--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 11,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep11--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 21,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep21--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 51,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep51--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 39,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep39--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 59,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep59--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 38,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep38--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 52,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep52--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 16,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep16--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 41,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep41--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 44,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep44--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 57,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep57--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 42,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep42--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 55,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep55--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 28,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep28--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 5,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep5--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 50,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep50--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 20,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep20--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 29,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep29--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 19,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep19--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 13,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep13--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 32,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep32--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 34,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep34--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 22,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep22--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 58,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep58--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 56,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep56--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 45,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep45--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 53,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep53--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 7,
+      "success": true,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep7--succ1.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 49,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep49--succ0.mp4",
+      "steps": 50
+    },
+    {
+      "task_id": "5",
+      "episode_idx": 1,
+      "success": false,
+      "path": "/root/autodl-tmp/datasets/safe-rollouts/widowx-extracted/openvla_widowx/task_put_the_red_bottle_into_pot_2/task_put_the_red_bottle_into_pot--ep1--succ0.mp4",
+      "steps": 50
+    }
+  ]
+}

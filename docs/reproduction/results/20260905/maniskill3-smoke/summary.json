@@ -1,0 +1,124 @@
+[
+  {
+    "task": "PickCube-v1",
+    "seed": 7,
+    "sensors": {
+      "base_camera": {
+        "rgb": [
+          1,
+          128,
+          128,
+          3
+        ],
+        "depth": [
+          1,
+          128,
+          128,
+          1
+        ]
+      }
+    },
+    "info_fields": [
+      "elapsed_steps",
+      "is_grasped",
+      "is_obj_placed",
+      "is_robot_static",
+      "success"
+    ],
+    "state_fields": [
+      "actors",
+      "articulations"
+    ],
+    "purpose": "RGB-D/environment-label engineering smoke test, not baseline success-rate evaluation"
+  },
+  {
+    "task": "StackCube-v1",
+    "seed": 7,
+    "sensors": {
+      "base_camera": {
+        "rgb": [
+          1,
+          128,
+          128,
+          3
+        ],
+        "depth": [
+          1,
+          128,
+          128,
+          1
+        ]
+      },
+      "hand_camera": {
+        "rgb": [
+          1,
+          128,
+          128,
+          3
+        ],
+        "depth": [
+          1,
+          128,
+          128,
+          1
+        ]
+      }
+    },
+    "info_fields": [
+      "elapsed_steps",
+      "is_cubeA_grasped",
+      "is_cubeA_on_cubeB",
+      "is_cubeA_static",
+      "success"
+    ],
+    "state_fields": [
+      "actors",
+      "articulations"
+    ],
+    "purpose": "RGB-D/environment-label engineering smoke test, not baseline success-rate evaluation"
+  },
+  {
+    "task": "PegInsertionSide-v1",
+    "seed": 7,
+    "sensors": {
+      "base_camera": {
+        "rgb": [
+          1,
+          128,
+          128,
+          3
+        ],
+        "depth": [
+          1,
+          128,
+          128,
+          1
+        ]
+      },
+      "hand_camera": {
+        "rgb": [
+          1,
+          128,
+          128,
+          3
+        ],
+        "depth": [
+          1,
+          128,
+          128,
+          1
+        ]
+      }
+    },
+    "info_fields": [
+      "elapsed_steps",
+      "peg_head_pos_at_hole",
+      "success"
+    ],
+    "state_fields": [
+      "actors",
+      "articulations"
+    ],
+    "purpose": "RGB-D/environment-label engineering smoke test, not baseline success-rate evaluation"
+  }
+]

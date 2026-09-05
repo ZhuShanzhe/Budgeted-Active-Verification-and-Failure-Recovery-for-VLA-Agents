@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "epochs": 200,
+  "batch_size": 32,
+  "seed": 1,
+  "domain": "widowx",
+  "reload_probe_max_error": 0.0,
+  "wall_seconds": 209.90204755216837,
+  "batching": "Random permutation; merge tails smaller than half batch; no trajectories dropped",
+  "scope": "Official SAFE RND network/loss; batch 32 with merged tails; fixed config and prior splits, no test-based tuning"
+}

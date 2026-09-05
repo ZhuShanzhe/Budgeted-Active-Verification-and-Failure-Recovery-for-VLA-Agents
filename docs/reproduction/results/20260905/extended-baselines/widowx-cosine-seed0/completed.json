@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "domain": "widowx",
+  "distance": "cosine",
+  "seed": 0,
+  "bank_sha256": "d4cf905ab48a4e295d9aca270da6446f7d7bf74f77da142d5af2c1fa5549d444",
+  "bank_source": "train only; all valid steps from successful and failed training rollouts",
+  "source_split_sha256": "de018d485e8946c1f3813fd353b3c04542717ddaa8ff70ee2aa1061b40a8d644",
+  "script_sha256": "2aeb5bacc7d1074929374649b967c9a79f7e709533529f362a10d662a36e5017",
+  "reload_max_abs_error": 0.0,
+  "wall_seconds": 2.239966355264187,
+  "scope": "Official SAFE EmbedModel; k=5, both classes, no cumsum; fixed configuration not full paper grid"
+}

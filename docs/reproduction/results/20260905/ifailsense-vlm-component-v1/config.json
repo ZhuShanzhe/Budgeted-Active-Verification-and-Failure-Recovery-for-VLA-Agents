@@ -1,0 +1,168 @@
+{
+  "assets": [
+    {
+      "repo": "google/paligemma2-3b-mix-224",
+      "kind": "model",
+      "revision": "8e40ab4cc5df93dfb7fd2fff754bcdff8b62ee78",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570
+        },
+        {
+          "path": "README.md",
+          "size": 27964
+        },
+        {
+          "path": "config.json",
+          "size": 1332
+        },
+        {
+          "path": "generation_config.json",
+          "size": 173
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 4993319560,
+          "sha256": "d66f653b186abdd1b3b092ac3d45efe94ddeda852615f8bf6766888e6ba7acc6",
+          "verified_sha256": "d66f653b186abdd1b3b092ac3d45efe94ddeda852615f8bf6766888e6ba7acc6"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 1071263816,
+          "sha256": "94ab5acf581f2afb3fe558bf98152ec572e4d66c6180fce4dae825e3b8ef4a9a",
+          "verified_sha256": "94ab5acf581f2afb3fe558bf98152ec572e4d66c6180fce4dae825e3b8ef4a9a"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 75145
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 424
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 733
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 34600820,
+          "sha256": "172fab587d68c56b63eb3620057c62dfd15e503079ff7fce584692e3fd5bf4da",
+          "verified_sha256": "172fab587d68c56b63eb3620057c62dfd15e503079ff7fce584692e3fd5bf4da"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 242593
+        }
+      ],
+      "snapshot": "/root/.cache/huggingface/hub/models--google--paligemma2-3b-mix-224/snapshots/8e40ab4cc5df93dfb7fd2fff754bcdff8b62ee78"
+    },
+    {
+      "repo": "ACIDE/FailSense-Calvin-1p-3b",
+      "kind": "model",
+      "revision": "83315e88033ec3e7a5682866d7cb9666f754e36c",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570
+        },
+        {
+          "path": "README.md",
+          "size": 5174
+        },
+        {
+          "path": "adapter_config.json",
+          "size": 731
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size": 95091968,
+          "sha256": "293898cf89ad497ca95c3739ad6ed086efceae84d86c3c790550bf456f93ec10",
+          "verified_sha256": "293898cf89ad497ca95c3739ad6ed086efceae84d86c3c790550bf456f93ec10"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 424
+        },
+        {
+          "path": "run/events.out.tfevents.1751624488.jean-zay-iam16.4109236.0",
+          "size": 8056,
+          "sha256": "3466c1d0691fc49cba8d0e06e5ada287909d4667613a38475c110be70d67e795"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 733
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 34600820,
+          "sha256": "172fab587d68c56b63eb3620057c62dfd15e503079ff7fce584692e3fd5bf4da",
+          "verified_sha256": "172fab587d68c56b63eb3620057c62dfd15e503079ff7fce584692e3fd5bf4da"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 242627
+        }
+      ],
+      "snapshot": "/root/.cache/huggingface/hub/models--ACIDE--FailSense-Calvin-1p-3b/snapshots/83315e88033ec3e7a5682866d7cb9666f754e36c"
+    },
+    {
+      "repo": "ACIDE/AHA-Calvin-1p",
+      "kind": "dataset",
+      "revision": "766072fb821ae6b57d0a4a213a4021cb5f5b98ed",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2461
+        },
+        {
+          "path": "README.md",
+          "size": 480
+        },
+        {
+          "path": "data/train-00000-of-00006.parquet",
+          "size": 483009384,
+          "sha256": "16ff16f420c1e7ef89566e17be6f1e6992797cc8c47a5acaa8d4201f8ec6cbbb"
+        },
+        {
+          "path": "data/train-00001-of-00006.parquet",
+          "size": 482982080,
+          "sha256": "128c0c12c85773cc572d010b1d16fd077a069dfcca2f4dbf29432a0981493b41"
+        },
+        {
+          "path": "data/train-00002-of-00006.parquet",
+          "size": 483161795,
+          "sha256": "1aca90b3e3f14d9a0545b5599993a263830daa2e4657b4e85266edfc53281a3a"
+        },
+        {
+          "path": "data/train-00003-of-00006.parquet",
+          "size": 482842320,
+          "sha256": "696c8a53aa6683cbaf48e17842d2f2e46c5f28b59b867a20e499d28afcc2ec88"
+        },
+        {
+          "path": "data/train-00004-of-00006.parquet",
+          "size": 483148011,
+          "sha256": "a54ec77956f346fc01f6f7564c80886c410b423de2c0477b608aa83d98ca0ca7"
+        },
+        {
+          "path": "data/train-00005-of-00006.parquet",
+          "size": 483114051,
+          "sha256": "2d03915dddd807eb764fd3f7ed24b2de630a5c82fde9a08f9bf9b0f6ef535e5d"
+        },
+        {
+          "path": "data/validation-00000-of-00001.parquet",
+          "size": 80891538,
+          "sha256": "e5907523d1b225c20211389131a26fcfdc9e8816440a207f39cb280ead0e90a5",
+          "verified_sha256": "e5907523d1b225c20211389131a26fcfdc9e8816440a207f39cb280ead0e90a5"
+        }
+      ],
+      "snapshot": "/root/.cache/huggingface/hub/datasets--ACIDE--AHA-Calvin-1p/snapshots/766072fb821ae6b57d0a4a213a4021cb5f5b98ed"
+    }
+  ],
+  "batch_size": 4,
+  "precision": "float32",
+  "source_commit": "0c71f564cece59816733a8d9ac58ee62b264bf8c",
+  "script_sha256": "5b037c6fe948570b35ac1daa24832864bc35a56d0986705f5cffa66be3a0b57b",
+  "scope": "Author VLM next-token vote only. No FS block predictions. Unsupported outputs are explicit abstentions."
+}

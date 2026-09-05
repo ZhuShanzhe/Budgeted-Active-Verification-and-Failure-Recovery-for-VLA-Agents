@@ -1,0 +1,204 @@
+{
+  "root": "/root/autodl-tmp/datasets/maniskill3/demos",
+  "revision": "mani_skill-3.0.1-download_demo",
+  "generated_at_utc": "2026-09-05T04:21:30.724156+00:00",
+  "file_count": 39,
+  "total_bytes": 255551272,
+  "files": [
+    {
+      "path": "PegInsertionSide-v1/motionplanning/sample.mp4",
+      "bytes": 112270,
+      "sha256": "400e034d6499bd41b54d1e90a537e4239857ded01148f882cf6b33715fe21070"
+    },
+    {
+      "path": "PegInsertionSide-v1/motionplanning/trajectory.h5",
+      "bytes": 50058783,
+      "sha256": "6fa7e4df4cd1980a9cccd23b3ecae11a46a9e068c70b2d96597f4b1656b07b5a"
+    },
+    {
+      "path": "PegInsertionSide-v1/motionplanning/trajectory.json",
+      "bytes": 229547,
+      "sha256": "8f666019744d4a96b846f717ecbdfb4ac5207c742207a10ad87a3559c1859e78"
+    },
+    {
+      "path": "PegInsertionSide-v1/rl/sample.mp4",
+      "bytes": 78153,
+      "sha256": "e6ae04c8631c241b6b85f15b50fd01100d488bfb575be1eec4a2cf3a2d73db1a"
+    },
+    {
+      "path": "PegInsertionSide-v1/rl/trajectory.h5",
+      "bytes": 18741772,
+      "sha256": "6948b407728f3995db85b526f6f827ef26d16e60cc8a308af45938e4048a9666"
+    },
+    {
+      "path": "PegInsertionSide-v1/rl/trajectory.json",
+      "bytes": 219643,
+      "sha256": "61a9ada0a8518c6a36289c62fcf4130709fd20e48f660b967e31a5276a400d44"
+    },
+    {
+      "path": "PickCube-v1/motionplanning/sample.mp4",
+      "bytes": 76486,
+      "sha256": "0096e70da9f135aad66f040f39904b6643474327f9a7194b5b4c5ee846917703"
+    },
+    {
+      "path": "PickCube-v1/motionplanning/trajectory.h5",
+      "bytes": 29349195,
+      "sha256": "03ca60546541a7f18321d9d32721f0254bc75217828c0cadacd217d0c014576a"
+    },
+    {
+      "path": "PickCube-v1/motionplanning/trajectory.json",
+      "bytes": 228218,
+      "sha256": "16e403cb77bfbdda28c243b96eb90adbae1c0edf42854283be57ee47076a2e90"
+    },
+    {
+      "path": "PickCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt",
+      "bytes": 1152034,
+      "sha256": "0b17b5ed9690ccf83111d0f09af8d1599f69ee7ba0077e1aac48814ac78ce99c"
+    },
+    {
+      "path": "PickCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt",
+      "bytes": 1155106,
+      "sha256": "5b7c5d2da3e1651e0ba8f2ab64bc848e68ae683cdebca99d1c3ebc3a83723e9e"
+    },
+    {
+      "path": "PickCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt",
+      "bytes": 1156130,
+      "sha256": "78959417279892d73e4ed5930a6d8de8626a24eee0ec553dfc6af61391b0b356"
+    },
+    {
+      "path": "PickCube-v1/rl/sample_pd_ee_delta_pos.mp4",
+      "bytes": 48637,
+      "sha256": "d22c2f0d82e8a754ffc3f001af0b3b21a7875a5d513c44c9d771e7aafcbab904"
+    },
+    {
+      "path": "PickCube-v1/rl/sample_pd_ee_delta_pose.mp4",
+      "bytes": 53166,
+      "sha256": "24634249f1b75cc1f231c7cf7a2948b4b5448e4fef62ec1efefb4534b9ab6515"
+    },
+    {
+      "path": "PickCube-v1/rl/sample_pd_joint_delta_pos.mp4",
+      "bytes": 52033,
+      "sha256": "086b5b7f0ec495db072733b10f1e38c09ea52feab51c6ae3db51b87aeb4ae0d1"
+    },
+    {
+      "path": "PickCube-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.h5",
+      "bytes": 19287452,
+      "sha256": "e4c6c9b9a327217c186171060c5495e2a1acac80c2627e7267df1fabb7735b49"
+    },
+    {
+      "path": "PickCube-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.json",
+      "bytes": 192132,
+      "sha256": "4665c6a9cdb342f13c348de2315995905109ae41246355bec8cbfbac108d9661"
+    },
+    {
+      "path": "PickCube-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.h5",
+      "bytes": 19989526,
+      "sha256": "5a560b8b73d4b2446cbb49f0dcb470b6a00f35236bc660da9a6e519dadbf6530"
+    },
+    {
+      "path": "PickCube-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.json",
+      "bytes": 191461,
+      "sha256": "920fe2fc06c0a5efd879e1735e6b5e3710293fd05af9b52f5caa5e4b97226d5a"
+    },
+    {
+      "path": "PickCube-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.h5",
+      "bytes": 19707932,
+      "sha256": "b05851319021c290ed5e5055c03c776b434af5c9af98e13db2ab9159752b89c8"
+    },
+    {
+      "path": "PickCube-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.json",
+      "bytes": 190445,
+      "sha256": "f6bb8a6a94ff165fdcb65e6a47cd8c3f6ac8fa01d0ae77bc05613b88e27916d1"
+    },
+    {
+      "path": "PickCube-v1/teleop/sample.mp4",
+      "bytes": 93089,
+      "sha256": "4905f52b25480cfc51035482824b23f2fbe902581d33fab3e4fc04e31c70d34a"
+    },
+    {
+      "path": "PickCube-v1/teleop/trajectory.h5",
+      "bytes": 383621,
+      "sha256": "0e6285c5e7a9293fbb1c10590a1be4fc115792cb816e00b37e9914369a0c3c94"
+    },
+    {
+      "path": "PickCube-v1/teleop/trajectory.json",
+      "bytes": 2702,
+      "sha256": "ed867dd733d307ba2cf50151625060a0728224fcb574713b0298232ac4ea789a"
+    },
+    {
+      "path": "StackCube-v1/motionplanning/sample.mp4",
+      "bytes": 94538,
+      "sha256": "898394591aaec80901c09d82300924f8770b7dd3fc75bea388bcd01373410e3a"
+    },
+    {
+      "path": "StackCube-v1/motionplanning/trajectory.h5",
+      "bytes": 38745164,
+      "sha256": "61d07df7b52f303d2088e977df5f863be7d2274348ff05791f3a815359815523"
+    },
+    {
+      "path": "StackCube-v1/motionplanning/trajectory.json",
+      "bytes": 229183,
+      "sha256": "48cb1119c9f5a8f0d7187fc83674a2c401b41466cb1930b2a5c26b706ba3bd81"
+    },
+    {
+      "path": "StackCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt",
+      "bytes": 1164322,
+      "sha256": "ab2525bf1ead6930e5344c8ff08ed3292698a7ce34a056dfdce1690b3ea92e52"
+    },
+    {
+      "path": "StackCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt",
+      "bytes": 1167394,
+      "sha256": "c97bbcafa3e689631b1d243552835de3392fb0f0b6343e4f2ae2deeac2b51563"
+    },
+    {
+      "path": "StackCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt",
+      "bytes": 1168418,
+      "sha256": "680031c3f423bfab33f52547cac89ecf36f1300d5e585151596f3cd52d5a4ca7"
+    },
+    {
+      "path": "StackCube-v1/rl/sample_pd_ee_delta_pos.mp4",
+      "bytes": 51391,
+      "sha256": "db44268a7344d3038dc2da2cb80114824579aa3c2f432d7f71267358b93b5e7d"
+    },
+    {
+      "path": "StackCube-v1/rl/sample_pd_ee_delta_pose.mp4",
+      "bytes": 55867,
+      "sha256": "850a597e4154370f4cbd4bfc676402ae1e5d8fab8fc2e2c1562bc23b32363eee"
+    },
+    {
+      "path": "StackCube-v1/rl/sample_pd_joint_delta_pos.mp4",
+      "bytes": 61255,
+      "sha256": "7856508f688c08f4af33b68295055b988923dbb2e06fec32c702a34b33fd5bae"
+    },
+    {
+      "path": "StackCube-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.h5",
+      "bytes": 16804514,
+      "sha256": "92566bce8046ccb8c602c1d929d61d7a77734fc07d7111c3d01d9ad6b80376df"
+    },
+    {
+      "path": "StackCube-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.json",
+      "bytes": 169636,
+      "sha256": "3b1cc7a591f0330d5b32ac319aa002116d043dfa84436e75472a6efdaa2f37bd"
+    },
+    {
+      "path": "StackCube-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.h5",
+      "bytes": 16094487,
+      "sha256": "6b045c6ef0cbc47fcdd2e9a36dfafbeb187805881f2c4594959e4c0a1054da43"
+    },
+    {
+      "path": "StackCube-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.json",
+      "bytes": 188071,
+      "sha256": "88373dce9b6cc914f047b4194f2175b9f8819c6e9ae45972dfd2aaa1616dfe4f"
+    },
+    {
+      "path": "StackCube-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.h5",
+      "bytes": 16629431,
+      "sha256": "1f21bf527a4036ccc693ff9adc34993029d3570beda57cd693a0d53bf0dfbb03"
+    },
+    {
+      "path": "StackCube-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.json",
+      "bytes": 178068,
+      "sha256": "f2c5418a04ffca6455f6b145190c8f440051d30aeba56ec511e1d8f8f6e06c04"
+    }
+  ]
+}

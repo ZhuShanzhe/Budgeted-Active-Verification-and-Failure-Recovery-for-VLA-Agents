@@ -1,0 +1,20 @@
+{
+  "samples": 203,
+  "abstentions": 0,
+  "coverage": 1.0,
+  "accuracy_abstentions_incorrect": 0.8571428571428571,
+  "balanced_accuracy_abstentions_incorrect": 0.8570803345652597,
+  "per_class": {
+    "0": {
+      "samples": 97,
+      "correct": 83
+    },
+    "1": {
+      "samples": 106,
+      "correct": 91
+    }
+  },
+  "wall_seconds": 9.688952704891562,
+  "peak_allocated_bytes": 14065631232,
+  "scope": "VLM component diagnostic, not full I-FailSense or calibrated failure risk. Randomly initialized FS heads in author constructor are never called."
+}

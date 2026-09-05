@@ -1,0 +1,14 @@
+{
+  "accepted": false,
+  "reasons": [
+    "insufficient_independent_roots",
+    "missing_heldin_improvement_evaluation",
+    "missing_validated_critic",
+    "no_independent_regression_test",
+    "undefined_brier",
+    "undefined_coverage",
+    "undefined_selective_risk"
+  ],
+  "action": "report_only_no_deployment_mutation",
+  "limitation": "Operator-run report screen, not authenticated security attestation or automatic deployment. A general coding agent must not have write access to evaluator/results/labels. Repeated gate feedback requires a separate untouched final test set. No population-level noninferiority guarantee."
+}

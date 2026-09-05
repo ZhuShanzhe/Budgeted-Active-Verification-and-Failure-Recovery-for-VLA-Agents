@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "domain": "droid",
+  "distance": "euclid",
+  "seed": 1,
+  "bank_sha256": "edf5ea8acdab0a43573b569dba5eaff0acbd01fe43a50036682a9cae4e1ec33f",
+  "bank_source": "train only; all valid steps from successful and failed training rollouts",
+  "source_split_sha256": "df164829c28b9a7bac42b47baa60b4f421e72901f327437741abf7ab42f45d84",
+  "script_sha256": "2aeb5bacc7d1074929374649b967c9a79f7e709533529f362a10d662a36e5017",
+  "reload_max_abs_error": 0.0,
+  "wall_seconds": 1.4255732633173466,
+  "scope": "Official SAFE EmbedModel; k=5, both classes, no cumsum; fixed configuration not full paper grid"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "task": "PegInsertionSide-v1",
+    "metadata_path": "/root/autodl-tmp/experiments/baselines-20260905/maniskill-replay/PegInsertionSide-v1/trajectory.rgb+depth.pd_joint_pos.physx_cpu.json",
+    "episodes": [
+      {
+        "episode_id": 0,
+        "episode_seed": 2,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 178,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 2
+        },
+        "success": true
+      },
+      {
+        "episode_id": 1,
+        "episode_seed": 4,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 156,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 4
+        },
+        "success": true
+      },
+      {
+        "episode_id": 2,
+        "episode_seed": 5,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 201,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 5
+        },
+        "success": true
+      }
+    ]
+  },
+  {
+    "task": "PickCube-v1",
+    "metadata_path": "/root/autodl-tmp/experiments/baselines-20260905/maniskill-replay/PickCube-v1/trajectory.rgb+depth.pd_joint_pos.physx_cpu.json",
+    "episodes": [
+      {
+        "episode_id": 0,
+        "episode_seed": 0,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 74,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 0
+        },
+        "success": true
+      },
+      {
+        "episode_id": 1,
+        "episode_seed": 1,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 74,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 1
+        },
+        "success": true
+      },
+      {
+        "episode_id": 2,
+        "episode_seed": 2,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 50,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 2
+        },
+        "success": true
+      }
+    ]
+  },
+  {
+    "task": "StackCube-v1",
+    "metadata_path": "/root/autodl-tmp/experiments/baselines-20260905/maniskill-replay/StackCube-v1/trajectory.rgb+depth.pd_joint_pos.physx_cpu.json",
+    "episodes": [
+      {
+        "episode_id": 0,
+        "episode_seed": 0,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 107,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 0
+        },
+        "success": true
+      },
+      {
+        "episode_id": 1,
+        "episode_seed": 1,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 94,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 1
+        },
+        "success": true
+      },
+      {
+        "episode_id": 2,
+        "episode_seed": 2,
+        "control_mode": "pd_joint_pos",
+        "elapsed_steps": 98,
+        "reset_kwargs": {
+          "options": {},
+          "seed": 2
+        },
+        "success": true
+      }
+    ]
+  }
+]

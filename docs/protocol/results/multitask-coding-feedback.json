@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "root_id": "5da1d969f4404ca61c5abbd0",
+      "split": "train",
+      "episode_id": "20be84c88e38f286ad1ce01b",
+      "instruction": "pick the akita black bowl on the ramekin and place it on the plate",
+      "termination": "goal_satisfied",
+      "task_success": true,
+      "eventual_failure": false,
+      "outcome_status": "observed",
+      "perturbation": {
+        "family": "none",
+        "severity": 0,
+        "start_step": 34
+      },
+      "label_provenance": "Development feedback only, forbidden at runtime",
+      "change_scope": "Produce only a decide(ctx) candidate using public context fields; do not edit evaluator, critic, data, budget or split files."
+    },
+    {
+      "root_id": "5da1d969f4404ca61c5abbd0",
+      "split": "train",
+      "episode_id": "5833096fb2c8cff9a7f5e3fa",
+      "instruction": "pick the akita black bowl on the ramekin and place it on the plate",
+      "termination": "horizon",
+      "task_success": false,
+      "eventual_failure": true,
+      "outcome_status": "observed",
+      "perturbation": {
+        "family": "action_noise",
+        "severity": 2,
+        "start_step": 34
+      },
+      "label_provenance": "Development feedback only, forbidden at runtime",
+      "change_scope": "Produce only a decide(ctx) candidate using public context fields; do not edit evaluator, critic, data, budget or split files."
+    }
+  ],
+  "code_generation": {
+    "model": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "wall_seconds": null,
+    "status": "record_when_agent_is_connected"
+  }
+}
