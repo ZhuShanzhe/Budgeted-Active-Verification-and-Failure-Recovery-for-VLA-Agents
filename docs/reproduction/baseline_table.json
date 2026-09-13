@@ -1,0 +1,382 @@
+{
+  "columns": [
+    "dataset",
+    "model",
+    "harness",
+    "reported performance(in paper)",
+    "our reproduced performance"
+  ],
+  "rows": [
+    {
+      "group": "A. 策略闭环：有限规模",
+      "dataset": "LIBERO\nSpatial",
+      "model": "OpenVLA-OFT",
+      "harness": "H1：作者策略循环；双相机＋本体；10 任务×5 初态；无外加验证/恢复。",
+      "reported": "SR 97.6%；Spatial 专用策略。[OFT]",
+      "ours": "SR 100.00%（50/50）；每任务 5 次，不是论文 50 次。",
+      "evidence": "results/20260905/oft-clean-spatial-50/summary.json"
+    },
+    {
+      "group": "A. 策略闭环：有限规模",
+      "dataset": "LIBERO\nSpatial",
+      "model": "AVA-VLA",
+      "harness": "H1：作者策略循环；双相机＋本体；10 任务×5 初态；无外加验证/恢复。",
+      "reported": "SR 97.4%；四套件联合策略。[AVA]",
+      "ours": "SR 96.00%（48/50）；每任务 5 次，不是论文 50 次。",
+      "evidence": "results/20260905/ava-clean-spatial-50/summary.json"
+    },
+    {
+      "group": "B. OOD：旧实现诊断，不进入主结果",
+      "dataset": "LIBERO-Plus\nSpatial 子集",
+      "model": "OpenVLA-OFT",
+      "harness": "H2：七轴各 10 次；两策略同名单；保留上游提示词混杂。",
+      "reported": "全套件 SR 69.6%；仅作背景参照，非本批 Spatial 子集。[PLUSNUM]",
+      "ours": "SR 82.86%（58/70）；诊断值，不作论文优劣比较。",
+      "evidence": "results/20260905/oft-plus-spatial-70/summary.json"
+    },
+    {
+      "group": "B. OOD：旧实现诊断，不进入主结果",
+      "dataset": "LIBERO-Plus\nSpatial 子集",
+      "model": "AVA-VLA",
+      "harness": "H2：七轴各 10 次；两策略同名单；保留上游提示词混杂。",
+      "reported": "NR：AVA 论文未报告本批 Plus 协议。[AVA]",
+      "ours": "SR 78.57%（55/70）；诊断值，不作论文优劣比较。",
+      "evidence": "results/20260905/ava-plus-spatial-70/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nOpenVLA / WidowX",
+      "model": "SAFE-LSTM",
+      "harness": "H3：白盒特征；3 种子；1,000 epoch；按任务划分；仅评分/校准，不干预。",
+      "reported": "NR：原论文未列出 WidowX 域数值。[SAFE]",
+      "ours": "未见任务 AUROC 62.78 ± 0.99；AUPRC 73.98 ± 2.30。",
+      "evidence": "results/20260905/safe_summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nOpenVLA / WidowX",
+      "model": "SAFE-MLP",
+      "harness": "H3：白盒特征；3 种子；1,000 epoch；按任务划分；仅评分/校准，不干预。",
+      "reported": "NR：原论文未列出 WidowX 域数值。[SAFE]",
+      "ours": "未见任务 AUROC 81.85 ± 3.67；AUPRC 87.34 ± 3.84。",
+      "evidence": "results/20260905/safe_summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nOpenVLA / WidowX",
+      "model": "Cosine kNN",
+      "harness": "H4：同 H3 划分；固定 k=5；训练轨迹建库，无梯度训练。",
+      "reported": "NR：原论文未列出 WidowX 域数值。[SAFE]",
+      "ours": "未见任务 AUROC 63.64 ± 7.51；AUPRC 67.61 ± 7.32。",
+      "evidence": "results/20260905/extended-baselines/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nOpenVLA / WidowX",
+      "model": "Euclidean kNN",
+      "harness": "H4：同 H3 划分；固定 k=5；训练轨迹建库，无梯度训练。",
+      "reported": "NR：原论文未列出 WidowX 域数值。[SAFE]",
+      "ours": "未见任务 AUROC 53.67 ± 6.92；AUPRC 64.45 ± 7.30。",
+      "evidence": "results/20260905/extended-baselines/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nOpenVLA / WidowX",
+      "model": "RND",
+      "harness": "H5：同划分；3 种子×200 epoch；小尾批合并；仅检测，无恢复。",
+      "reported": "NR：原论文未列出 WidowX 域数值。[SAFE]",
+      "ours": "未见任务 AUROC 49.41 ± 4.01；AUPRC 59.56 ± 4.96。",
+      "evidence": "results/20260905/safe-rnd-v1/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nPi0-FAST / DROID",
+      "model": "SAFE-LSTM",
+      "harness": "H3：白盒特征；3 种子；1,000 epoch；按任务划分；仅评分/校准，不干预。",
+      "reported": "未见任务 AUROC 58.70 ± 4.37；Real Franka 列，论文调优配置。[SAFE]",
+      "ours": "未见任务 AUROC 53.58 ± 2.08；AUPRC 53.93 ± 4.75。",
+      "evidence": "results/20260905/safe-droid-v1/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nPi0-FAST / DROID",
+      "model": "SAFE-MLP",
+      "harness": "H3：白盒特征；3 种子；1,000 epoch；按任务划分；仅评分/校准，不干预。",
+      "reported": "未见任务 AUROC 64.16 ± 5.88；Real Franka 列，论文调优配置。[SAFE]",
+      "ours": "未见任务 AUROC 53.53 ± 4.45；AUPRC 61.34 ± 3.01。",
+      "evidence": "results/20260905/safe-droid-v1/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nPi0-FAST / DROID",
+      "model": "Cosine kNN",
+      "harness": "H4：同 H3 划分；固定 k=5；训练轨迹建库，无梯度训练。",
+      "reported": "未见任务 AUROC 59.51 ± 5.76；Real Franka 列，论文调优配置。[SAFE]",
+      "ours": "未见任务 AUROC 49.43 ± 3.57；AUPRC 49.19 ± 2.54。",
+      "evidence": "results/20260905/extended-baselines/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nPi0-FAST / DROID",
+      "model": "Euclidean kNN",
+      "harness": "H4：同 H3 划分；固定 k=5；训练轨迹建库，无梯度训练。",
+      "reported": "未见任务 AUROC 60.27 ± 4.79；Real Franka 列，论文调优配置。[SAFE]",
+      "ours": "未见任务 AUROC 53.74 ± 3.97；AUPRC 52.60 ± 1.51。",
+      "evidence": "results/20260905/extended-baselines/summary.json"
+    },
+    {
+      "group": "C. 失败检测：固定配置，未见任务",
+      "dataset": "SAFE rollout\nPi0-FAST / DROID",
+      "model": "RND",
+      "harness": "H5：同划分；3 种子×200 epoch；小尾批合并；仅检测，无恢复。",
+      "reported": "未见任务 AUROC 45.83 ± 5.10；Real Franka 列，论文调优配置。[SAFE]",
+      "ours": "未见任务 AUROC 48.87 ± 1.96；AUPRC 49.38 ± 0.98。",
+      "evidence": "results/20260905/safe-rnd-v1/summary.json"
+    },
+    {
+      "group": "D. 图像/时序拼图判断：作者派生测试集",
+      "dataset": "SMF-CALVIN\n公开 1p 数据",
+      "model": "I-FailSense\n完整模型",
+      "harness": "H6：单视角时序拼图＋文本；203 样本；固定发布权重；离线投票/解码。",
+      "reported": "1p accuracy 90.64%；Table I。[IFS]",
+      "ours": "Accuracy 90.64%（184/203）；与论文保留位一致。",
+      "evidence": "results/20260905/ifailsense-calvin1p-v1/metrics.json"
+    },
+    {
+      "group": "D. 图像/时序拼图判断：作者派生测试集",
+      "dataset": "SMF-CALVIN\n公开 1p 数据",
+      "model": "I-FailSense\nLoRA/VLM 组件",
+      "harness": "H6：单视角时序拼图＋文本；203 样本；固定发布权重；离线投票/解码。",
+      "reported": "1p accuracy 85.71%；Table I。[IFS]",
+      "ours": "Accuracy 85.71%（174/203）；与论文保留位一致。",
+      "evidence": "results/20260905/ifailsense-vlm-component-v1/metrics.json"
+    },
+    {
+      "group": "E. 世界模型：公开小型验证协议",
+      "dataset": "WCM\npick-place val",
+      "model": "WCM",
+      "harness": "H7：固定公开权重；18 episode / 1,617 窗口；值与下一状态预测。",
+      "reported": "NR：未定位同一 quick-val 的误差报告；论文 RL 成功率不可替代。[WCM]",
+      "ours": "Value RMSE 0.380342；MAE 0.196550；Pearson 0.720664；next-state MSE 0.007358。",
+      "evidence": "results/WCM/summary.json"
+    },
+    {
+      "group": "F. 数据生成与环境检查：不是模型性能",
+      "dataset": "ManiSkill3\n三任务",
+      "model": "官方演示\n动作回放",
+      "harness": "H8：PickCube、StackCube、PegInsertionSide 各 3 条；执行动作，不逐帧写真值。",
+      "reported": "N/A：工程回放，不是学习策略论文指标。",
+      "ours": "9/9 回放成功；只说明演示可执行。",
+      "evidence": "results/20260905/maniskill_replay_summary.json"
+    },
+    {
+      "group": "F. 数据生成与环境检查：不是模型性能",
+      "dataset": "ManiSkill3\n两任务",
+      "model": "FailGen\n失败注入器",
+      "harness": "H9：grasp / trans_x；seed 7/8；按环境终局判定，不把注入直接当失败。",
+      "reported": "N/A：不是 AHA 检测准确率。",
+      "ours": "8/8 链路完成；4 成功、4 失败。",
+      "evidence": "results/20260905/failgen-smoke/summary.json"
+    }
+  ],
+  "evidence_sha256": {
+    "results/20260905/oft-clean-spatial-50/summary.json": "e14e4c974a355df2f8f3e2e3fe24f4193dee346ee4b757b80cf76456bcffd4c6",
+    "results/20260905/ava-clean-spatial-50/summary.json": "d6e26539bddc0a9bf96fc49f491f1e328295221bc1f97b792796fe5ee8734027",
+    "results/20260905/oft-plus-spatial-70/summary.json": "c55625222545ded3190c45d087ddb2b447f3d2f381505b7b0dd8340d6b49b269",
+    "results/20260905/ava-plus-spatial-70/summary.json": "71f814efef0b85697409bbd01fe36bb8a510ce47293a1c2430ebe6aae538a6f1",
+    "results/20260905/safe_summary.json": "6b68455ab654b18c4fdc12fae488abfc795e75264edd3167742bb3631a2afe62",
+    "results/20260905/extended-baselines/summary.json": "6ffbc90c0bddfc22b9edc95dcbd285a61ff6302c12b8cad68ceb043e092a9cb3",
+    "results/20260905/safe-rnd-v1/summary.json": "2c44bddd1ea454d019a9204266a128e8e5cbf885825699a7880d502046778f63",
+    "results/20260905/safe-droid-v1/summary.json": "7db8c64ebea5efe1f020ecd59c074d900d1dbf10b0d8d76538064302ccf828ca",
+    "results/20260905/ifailsense-calvin1p-v1/metrics.json": "f95aa633f779cb207f6f5e7f01292e7383e15044047f5fdb384594f00a38d035",
+    "results/20260905/ifailsense-vlm-component-v1/metrics.json": "190ec72c9cd6a17bf6c14e0d5641ef7f17863987ff415d84568f53e358bacee9",
+    "results/WCM/summary.json": "6c70fe894c148e9c93afae5ca0f1c164868a11254958a61156de2caf1f02dd38",
+    "results/20260905/maniskill_replay_summary.json": "b811e5179bc06a7620a98f814187707e7c2e7e0ff1dd87c071c363e814db729a",
+    "results/20260905/failgen-smoke/summary.json": "89e98923dcbaf9dbf49e430b24e77d5539e60f20fb080c40df60670fbec224e1"
+  },
+  "experiment_cutoff": "2026-09-05",
+  "literature_checked": "2026-09-13",
+  "sources": [
+    {
+      "key": "OFT",
+      "title": "OpenVLA-OFT：原论文 Table I（2025）",
+      "url": "https://arxiv.org/html/2502.19645"
+    },
+    {
+      "key": "AVA",
+      "title": "AVA-VLA：CVPR 2026，Table 1、Table 2 与真机实验",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_AVA-VLA_Improving_Vision-Language-Action_models_with_Active_Visual_Attention_CVPR_2026_paper.pdf"
+    },
+    {
+      "key": "PLUS",
+      "title": "LIBERO-Plus：CVPR 2026；原论文结果表",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html"
+    },
+    {
+      "key": "PLUSNUM",
+      "title": "LIBERO-Plus：作者论文完整表与各套件明细",
+      "url": "https://arxiv.org/pdf/2510.13626"
+    },
+    {
+      "key": "SAFE",
+      "title": "SAFE：NeurIPS 2025，Table 8、B.8 与真实 Franka 实验",
+      "url": "https://arxiv.org/html/2506.09937v2"
+    },
+    {
+      "key": "IFS",
+      "title": "I-FailSense：Table I 与评测定义",
+      "url": "https://arxiv.org/html/2509.16072v1"
+    },
+    {
+      "key": "WCM",
+      "title": "WCM：作者公开 quick benchmark、数据与权重",
+      "url": "https://github.com/sylvestf/WCM"
+    },
+    {
+      "key": "MEM",
+      "title": "MemoryVLA：ICLR 2026；4.1-4.5，Table 4",
+      "url": "https://arxiv.org/html/2508.19236v2"
+    },
+    {
+      "key": "MEMVENUE",
+      "title": "MemoryVLA：作者 ICLR 2026 项目与公开资源",
+      "url": "https://shihao1895.github.io/MemoryVLA/"
+    },
+    {
+      "key": "HAM",
+      "title": "HAMLET：ICLR 2026；Tables 2-3、真机实验",
+      "url": "https://arxiv.org/html/2510.00695"
+    },
+    {
+      "key": "HAMVENUE",
+      "title": "HAMLET：ICLR 2026 正式会议条目",
+      "url": "https://iclr.cc/virtual/2026/poster/10010110"
+    },
+    {
+      "key": "SP",
+      "title": "SP-VLA：ICLR 2026 正式会议论文",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html"
+    },
+    {
+      "key": "SPFULL",
+      "title": "SP-VLA：实验设置与真机补充",
+      "url": "https://arxiv.org/html/2506.12723"
+    },
+    {
+      "key": "SIMPLE",
+      "title": "SimpleVLA-RL：ICLR 2026，3.1 实验设置",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/cbfbcb4da14235bd69b134070898ae9d-Paper-Conference.pdf"
+    },
+    {
+      "key": "COSMOS",
+      "title": "Cosmos Policy：ICLR 2026 正式会议条目",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/748becc400a57c0e31cfe6a2e7951467-Abstract-Conference.html"
+    },
+    {
+      "key": "ACTIVE",
+      "title": "ActiveVLA：CVPR 2026 正式会议论文",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html"
+    },
+    {
+      "key": "ACTIVEFULL",
+      "title": "ActiveVLA：4.1 与三套仿真基准",
+      "url": "https://arxiv.org/html/2601.08325v1"
+    },
+    {
+      "key": "STABLE",
+      "title": "StableVLA：ICML 2026；Table 1 与真机设置",
+      "url": "https://dagroup-pku.github.io/StableVLA/"
+    },
+    {
+      "key": "STABLEVENUE",
+      "title": "ICML 2026 官方论文列表（含 StableVLA）",
+      "url": "https://icml.cc/Downloads/2026"
+    },
+    {
+      "key": "MIKASA",
+      "title": "MIKASA-Robo：官方数据、环境与版本说明",
+      "url": "https://github.com/CognitiveAISystems/MIKASA-Robo"
+    },
+    {
+      "key": "MIKASAV",
+      "title": "MIKASA-Robo：90 任务 VLA 版与旧 RL 版发布边界",
+      "url": "https://github.com/CognitiveAISystems/MIKASA-Robo/releases"
+    },
+    {
+      "key": "ROBOCASA",
+      "title": "RoboCasa365：Table 2，目标任务微调后的成功率",
+      "url": "https://arxiv.org/html/2603.04356"
+    },
+    {
+      "key": "ACTIVECODE",
+      "title": "ActiveVLA：本次核查仍待发布的代码与评测入口",
+      "url": "https://github.com/ZhenyangLiu/ActiveVLA-Injecting-Active-Perception-into-VLA"
+    }
+  ],
+  "conference_sample": [
+    [
+      "HAMLET [HAM][HAMVENUE]",
+      "ICLR 2026",
+      "LIBERO；RoboCasa Kitchen；SimplerEnv",
+      "3",
+      "有；跨基准迁移，不只摘要中的两套"
+    ],
+    [
+      "MemoryVLA [MEM][MEMVENUE]",
+      "ICLR 2026",
+      "LIBERO；SimplerEnv；MIKASA-Robo",
+      "3",
+      "有；Bridge/Fractal 合并，不把真机两类任务拆算"
+    ],
+    [
+      "SP-VLA [SP][SPFULL]",
+      "ICLR 2026",
+      "LIBERO；SimplerEnv",
+      "2",
+      "有；效率与任务质量同时评测"
+    ],
+    [
+      "SimpleVLA-RL [SIMPLE]",
+      "ICLR 2026",
+      "LIBERO；RoboTwin 1.0 / 2.0",
+      "2",
+      "有；若版本分开，原文计 3"
+    ],
+    [
+      "Cosmos Policy [COSMOS]",
+      "ICLR 2026",
+      "LIBERO；RoboCasa",
+      "2",
+      "有；RoboCasa 不是 RoboCasa365"
+    ],
+    [
+      "AVA-VLA [AVA]",
+      "CVPR 2026",
+      "LIBERO；CALVIN",
+      "2",
+      "有；四个 LIBERO 套件只计 1"
+    ],
+    [
+      "ActiveVLA [ACTIVE][ACTIVEFULL]",
+      "CVPR 2026",
+      "RLBench；COLOSSEUM；GemBench",
+      "3",
+      "有；三者共享 RLBench 系仿真底座"
+    ],
+    [
+      "StableVLA [STABLE][STABLEVENUE]",
+      "ICML 2026",
+      "LIBERO；CALVIN",
+      "2",
+      "有；多个扰动等级不增加数据集数"
+    ]
+  ],
+  "count_summary": {
+    "n": 8,
+    "two": 5,
+    "three": 3,
+    "mean": 2.375,
+    "median": 2.0
+  },
+  "notice": "No new scientific experiments; not a matched-protocol leaderboard"
+}

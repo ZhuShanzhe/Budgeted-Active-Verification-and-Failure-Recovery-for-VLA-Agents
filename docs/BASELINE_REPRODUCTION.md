@@ -1,100 +1,55 @@
-# Baseline reproduction protocol
+# Baseline report and comparison protocol
 
-## Selection rule
+本文件与 [Baseline Report](reproduction/BASELINE_REPORT.md) 共同替换此前只记录 smoke test 的协议总览。当前成绩以该报告的五列总表为准；[PDF](reproduction/pdf/baseline_reproduction_report.pdf) 与 [LaTeX](reproduction/pdf/baseline_reproduction_report.tex) 同步维护。
 
-A method enters the numerical comparison only when it satisfies all of the following:
+报告核查日期：2026-09-13；既有实验截止：2026-09-05。本次不新增训练、采集或策略评测。
 
-1. it measures a distinct capability required by the research question;
-2. official code is public and a checkpoint or a feasible training path exists;
-3. its output can be evaluated on the same task split and cost accounting protocol;
-4. reproduction is possible on one RTX 5090 without pretending to repeat multi-node pretraining.
+## 已有结果的使用边界
 
-The comparison keeps policy quality, active observation, failure verification, recovery, and OOD evaluation separate. This prevents an unfair comparison between a policy and a detector, and prevents several prior systems from being presented as one new model.
+- OpenVLA-OFT / AVA-VLA：原版 LIBERO Spatial，10 任务各 5 初态，分别 50/50 和 48/50；不是论文每任务 50 次的全量结果。
+- LIBERO-Plus：旧七轴子集分别 58/70 和 55/70。部分任务指令混入扰动后缀；保留为实现诊断，不回填为修正后成绩。
+- SAFE：WidowX 与 DROID 两域的 LSTM、MLP、cosine、Euclidean、RND 已有固定配置、三种子结果。它们不是原论文完整网格搜索最优值。原论文没有对应 WidowX 域数值，记作 NR。
+- I-FailSense：公开单视角 203 样本，完整模型 184/203、VLM 组件 174/203；accuracy 与论文 Table I 对应保留位一致。离线判断不代表在线恢复。
+- WCM：公开 quick benchmark 的 18 episode、1,617 窗口；值预测误差不是论文 VLA-RL 成功率。
+- ManiSkill 演示回放与 FailGen 注入：工程链路验收，不计作学习模型性能。
 
-## Baseline matrix
+原始 JSON、各模型说明和旧审计均保留。指标重算入口为 `scripts/build_baseline_report.py`，仅使用 Python 标准库；输出 [五列表及输入 SHA-256](reproduction/baseline_table.json)、Markdown 与 LaTeX。PDF 用 XeLaTeX 编译两次，需 Microsoft YaHei 与 Arial 字体或等效配置。
 
-| Baseline | Capability isolated | Numerical use | Reproduction target | Current server status |
-| --- | --- | --- | --- | --- |
-| OpenVLA-OFT | fixed-observation VLA policy | primary policy control | released LIBERO checkpoint, identical seeds and episode budget | official 7B checkpoint loaded; real LIBERO observation produced a finite `8 x 7` action chunk on GPU |
-| AVA-VLA | history-based active visual attention | strongest direct active-observation comparison | released `avavla-libero-4in1` checkpoint on original LIBERO and LIBERO-Plus | official 7B checkpoint loaded; real LIBERO observation produced a finite `8 x 7` action chunk on GPU |
-| SAFE | zero-shot multitask failure detection | verification and calibration | detector trained/evaluated from fixed OpenVLA rollout split | package and Hydra training entrypoint passed; rollout extractor added |
-| AHA / FailGen | natural-language failure reasoning and synthetic failure modes | data/method reference; numerical entry only after a checkpoint is trained | included REFLECT subset and FailGen failure taxonomy | source and evaluation data present; official AHA model checkpoint is not public |
-| LIBERO-Plus | seven-axis cross-distribution evaluation | common OOD benchmark | one fixed manifest covering all perturbation axes | official assets installed; headless EGL environment creation and both camera renders passed |
+## 数据集定位
 
-## Why these are direct comparisons
+| 资源 | 用途 | 当前边界 |
+| --- | --- | --- |
+| LIBERO-Plus | 视觉/初态等扰动下的主动验证与恢复主闭环 | 代码和资产已有；无提示词混杂的冻结协议结果待运行 |
+| MIKASA-Robo | 独立 ManiSkill 系仿真，历史证据与部分可观测判断 | 新选入、尚未接入；锁定 MemoryVLA 五任务协议，不套用当前 90 任务版本 |
+| SAFE Pi0-FAST / DROID rollout | 真实域跨任务离线失败检测 | 已有数据和检测结果；不提供任意新视角或真实恢复反事实 |
+| 标准 LIBERO | 正确性与 clean 性能保持控制 | 已有 Spatial 小样本结果；不以近满分协议作为主要提升证据 |
+| SMF-CALVIN / SAFE-WidowX | 离线语义判断与跨策略诊断 | 保留已有结果，不重复计入主数据集数量 |
+| RoboCasa365 | 长时序家庭操作扩展 | 非当前主线必需；未作为已完成基线 |
 
-### OpenVLA-OFT
+选型证据和 8 篇 2026 论文的逐篇核查见总报告。未饱和不等于错误一定能由主动观察解决，也不等于获得顶会级贡献。
 
-OpenVLA-OFT supplies the unchanged policy backbone and establishes the success/latency floor when no adaptive evidence is acquired. The proposed method must improve risk-adjusted success under a matched observation budget, not merely outperform an older VLA architecture.
+## 固定比较规则
 
-### AVA-VLA
+### 模型与 harness 分开
 
-AVA-VLA is the direct comparison for adaptive use of visual history. It changes which temporal visual evidence is emphasized, but does not solve the full budgeted decision problem over heterogeneous tools, verification, and recovery. The comparison isolates whether gains come from active evidence routing rather than a stronger policy implementation.
+主闭环固定同一执行策略，比较无附加验证、固定频率/固定多视角、被动 critic 触发、预算自适应证据路由。OFT、AVA、MemoryVLA 的底座切换另行报告。当前 H1-H9 是已有执行机制编号，不表示新 harness 对照已完成。
 
-### SAFE
+恢复动作库、最大执行步数、查询上限及输入权限一致。RGB、历史、深度、分割和 VLA 内部特征逐项声明；状态真值仅用于标注和环境验收。记忆任务仅能检索实际记录的历史，不能查询未曾保存的过去。
 
-SAFE is the direct verification baseline. It predicts failure from VLA features and provides calibration machinery, but does not decide which additional evidence to buy or which recovery action to execute. All detector comparisons use the same saved trajectories and split by task, not randomly by frame.
+### 划分与代码迭代
 
-### AHA / FailGen
+训练、开发、校准、测试清单冻结并保存哈希。同一任务/初态根的扰动、观察分支及恢复分支不得跨集合；不按帧随机切分。程序化决策与失败驱动代码迭代只使用训练/开发反馈，最终测试冻结代码与阈值。
 
-AHA contributes a failure taxonomy and failure-reasoning evaluation. Its released repository does not contain a downloadable final AHA checkpoint, and its reported full fine-tuning used eight A100 80GB GPUs. It is therefore not reported as a reproduced model until a checkpoint is trained or officially released. FailGen remains useful for constructing controlled failure categories.
+既用 DROID 780 条数据不能重新宣称为未触碰测试集。标签异常、既往使用记录与清理规则单独保存。
 
-### LIBERO-Plus
+### 成本与指标
 
-LIBERO-Plus provides camera, robot-state, language, lighting, texture, noise, and object-layout shifts. It is the primary OOD test bed. Original LIBERO remains the in-distribution reference; LIBERO-Plus measures cross-distribution robustness rather than replacing the clean evaluation.
+分别记录观察类型/分辨率、历史缓存及检索、critic/工具调用、GPU 秒、端到端 p95 延迟、重规划与恢复次数。开发期代码迭代成本与部署期证据预算分开；报告成功率-成本曲线，不只选一个有利阈值。
 
-## Evaluation protocol
+闭环报告任务成功、失败恢复成功、误干预率与证据成本。检测报告同一正类、同一时间窗的 AUROC/AUPRC、固定误报水平下检出率、检测提前量及风险-覆盖率。总表 SAFE early-stop AUROC 基于每任务最短轨迹窗口内的最大风险分数，不等于实际提前量或恢复收益。
 
-### Splits
+任务和难度在测试前固定。置信区间按任务/episode 聚类，不把同轨迹多帧当作独立样本。
 
-- Training and threshold selection never share trajectories with the final test set.
-- Failure-detector splits are grouped by task and episode, never by individual frame.
-- OOD results are reported separately for each perturbation axis and severity.
-- A clean original-LIBERO score accompanies every OOD score to reveal robustness/quality tradeoffs.
+## 当前完成边界
 
-### Budget
-
-Every episode records:
-
-- number and type of observations;
-- image resolution and temporal window;
-- calls to critics, depth, segmentation, retrieval, or other tools;
-- wall-clock latency and GPU seconds;
-- action replans and recovery attempts.
-
-The main result is a success-cost Pareto frontier. Fixed-budget comparisons use identical maximum cost, and adaptive-budget comparisons report the full frontier rather than a single favorable operating point.
-
-### Verification
-
-Report AUROC, AUPRC, expected calibration error, Brier score, and risk-coverage curves. The action trigger is chosen on the validation split and frozen before testing.
-
-### Task performance
-
-Report task success, failure-recovery success, excess interventions, mean evidence cost, p95 latency, and success per unit cost. Confidence intervals are computed over episodes with fixed seeds shared across methods.
-
-## Compute policy for one RTX 5090
-
-- Reproduce released 7B checkpoints by inference and benchmark evaluation.
-- Fine-tune lightweight heads, adapters, routers, critics, and calibration layers.
-- Do not attempt to repeat full 7B pretraining or AHA's reported eight-A100 full fine-tuning.
-- Cache VLA features and observations so detector/router ablations do not rerun the policy.
-- Run a small deterministic smoke suite before any full benchmark.
-
-## Additional papers and systems
-
-- ActiveVLA is a close paper-level comparison for viewpoint selection and 3D zoom. Its official repository currently lists training, checkpoint, and evaluation release as pending, so it is not an executable baseline yet.
-- LIBERO-Para is a complementary language-shift benchmark. It can be added after the seven LIBERO-Plus axes are stable, without changing the core method.
-- LIBERO-Pro can serve as a secondary memorization/generalization audit after the primary comparison is complete.
-
-These additions expand evaluation coverage; they do not replace the five core components above.
-
-## Verified smoke-test evidence
-
-- Hardware path: RTX 5090, CUDA 12.8 PyTorch build, `bfloat16` model inference.
-- LIBERO path: a real `libero_spatial` task reset and rendered agent-view and wrist-view RGB observations through EGL.
-- OpenVLA-OFT path: the released `moojink/openvla-7b-oft-finetuned-libero-spatial` checkpoint loaded with 7.54B parameters and generated a finite eight-action chunk from the real observation.
-- AVA-VLA path: the released `LiAuto-DSR/avavla-libero-4in1` checkpoint loaded with 7.54B parameters and generated a finite eight-action chunk from the real observation.
-- SAFE path: package import and Hydra training entrypoint completed; numerical detector results remain gated on a frozen policy-rollout dataset.
-- AHA path: all 57 released REFLECT subset records and images were found; no final official AHA checkpoint is present in the release.
-
-Passing a smoke test establishes executability, not reproduced paper metrics. Numerical claims enter the paper only after the fixed-seed episode protocol above is completed.
+已有结果可作为起始基线和开发依据，尚不构成跨主评测组合、同预算、同输入的完整新方法对照。发布代码、加载成功和工程链路通过均不自动等同于论文指标复现。ActiveVLA 与 AVA-VLA 是不同工作；前者未获得可执行发布入口时，不能使用后者成绩替代。

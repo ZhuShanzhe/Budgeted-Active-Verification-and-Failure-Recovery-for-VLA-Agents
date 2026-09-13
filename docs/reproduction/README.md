@@ -1,4 +1,20 @@
-# Baseline 复现总表
+# Baseline Report
+
+当前总报告：[Baseline Report](BASELINE_REPORT.md)。它取代本目录此前分散的总表，汇总 19 项既有测试，并采用统一五列：dataset、model、harness、reported performance(in paper)、our reproduced performance。
+
+- [PDF 报告](pdf/baseline_reproduction_report.pdf) / [LaTeX 源文件](pdf/baseline_reproduction_report.tex)
+- [机器可读总表与原始结果哈希](baseline_table.json)
+- [统一对照协议](../BASELINE_REPRODUCTION.md)
+
+文献及报告核查截至 2026-09-13；实验记录截至 2026-09-05。本次只重算和整理已有结果，没有新增训练或评测。PDF 文件名保持不变，已有 GitHub 链接仍有效。
+
+主评测组合确定为 LIBERO-Plus、MIKASA-Robo（MemoryVLA 五任务协议）和 SAFE-DROID；标准 LIBERO 保留为干净控制项。MIKASA-Robo 尚未接入或复现，不能列为现有成绩。现有 Plus 分数属于含提示词混杂的旧诊断，不能作为修正协议的论文主结果。
+
+2026 顶会定向样本共 8 篇：统一仿真 benchmark 计数下，5 篇使用 2 个、3 篇使用 3 个，并各有真机实验。这不是全年统计，也不支持“三个数据集是硬性要求”。逐篇范围、来源与计数规则见当前总报告。
+
+## 历史复现审计
+
+下列状态与文件保留其原审计日期，用于追溯，不覆盖当前总报告的证据边界和数据集选择。
 
 本目录按“可写入论文的证据强度”记录基线状态。仓库存在、依赖安装成功或单次前向通过，均不等同于论文结果复现。
 
