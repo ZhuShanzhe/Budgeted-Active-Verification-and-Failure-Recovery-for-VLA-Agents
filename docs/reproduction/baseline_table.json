@@ -208,11 +208,6 @@
       "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_AVA-VLA_Improving_Vision-Language-Action_models_with_Active_Visual_Attention_CVPR_2026_paper.pdf"
     },
     {
-      "key": "PLUS",
-      "title": "LIBERO-Plus：CVPR 2026；原论文结果表",
-      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html"
-    },
-    {
       "key": "PLUSNUM",
       "title": "LIBERO-Plus：作者论文完整表与各套件明细",
       "url": "https://arxiv.org/pdf/2510.13626"
@@ -238,145 +233,33 @@
       "url": "https://arxiv.org/html/2508.19236v2"
     },
     {
-      "key": "MEMVENUE",
-      "title": "MemoryVLA：作者 ICLR 2026 项目与公开资源",
-      "url": "https://shihao1895.github.io/MemoryVLA/"
-    },
-    {
-      "key": "HAM",
-      "title": "HAMLET：ICLR 2026；Tables 2-3、真机实验",
-      "url": "https://arxiv.org/html/2510.00695"
-    },
-    {
-      "key": "HAMVENUE",
-      "title": "HAMLET：ICLR 2026 正式会议条目",
-      "url": "https://iclr.cc/virtual/2026/poster/10010110"
-    },
-    {
-      "key": "SP",
-      "title": "SP-VLA：ICLR 2026 正式会议论文",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html"
-    },
-    {
-      "key": "SPFULL",
-      "title": "SP-VLA：实验设置与真机补充",
-      "url": "https://arxiv.org/html/2506.12723"
-    },
-    {
-      "key": "SIMPLE",
-      "title": "SimpleVLA-RL：ICLR 2026，3.1 实验设置",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/cbfbcb4da14235bd69b134070898ae9d-Paper-Conference.pdf"
-    },
-    {
-      "key": "COSMOS",
-      "title": "Cosmos Policy：ICLR 2026 正式会议条目",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/748becc400a57c0e31cfe6a2e7951467-Abstract-Conference.html"
-    },
-    {
-      "key": "ACTIVE",
-      "title": "ActiveVLA：CVPR 2026 正式会议论文",
-      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html"
-    },
-    {
-      "key": "ACTIVEFULL",
-      "title": "ActiveVLA：4.1 与三套仿真基准",
-      "url": "https://arxiv.org/html/2601.08325v1"
-    },
-    {
-      "key": "STABLE",
-      "title": "StableVLA：ICML 2026；Table 1 与真机设置",
-      "url": "https://dagroup-pku.github.io/StableVLA/"
-    },
-    {
-      "key": "STABLEVENUE",
-      "title": "ICML 2026 官方论文列表（含 StableVLA）",
-      "url": "https://icml.cc/Downloads/2026"
-    },
-    {
       "key": "MIKASA",
       "title": "MIKASA-Robo：官方数据、环境与版本说明",
       "url": "https://github.com/CognitiveAISystems/MIKASA-Robo"
     },
     {
-      "key": "MIKASAV",
-      "title": "MIKASA-Robo：90 任务 VLA 版与旧 RL 版发布边界",
-      "url": "https://github.com/CognitiveAISystems/MIKASA-Robo/releases"
-    },
-    {
       "key": "ROBOCASA",
       "title": "RoboCasa365：Table 2，目标任务微调后的成功率",
       "url": "https://arxiv.org/html/2603.04356"
-    },
-    {
-      "key": "ACTIVECODE",
-      "title": "ActiveVLA：本次核查仍待发布的代码与评测入口",
-      "url": "https://github.com/ZhenyangLiu/ActiveVLA-Injecting-Active-Perception-into-VLA"
     }
   ],
-  "conference_sample": [
+  "dataset_notes": [
     [
-      "HAMLET [HAM][HAMVENUE]",
-      "ICLR 2026",
-      "LIBERO；RoboCasa Kitchen；SimplerEnv",
-      "3",
-      "有；跨基准迁移，不只摘要中的两套"
+      "LIBERO-Plus：扰动下的主动验证与恢复",
+      "作者报告 OFT 全套件 SR 69.6%，其中相机扰动 56.4%、初态扰动 31.9%；mix-SFT 整体 79.5%，仍有提升空间。[PLUSNUM] 本研究用于视觉/初态等分布变化下的证据获取与失败恢复。代码和资产已有；现有 70 次结果含提示词混杂，仅作诊断，正式比较须使用冻结的无混杂协议。"
     ],
     [
-      "MemoryVLA [MEM][MEMVENUE]",
-      "ICLR 2026",
-      "LIBERO；SimplerEnv；MIKASA-Robo",
-      "3",
-      "有；Bridge/Fractal 合并，不把真机两类任务拆算"
+      "MIKASA-Robo：历史证据与部分可观测判断",
+      "MemoryVLA 论文五任务协议中，OFT SR 28.4%、MemoryVLA 41.2%。[MEM] 该协议包括 ShellGameTouch、InterceptMedium、RememberColor3/5/9，适合检验历史检索和证据不足判断。环境与数据公开，但本项目尚未接入或复现；不能将旧五任务成绩套到当前 90 任务版本。[MIKASA] 模型只能查询真实保存的历史，不获取未记录的过去或状态真值。"
     ],
     [
-      "SP-VLA [SP][SPFULL]",
-      "ICLR 2026",
-      "LIBERO；SimplerEnv",
-      "2",
-      "有；效率与任务质量同时评测"
+      "SAFE Pi0-FAST / DROID：真实跨任务失败检测",
+      "论文 Real Franka 列中 MLP 的未见任务 AUROC 为 64.16，本次固定配置为 53.53；该差距含调优协议差异，不能直接视作新方法可获得的增益。[SAFE] 已有 1,464 条原始 rollout、780 条既用筛选数据，可用于真实域离线验证。它不是 DROID 全集，也不提供交互式新视角或真实恢复反事实；标签异常与既往数据使用须保留记录。"
     ],
     [
-      "SimpleVLA-RL [SIMPLE]",
-      "ICLR 2026",
-      "LIBERO；RoboTwin 1.0 / 2.0",
-      "2",
-      "有；若版本分开，原文计 3"
-    ],
-    [
-      "Cosmos Policy [COSMOS]",
-      "ICLR 2026",
-      "LIBERO；RoboCasa",
-      "2",
-      "有；RoboCasa 不是 RoboCasa365"
-    ],
-    [
-      "AVA-VLA [AVA]",
-      "CVPR 2026",
-      "LIBERO；CALVIN",
-      "2",
-      "有；四个 LIBERO 套件只计 1"
-    ],
-    [
-      "ActiveVLA [ACTIVE][ACTIVEFULL]",
-      "CVPR 2026",
-      "RLBench；COLOSSEUM；GemBench",
-      "3",
-      "有；三者共享 RLBench 系仿真底座"
-    ],
-    [
-      "StableVLA [STABLE][STABLEVENUE]",
-      "ICML 2026",
-      "LIBERO；CALVIN",
-      "2",
-      "有；多个扰动等级不增加数据集数"
+      "RoboCasa365：长时序家庭操作扩展",
+      "论文 Table 2 的 GR00T N1.5 在预训练＋目标全数据微调设置下，atomic SR 68.5%、composite-seen 40.6%、composite-unseen 42.1%。[ROBOCASA] 复合任务仍有明显空间，适合环境反馈与阶段性恢复。该数据集作为扩展项，尚未完成本项目基线；控制适配与长时序采集成本较高，不与旧版 RoboCasa 成绩混用。"
     ]
   ],
-  "count_summary": {
-    "n": 8,
-    "two": 5,
-    "three": 3,
-    "mean": 2.375,
-    "median": 2.0
-  },
   "notice": "No new scientific experiments; not a matched-protocol leaderboard"
 }
