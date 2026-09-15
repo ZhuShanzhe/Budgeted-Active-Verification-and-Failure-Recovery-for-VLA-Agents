@@ -1,0 +1,11 @@
+{
+  "scope": "Offline Zetta Cluster-stage mechanism test on archived adapted EmbodiedSkills rollouts; NOT online Zetta evaluation",
+  "source_commit": "74527e779602d33821aeb93fb63afc0bb062db02",
+  "native": "review_clusters prompt, artifact reader, immutable read receipts and output/evidence validators",
+  "adaptations": "API invocation replaces Codex persistent session; DeepSeek V4-Pro + Flash; image content IDs explicitly bound by actual bytes hash; filesystem reader disabled; reasoning disabled; no candidate promotion",
+  "artifact_read_limit": 12,
+  "max_turns": 24,
+  "max_output_tokens": 8192,
+  "api_budget_usd": 3,
+  "restrictions": "These already-inspected trajectories cannot subsequently be represented as held-out tests for any learned candidate."
+}

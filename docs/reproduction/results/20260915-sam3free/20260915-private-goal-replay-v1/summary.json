@@ -1,0 +1,62 @@
+[
+  {
+    "physical_steps": 225,
+    "final_success": false,
+    "ever_success": false,
+    "first_success": null,
+    "task_id": 2,
+    "source_episode": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-thea-v2/t2_i40_thea-port",
+    "every_step_truth_matches": true,
+    "final_predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ],
+    "first_each_predicate_true": [
+      86,
+      null
+    ]
+  },
+  {
+    "physical_steps": 245,
+    "final_success": true,
+    "ever_success": true,
+    "first_success": 208,
+    "task_id": 3,
+    "source_episode": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-thea-v2/t3_i40_thea-port",
+    "every_step_truth_matches": true,
+    "final_predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ],
+    "first_each_predicate_true": [
+      208,
+      138
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "diagnosis_id": "diag-task5-budget-end-vla-placement-undershoot",
+  "cluster_id": "task-specific-budget-end-unresolved",
+  "outcome": "The book is grasped and carried to the caddy but is released/dropped in the front compartment (EEF y ≈ -0.15) instead of the back compartment (y ≈ -0.24 to -0.30); the episode runs to the step budget with the task incomplete.",
+  "immediate_trigger": "At step ~430-450 the gripper gap collapses to ~0.001 (fingers close on empty) while the EEF is still stalled at y ≈ -0.15, releasing the book in the front compartment rather than the back compartment.",
+  "root_cause": "The frozen Pi0.5 full-task VLA policy undershoots the placement target: its learned trajectory stops the EEF at the caddy front compartment (y ≈ -0.15) and stalls there (stalled=1, direction cosine oscillating around 0), never advancing to the back-compartment depth (y ≈ -0.24 to -0.30) that the success comparator reaches. The book is consequently released in the wrong compartment. This is a VLA policy undershoot, not a scripted-servo singularity (no move_to/IK was ever called).",
+  "contributing_causes": [
+    "The VLA replans every 5 steps and, once stalled at the front compartment, emits oscillatory near-zero-progress commands (direction cosine hovering around 0) that consume the remaining step budget without advancing depth.",
+    "Grasp retention is marginal (grip gap ~0.029 near the closed threshold); in one failure (bc9c69b9) the grip drifts open to ~0.059, indicating the book can slip during the stall, converting an undershoot into a guaranteed drop."
+  ],
+  "competing_hypotheses": [
+    "Root cause: VLA placement undershoot — the policy stops at the front compartment (y ≈ -0.15) and stalls, releasing the book short of the back compartment.",
+    "Alternative: grasp-retention failure — the book slips out of a marginal grasp during the carry, and the EEF 'stall' is the policy reacting to the lost grasp rather than a placement-target error."
+  ],
+  "owner_layer": "vla",
+  "affected_component": "frozen Pi0.5 full-task VLA policy (placement phase)",
+  "earliest_divergence": "Step ~170-190: in the success episode the EEF continues advancing to y ≈ -0.24 with the gripper locked at 0.029, while in all three failures the EEF stops at y ≈ -0.15 and begins stalling (stalled=1, direction cosine dropping toward 0).",
+  "supporting_evidence_ids": [
+    "artifact-b6a2be51b2060032843d9e082e3e59998d3eeeb47b557f9c6d6024c404f8e307",
+    "artifact-5bb2cf59b7e7369c1f713ffc11920e60976da1016f4f502593f0cb41e9659ca0",
+    "artifact-ffa6bf9c1e0731049652df1b173df2f535832f5ddca6b750feaff3258418d2ac",
+    "artifact-3a677b127e30a0118829f7984ba9bf1a363699a81c6dba7a40a0c371dca71444",
+    "artifact-ce62798f55d07f5fa355469b2c9034288c0499c6b41234a135b4cd5e7ea93fc0",
+    "artifact-e719cac1db88251a30f71a651e3ff7e886257af0682ef654577fd09cc08737d6",
+    "artifact-060a0276b6dbc677e265e4e4bc49b19d24377bedd709cfe4880bc052cc5cfee4"
+  ],
+  "counterevidence_ids": [
+    "artifact-bc9c69b9020f728a5881308cd44b9df37ed917dc3799d7cd36de2a761eb3ac4e"
+  ],
+  "falsifier": "If, in a failure episode, the gripper gap had collapsed to ~0.001 (book released) while the EEF was still advancing toward y ≈ -0.24, the placement-undershoot hypothesis would be refuted in favor of grasp-retention failure. Conversely, if the book were held (gap ~0.029) through the entire stall and only released at the front compartment, grasp-retention is excluded for that episode.",
+  "distinguishing_check": "Compare, at the same array position, the gripper gap at the moment the EEF first stalls (stalled=1) versus when the gap collapses to ~0.001: in failures 1 and 3 the gap stays at book-thickness (0.029-0.036) through step ~430 while the EEF is stalled at y ≈ -0.15, only collapsing at step ~440 — meaning the book was HELD during the stall, so the stall precedes and causes the drop (placement undershoot). Failure 2 (bc9c69b9) instead shows the gap drifting open to ~0.059 by step 410, consistent with an early slip — evidence of within-cluster heterogeneity. A paired live run with a longer placement horizon / explicit back-compartment prompt versus the frozen policy would directly test whether the undershoot is a policy-depth error.",
+  "required_validation": "paired live experiment needed before acceptance",
+  "confidence": 0.55,
+  "visual_evidence": [
+    {
+      "content_id": "artifact-3a677b127e30a0118829f7984ba9bf1a363699a81c6dba7a40a0c371dca71444",
+      "access_record_id": "visual-access-8433054686b31a96584edf2962883764694bada70ea72ccfa6a8724a87bbc43d",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 0-520 (overview composite)",
+      "claim": "Book (black rectangular object) moves from tabletop into a compartment of the caddy by step 170 and remains there; EEF hovers above the tray through step 520 with no verified back-compartment placement."
+    },
+    {
+      "content_id": "artifact-ce62798f55d07f5fa355469b2c9034288c0499c6b41234a135b4cd5e7ea93fc0",
+      "access_record_id": "visual-access-716d391f4c4e9b41b4c2bb22076b81c15c71bfa2d8ec25f95fa82a2b0ebd7ef7",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 0-520 (overview composite)",
+      "claim": "Book ends up inside a compartment; wrist view looks into the dark tray interior with the gripper partially visible, no verified back-compartment placement."
+    },
+    {
+      "content_id": "artifact-e719cac1db88251a30f71a651e3ff7e886257af0682ef654577fd09cc08737d6",
+      "access_record_id": "visual-access-e1d29281caa9fda11e44d4c6902aec528b6fa1b6f7c3d21f7405ba30c8060106",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 0-520 (overview composite)",
+      "claim": "Book stands vertically inside a compartment from step 170 onward; gripper hovers near it, no verified back-compartment placement."
+    },
+    {
+      "content_id": "artifact-060a0276b6dbc677e265e4e4bc49b19d24377bedd709cfe4880bc052cc5cfee4",
+      "access_record_id": "visual-access-1f887c0017b7e54d0290083698259c41adcff72f2eb4d915ada5b91977658500",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 0-520 (success overview composite)",
+      "claim": "Success comparator: EEF descends deeper into the tray (wrist view looking into the compartment), consistent with reaching the back compartment depth."
+    },
+    {
+      "content_id": "artifact-ad061983cf105a64e4e39e9d23412ec27e4c12998e36309465611d03e1dadcdd",
+      "access_record_id": "visual-access-cbbad800b28ddaa64eba35d02fc8bd48b8cb0f1a9478f5a5433fe59730be06b2",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 480-520 (event window before/center/after)",
+      "claim": "EEF hovers above the tray at the end; book already inside a compartment; no back-compartment placement visible."
+    },
+    {
+      "content_id": "artifact-1d1e69179f4f5a7a9724c725f8f678ac2eb48bbaf8d5684f2f5c235a458b91aa",
+      "access_record_id": "visual-access-929d040aaa83286980a904bd69fba2788249b98a1de202239dc164614bd14d1e",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 480-520 (event window before/center/after)",
+      "claim": "EEF hovering above the tray, no progress into the back compartment at the end."
+    },
+    {
+      "content_id": "artifact-52eb226a04f5f140778993829f2b2c14906fe1016ae211407b1aedef906160d5",
+      "access_record_id": "visual-access-929b3eb16dedc3e99da9c2fc932599b2f2e888197423e3fe387e8a676c36942e",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 480-520 (event window before/center/after)",
+      "claim": "EEF near/above the tray at the end; no verified back-compartment placement."
+    },
+    {
+      "content_id": "artifact-4938ef7ec9bfe1b8c71f7d14cba73b121c5484b62b000586535ce58c5185c2ff",
+      "access_record_id": "visual-access-2577592d7d25e1ebb4a79e13bb88e5c2f09e7e6e4e2dd919080e73a209cf776c",
+      "camera_views": [
+        "left",
+        "right"
+      ],
+      "step_or_frame": "steps 480-520 (success event window before/center/after)",
+      "claim": "Success: wrist view looks down into the dark tray opening, consistent with the EEF having reached the back compartment depth."
+    }
+  ],
+  "task_contract": {
+    "suite": "libero_10",
+    "task": "5",
+    "language": "pick up the book and place it in the back compartment of the caddy"
+  }
+}

@@ -1,0 +1,688 @@
+[
+  {
+    "task": 0,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-v1/t0_i40_embodiedskills",
+    "outcome": "failure",
+    "content_id": "artifact-ee3357aeeebfa2352101ffa71bd297ab935b7a35427ed9cdcb4b71eebf9d1bdc",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "3e69c5217cc54e942e4a8eeff101db5a4a313cd59d042c4a3d68df284fb08213"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "aa11ec4e6a9bd5426ef9152d6ad8071c03ecfbbfcb1187f83cf831b99ede8a36"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "9f23d7d44e69f9bdbc5310050861d6257511c92aba8978b5691267a9cf602506"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "842b060704e3c246f3c7da1e641fd0ec31eec2e2058c1d0a44cb29d608ed9dc8"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "c0d5d1ad587e22d7e2cbcb46724720ed6df4a48471b1fb450d9ba86f8f25962e"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "c6a1037b84cadfa8bd22fdea9d740a6326012402a4418c8974c221a92e0aef6d"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "4d05935397861e121bdc16acc73f9a6430a876d5cb0fff003a12a0d1ac565f81"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "6876b1e656e2e5b1e7180bf95ccfa9dd8e979c4a72439fb51e4e9234f1af4f4a"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "46ad192d2ce6b91ab4db057601bf4185b7f6151cc60520b29a3c47337039b564"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "a8c7a9377de20c0b05618b49686e5c6ce502faf5ed090b3468ca133c3b0db841"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "5755151920a72e1c81a45c70dd30de686ad52dea0ebeab2d073b3cf50e3b8b83"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "60576ef276d18943f6f72a5540566e928dc6db66194260c67ca978b6420035a9"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "e3ad14685c0b5a5de52213f6d80b79a3c2b777b41630efa2c4db5f426f23f955"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "7d6f880e2cca16c1a62fd43f67f287571994dd2d15b7b607adc6ea07646c70ea"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "57bee67b11b5b4f1c8ebb91cdd332080a4be94578ff4fa61d622304d35427386"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "d61eeac6b925ed7807a8c9601dde5aec199a525f5a9ce16f1ac033e7aeb117b8"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "6caeea7d1a68119faf2e427d70e6b011b392b2944fa81ed1d46606130f76b8c1"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "e70a018a35783199eab26467761abad03f4f5d15003075d8226003902345303d"
+      }
+    ]
+  },
+  {
+    "task": 2,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-v1/t2_i40_embodiedskills",
+    "outcome": "failure",
+    "content_id": "artifact-1f3354c4fab9b9cde194eb71d814f4c5ff68705df6639e31cc309d25d0f388d9",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "34f66b6eab78bb49643678007bdd3afe9840609ad7e513e025d540f6157c7031"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "9f446d9e55899c991c5e98e7a778f792dd88e63587f2ea6c883cb407af292499"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "33c8f3e0314595919e3396f91e3a92c7110d7b920714a65538bc5dfce3a67dd2"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "713bfd45231cbe3ee3ecf882420e16f09b79c86a976a6413fd9ecd83c75fc51f"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "238b3c623b953e93ddddbc4985f4c578bb5b7c877f5585d44a82ca9c0cb707d9"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "f6502b8a0ab4892502d80ec4c33b17f31155ae23f799e5cb9808d34336df85f1"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "7d8d59c8fcc8d19b92e38d759319efd3d36531b3ddf060b030835bdab28ae675"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "46a705037366439b097103739f0db924ad2746a728880ba2496eb39721de7d70"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "4f375337856e11d384378cf336c3488ed0d82d8479684d1a0a3567aff9d7686b"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "dbfc4800b8a15cd264ad4aaefab2019be22427859da416686d72e41361fea675"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "f958d78f4117ecd52d0f176bb074277a0ab03aa369f7a249eb777773e36807d8"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "3d12601175623f56ec11bab181ec3a8d926d0ae108861961a5928f6583f01366"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "5e9fec34757627a9454599624bbbfc1fb2445ede2681137cfef8bee383afbd51"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "e3b1529cfc25dcc4e1f26878cde61b30e5b47c97776aa3e67dc8f28b4b28fc65"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "585ee5c1eb41c62d951bcd2bbf786cce6ca4746d1015999a6d0fdabff49d8235"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "d2c013958a568aeeb88a805e104284a7bb958cc4621bba147049d5368d9c0456"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "edf7c187b335666fb94531da2ca72f1e1e643c28c9d074ae55b38a9661ccd91f"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "ecfe1cc6aa7a1900b532e1977f7c14210fd4f718d98eb526adc57394c3015d98"
+      }
+    ]
+  },
+  {
+    "task": 4,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-v1/t4_i40_embodiedskills",
+    "outcome": "failure",
+    "content_id": "artifact-15ae002f7c0147fb127f6d598eee23f762db95e273f748090dfc837f41a12205",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "78304b175a167fb04c34c45f4aa879faba27c0bfe67aaa1e711d8981d97908f1"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "7cdc11a45aeff1467cdbf25a6a56941005f5f3a7f874137d2741b65298afdecf"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "c6b16edfbbad61a04dd24fbea4471bf121df3c66cff88bb1c490c66cd6bf754d"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "c9d9f961ef9a7aaa4d58cc2538a524c9aaae90db63549a8386d8ce82d5038756"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "2f7698a3264a73ed02a553f729f4685bc796607919185eff5d8a272de289a218"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "2577706ad70c8231a7c0d8d1e03286ae2a392aa9d91623ded7ba18b4a05fe07a"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "0e37320b0e9ef41fe55fa901db4a4aa315876162bca5409f9231709d7ea44417"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "900ae7e7c14a00b54f25a0222a69a38669454e6d7042d78e61ed35489e1b91a1"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "3f8bfa053921644e1f5950c5eb493c20c77c4db5ad6bce3637dd24a5ef4efd90"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "b700ee1ff4b76c90eb43525c05e184d74866e8528b64b751ddbe9f882d5a1244"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "e0b647bb0acb617fc1387fa8921676f11f6075f7fe1cba4d0dcbaa8cfea6a33a"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "8a495c3517035245a25496200089c9bd149256ce120b2f01c2e85e59c7f19f40"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "fa33ecf7a9955a1b0c4ca822e08d2dcd085d3f12b30189e3ebe966db3945c9d8"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "639b799d746bc431d6a9c0607d55258d309c637fafbdf401994e851d79978123"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "13a90a1a643283323bf3831fc7ffbdb5c6dc04a1733b64d0fd95797c6b4c14fb"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "ff9ba48aacbc34b2c400d02a0e8b8af5b550efad723e151461bb81900ccf97c1"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "b57413d24633c64d2ef8b39e0804ba5e50b1dc13e41fcbf7df4cdab9dd68a039"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "dc8f5d8bc5c39636f3504823638394cc73b7eed9b0ac2622172f566da95e9ff8"
+      }
+    ]
+  },
+  {
+    "task": 8,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-tail-v1/t8_i40_embodiedskills",
+    "outcome": "failure",
+    "content_id": "artifact-b850c5684547dce55d461b1599fd03b710c2c1331ef5d53b3cd8d39120437b88",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "cde0516b942d057e44c7d29e0959a87b55a32356e7f55b80c3421b66b59de4a5"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "8a6401271fd57aa7557c8081ce2957fc4ad29e57f2e26d36bbc3ce6c1b936913"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "e08176ec54bd927de01e3266a2ff5ed4c8c4bb33d95686ae0a3b24dede443530"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "0aa07e42961a2058835bf992c9245d8f4bbae0aa0434019781a2397b63477ae7"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "118dd32cff712a2ee7e0f7afa992783312f3bbcba700a1c0ef13aa6913c8c320"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "1e415298f910d2d4d25419002c26c9c78b8541aabd8a8fe456956a9ceb89fa59"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "0563b9ec0f79d5e9248b9616345532fa32bb1f4f95eb8daf0d759fe16bc4aec7"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "0559a2eb53f66025afd8f536faa8b4a0290f6ea21b1198306fc3ea6cb79ba14a"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "9dc415a1ab4fdad0d0de4c14d29c74bb93f1e024b7fa752fbd548fa9fffa2b21"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "cad8a33ea8237c87c4768a95c8349ce1405e6024894e5c3d60fc63b82390c41d"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "d8e463fc547a56e3c2954f57cfcf81e097ff9fd4add88a0797365d76e9be57a9"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "dc8e38776f8fe1d24b8695a3181cc14ff60e02b9a48572510c2e6cbed4790492"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "49a2618778b286bd74090c87e62b536ce3e502b2e0690cd6d64f26e260f4745d"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "a1aeb7dee61eee8569102445bcb03402e237ed396a35ae0b177c41f5bbf1144f"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "3d48579a0e7422ffa447bacd49b3385ba19a657fa82a2dda94570fe67e9ff222"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "bab1a8089f36fdcd491834541df106d997153c161cd03b7f3067614360baf0c1"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "f7f7ea8f3190ebdc5509ab6728057f589e504430e0c94f6955c027991a218857"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "8836324568780cdf40d3a81837fb5854d4938bbfe883ef708f1f6bdd859b0142"
+      }
+    ]
+  },
+  {
+    "task": 9,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-tail-v1/t9_i40_embodiedskills",
+    "outcome": "failure",
+    "content_id": "artifact-8515a1532bd701407152e7c41cb01da79f3fe2b6620ccfbde98ec75f07a49824",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "25279784db2d5b0e228c26cf2ece9ecdc11f9c2c70d045ab0b378bd91d55d141"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "ef12e9dea166461b46fe57d1a177d5fd436f5348b0c390c9ca9e88eecdcb316f"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "7179cdae169242c6a8ba2ef02cbd53220ef4ed2ab2384810e8fe8d2f8c167555"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "682ae455e209b04f3b8fb0a3267e66471b2147d8948af093222b4da9181612f6"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "6b7858ba083823922462374e7ebf72dbfcea983589b621756d26a6e204864ca5"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "2dbc6c0d75f372d3e9b5ef612fa348bc45f9f069b28415a49c71d0775b47b56a"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "5842500cfb0f23cd25fb515adedbf3f7fd86b963106fb82ad5fb63957dea46c8"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "c385edf385e61c6c314eba4126f86fb14e7d5c4e52091c9849e97cb7958c06a3"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "4e99064ac836c206812b2abe9558f5f711a780f43b0594c641c5fec0bb3eba79"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "a3c5d29b5d317f0a2b4e7ddecbd4e9aa04213ac0ba98527d9885035982fd8130"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "999685f23af36ec8112a675f814991775b78fb2da4e0ed6874e6d3850a39a900"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "bcd1c8d2767aac3b6440ecca70c9a47a03f2918ede5a629023d177a0941d473e"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "a296aea48fee911732837366099fd73814351540389c554e88c583477677366a"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "52f2935b5aff31cba63309993e27ecdce582f14e3917f1c0926336d9d444b9e0"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "f0ad44fda6fc0901f00da2cee98b342fd49e8831dca345dd9c2f1acd9bd67da0"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "b2018c87d1604cc640c4ff5a7c33db9cb4695011827d4cbec08b51dc2a36fc31"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "4b035bc49f0541589d923dae6e738eb6c841f0d0ec2e1ab4d0d983269bf5602c"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "00c866735539bb4d25fbd629550ddf6c567358f20cf99e2eef23928ae3c42979"
+      }
+    ]
+  },
+  {
+    "task": 6,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-retry-v1/t6_i40_embodiedskills",
+    "outcome": "failure",
+    "content_id": "artifact-572c832d2bfb3b35a2a96a9b11004d8e718cf5a3417a5d92ed684f76752d6c3c",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "4a90a60e84bf03d7594fff1fab3fe2201adda1a5bcc22695577da456779606e3"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "cf9fb326ce2b59f02bee206065d747dbfeeec10d49d5f60287e3b7c7402ae41b"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "5d57945da1b7868ae981773e3c0b6fcd98879462682c249e52dcefdf5ba57b0f"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "56d28773ff1171e61af98e41116ddc813c0f514fd0b32828f458831280d85f75"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "e3652ea904d51546c5dbb1a3c2ea8f689f9546941eb719e3c9470fb571619abc"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "2fa62f479261d488a3b3bcb93a6e9d2e1d647a955d0592f8e712ae6c5c592923"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "c402b007a07b18224f1833dc3933b9dbd107d7bd6de16927d456488dd021b716"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "2f61162345d0dea7cb231296aad36d386c5550727533cb6873201e74a066e42e"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "d3d97a88536617658717f96ff4113078009a543901002d44af8f677ee3692a7d"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "592394c0cb49a13acecbce82033b9be58430457de1ca6caab2cd4f1e0366c6a9"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "b0e24cd9bec5100cca43d5d3f24ab1e56d4406ee1b472c60414ee615171a55cd"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "6d6ba1e63e6143e42d0bd83cbcb9ec11f9d4834ab6fb1b2e7662bdf752595ce7"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "da3478d674e3d261444b2929612d774135390bbec1dec17479618dbea44e2936"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "4a694b30dc5a991f889f9e198336b9e791de0963205e55dee7931dede435c2d8"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "cdb4ffa0a46b309c44767e4cbe48a9a810c31ac0cf5a8994e6b56649a5c8c830"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "4f8bc197a9380d1ecd5dac78a3321c82d3dfd696a5a8c6191c64438d5475406d"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "e3477642a8b6e5a01cd1c6ca18e65be2521f7f160323e9c01f7b8b1e79a25dcb"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "3245e13ea70ea044bdbd0507deac165b52fb7e68b9e1c999cd0166d0b4c3c6b0"
+      }
+    ]
+  },
+  {
+    "task": 1,
+    "source": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-v1/t1_i40_embodiedskills",
+    "outcome": "success",
+    "content_id": "artifact-9a361618504bc39bec23dc15de596251d8fb7bcd47207b1f2da64d64eeb17b82",
+    "frames": [
+      {
+        "step": 0,
+        "camera": "agentview",
+        "sha256": "725a957e2309465b7ffa3367c283ca3f3a913f5b75820cfc20420c36104aa92b"
+      },
+      {
+        "step": 0,
+        "camera": "wrist",
+        "sha256": "c92754a9192af2e64c71f91dccfd5a8573c09d846f3b0ecbbf3d733d0769531b"
+      },
+      {
+        "step": 32,
+        "camera": "agentview",
+        "sha256": "9a2ce1bad5d5181a2a023769e524e2716128010c372f581682d2ddf21e154768"
+      },
+      {
+        "step": 32,
+        "camera": "wrist",
+        "sha256": "a2d89159504c15adf3674b2655b07ab9f5aad472c182b7bf395feeb199a83aac"
+      },
+      {
+        "step": 64,
+        "camera": "agentview",
+        "sha256": "69e841c69a7d1f8797615621df6512655d51c3ffb9c9d7bbf6e402ef7675d4aa"
+      },
+      {
+        "step": 64,
+        "camera": "wrist",
+        "sha256": "3d67487c8e58b2d57978d4fccd56a32e3c7bdbd016d1ce66f857e0eea9556e97"
+      },
+      {
+        "step": 96,
+        "camera": "agentview",
+        "sha256": "5aa81fe17118ee814e14b3d4f51dfb2cd975f3c40800afcc27538038a5e1ffc4"
+      },
+      {
+        "step": 96,
+        "camera": "wrist",
+        "sha256": "8797191b5a108e88510f7ede0db055f732aca2efa740c2f04fd3a9e05617e2e9"
+      },
+      {
+        "step": 128,
+        "camera": "agentview",
+        "sha256": "a1c49e73ca3022551143c38452886b12573797538dffb96ab9d668dae4c3d019"
+      },
+      {
+        "step": 128,
+        "camera": "wrist",
+        "sha256": "800b4c8af27a83463136dea63ea05801d4f050ea13731b07519baab81d8327a5"
+      },
+      {
+        "step": 160,
+        "camera": "agentview",
+        "sha256": "1782f0a08a93697f652eaf037e4c389ae16f4398da67b2297befcd5ea92c3405"
+      },
+      {
+        "step": 160,
+        "camera": "wrist",
+        "sha256": "84684d9ea5a5e345c30403452fa906708a737265b9a0425d1c93c09f6800c45c"
+      },
+      {
+        "step": 192,
+        "camera": "agentview",
+        "sha256": "9dad36254f9623cf9504a1192ef45137a91f5ab30fa0bf6007257b4413110831"
+      },
+      {
+        "step": 192,
+        "camera": "wrist",
+        "sha256": "e6631b5225ebd36df848b6f11043d4bf2611a56e22dd14a43cbddbe255393251"
+      },
+      {
+        "step": 224,
+        "camera": "agentview",
+        "sha256": "009fd2affa02e2da080c4c4b97e8679eb937c41714f961dbeaf4be08de73a670"
+      },
+      {
+        "step": 224,
+        "camera": "wrist",
+        "sha256": "1aeaca79e3d6e6f8f57c742e1e342bc3e508b3ba46fb90310c226f04b284d39d"
+      },
+      {
+        "step": 256,
+        "camera": "agentview",
+        "sha256": "b85838891907c64a6c731771d87ed9ce69d797b10e4660c42902a96ff11c5c3f"
+      },
+      {
+        "step": 256,
+        "camera": "wrist",
+        "sha256": "ce2b3d03493bb42359b7b221c3c3265f27889f0c79ba40d8e8dd3d69ad28d3dd"
+      }
+    ]
+  }
+]

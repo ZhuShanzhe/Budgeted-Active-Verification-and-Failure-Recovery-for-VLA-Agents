@@ -1,0 +1,89 @@
+{
+  "valid": true,
+  "online_performance": false,
+  "review": {
+    "review_id": "review-unresolved-budget-end-001",
+    "groups": [
+      {
+        "member_segment_ids": [
+          "artifact-d2b56e37a091bde552d4d4507569e989f9bcc5442cae5594c23bddcbcf1fc385",
+          "artifact-e9ad76229508980245465808f86cc8be9f125358f07ce5d250e56e66165d31aa",
+          "artifact-768800117dba0ef9f34bc6a022e6f4245f66d5bce88f93fd344e47d2ec8b7db0",
+          "artifact-c083fcb60d466b625e88c99d1f353a3ed70333ef16c56a1238c631aaf4beff15",
+          "artifact-11ad4b32485524d29f8e7ca0ebdf9ef5ef6fbfb375ab1164c2601cc2c1ab6b2a",
+          "artifact-936ed5ce33b5a1a1bfa38d7d5613ad57b026b722eb4f8b36e65bb41c3d959c3c"
+        ],
+        "representative_segment_ids": [
+          "artifact-d2b56e37a091bde552d4d4507569e989f9bcc5442cae5594c23bddcbcf1fc385"
+        ],
+        "summary": "UNRESOLVED common mechanism. Six segments span six distinct tasks (alphabet-soup/tomato-sauce basket, stove+moka pot, mugs-on-plates, two-moka-pots-on-stove, mug-in-microwave, mug+pudding) with materially different trajectories: task 0 shows no verified grasp near cooktop; task 2 shows stove lit but no verified pot grasp; task 4 shows a red cup vanishing with empty gripper thereafter; task 8 shows two pots reducing to one with no verified placement; task 9 shows a yellow mug held throughout but never placed in the microwave. The only shared signature is model-call-budget termination with task incomplete, which is a Harness-level artifact, not a pixel-grounded failure mechanism. No merge into a concrete mechanism and no mechanism-based split are supported by the sampled pixels; the deterministic unresolved grouping is retained."
+      }
+    ],
+    "dominant_group_index": 0,
+    "visual_evidence": [
+      {
+        "content_id": "artifact-ee3357aeeebfa2352101ffa71bd297ab935b7a35427ed9cdcb4b71eebf9d1bdc",
+        "access_record_id": "visual-access-c9a55d6240c580dbc626aad2e41022a9e8774815d2bf36ffbd04129eabe6dc62",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256 (task 0 medoid)",
+        "claim": "Medoid task 0: robot repeatedly approaches cooktop/moka-pot area with no verified grasp; task incomplete. No shared mechanism with other tasks visible."
+      },
+      {
+        "content_id": "artifact-1f3354c4fab9b9cde194eb71d814f4c5ff68705df6639e31cc309d25d0f388d9",
+        "access_record_id": "visual-access-396eb0afa86172102f56471dbbe902944f2d75dde5e2fab80fa8305db90e7817",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256 (task 2)",
+        "claim": "Task 2: cooktop ring turns red (stove lit) but no verified grasp of moka pot; trajectory differs from task 0 and task 4."
+      },
+      {
+        "content_id": "artifact-15ae002f7c0147fb127f6d598eee23f762db95e273f748090dfc837f41a12205",
+        "access_record_id": "visual-access-5cae9982cbbdf8d8cc76e7bc8c0f15e8df8abcf1bd2a82e2ddbeb5ce2e0dc5ce",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256 (task 4)",
+        "claim": "Task 4: red cup disappears at step 64 with empty gripper thereafter; distinct object-loss trajectory, not a shared grasp/placement mechanism."
+      },
+      {
+        "content_id": "artifact-b850c5684547dce55d461b1599fd03b710c2c1331ef5d53b3cd8d39120437b88",
+        "access_record_id": "visual-access-3cd824e230b89d38d2e94d5895494423e85adfd182eba14ba25c5d3546caec01",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256 (task 8)",
+        "claim": "Task 8: two moka pots reduce to one visible; gripper near dark tapered object with no verified placement; distinct from other tasks."
+      },
+      {
+        "content_id": "artifact-8515a1532bd701407152e7c41cb01da79f3fe2b6620ccfbde98ec75f07a49824",
+        "access_record_id": "visual-access-f3ce27adee1c08361194f666bc864cdf52baa886d919743d08587554d5b7595c",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256 (task 9)",
+        "claim": "Task 9: yellow mug held throughout but never placed in microwave; retention/placement divergence distinct from other tasks."
+      },
+      {
+        "content_id": "artifact-9a361618504bc39bec23dc15de596251d8fb7bcd47207b1f2da64d64eeb17b82",
+        "access_record_id": "visual-access-8598fe42f873e41280d7ea795481b44444ce90c6ba2e034b33b5d564c2d6522c",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256 (task 1 success comparator)",
+        "claim": "Success comparator (task 1, cream cheese + butter in basket) is a different task and provides no mechanism contrast for the six failure segments."
+      }
+    ],
+    "task_contract": {}
+  },
+  "api_calls": 12,
+  "api_usd": 0.08998368000000001
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-15",
+  "report": "../../SAM3_FREE_LONG_RESULTS.md",
+  "strict_summary": "20260915-sam3free-final-summary.json",
+  "upstream": {
+    "EmbodiedSkills": {"url": "https://github.com/DCDmllm/EmbodiedSkills", "commit": "296795f6b60bc599fa24d87ae1764acf1c82aa9b"},
+    "Thea": {"url": "https://github.com/EIT-HAI/Thea", "commit": "f690e8436d917b32fe6a756e01ff04a66d4d6077"},
+    "policy": {"repo_id": "lerobot/pi05_libero_finetuned_v044", "revision": "8e174154ef5f6c60a8da12ae99c303d8963138c1"},
+    "transformers": {"branch": "fix/lerobot_openpi", "commit": "dcddb970176382c0fcf4521b0c0e6fc15894dfe0"}
+  },
+  "environment": {"python": "3.12.3", "torch": "2.8.0+cu128", "lerobot": "0.4.4", "transformers": "4.53.3", "numpy": "1.26.4", "mujoco": "3.3.0", "robosuite": "1.4.1"},
+  "visual_evidence": {
+    "figures/embodied_t0_step96.png": "4d05935397861e121bdc16acc73f9a6430a876d5cb0fff003a12a0d1ac565f81",
+    "figures/embodied_t0_step128.png": "46ad192d2ce6b91ab4db057601bf4185b7f6151cc60520b29a3c47337039b564"
+  },
+  "scope": "Paired development diagnostic: one initial state for each of 10 LIBERO Long tasks; no OOD or original-paper replication claim."
+}

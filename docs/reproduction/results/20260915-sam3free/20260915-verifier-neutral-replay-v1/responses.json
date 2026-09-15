@@ -1,0 +1,44 @@
+[
+  {
+    "repeat": 0,
+    "condition": "neutral_grasp_question",
+    "finish_reason": "stop",
+    "result": {
+      "holding_any_object": true,
+      "observed_object": "cylindrical can with blue and yellow coloring",
+      "evidence": [
+        "The robot's gripper is positioned directly above the table and encloses a cylindrical object.",
+        "The object is located between the gripper jaws, indicating it is being held rather than merely nearby.",
+        "The can is visible in the first image beneath the gripper, and in the second image the gripper is seen from below with the object no longer on the table surface."
+      ]
+    }
+  },
+  {
+    "repeat": 1,
+    "condition": "neutral_grasp_question",
+    "finish_reason": "stop",
+    "result": {
+      "holding_any_object": true,
+      "observed_object": "cylindrical can with blue and yellow coloring",
+      "evidence": [
+        "The robot's gripper is positioned directly above and around the top of a cylindrical can.",
+        "The can is suspended between the gripper jaws, not resting on the table surface.",
+        "The can's top is occluded by the gripper, indicating it is being grasped."
+      ]
+    }
+  },
+  {
+    "repeat": 2,
+    "condition": "neutral_grasp_question",
+    "finish_reason": "stop",
+    "result": {
+      "holding_any_object": true,
+      "observed_object": "cylindrical can with blue and yellow coloring",
+      "evidence": [
+        "The robot's gripper is positioned directly above the table and encloses a cylindrical object.",
+        "The object is located between the gripper jaws, indicating it is being held rather than merely nearby.",
+        "The can's blue and yellow surface is visible within the gripper's grasp."
+      ]
+    }
+  }
+]

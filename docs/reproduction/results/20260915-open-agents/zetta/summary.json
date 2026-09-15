@@ -1,0 +1,232 @@
+{
+  "scope": "Unpromoted native Zetta candidate, task 5, three paired held-out initial states; not full paper reproduction",
+  "protocol": {
+    "mode": "candidate_online",
+    "task": 5,
+    "initials": "41,42,43",
+    "horizon": 520,
+    "chunk": 5,
+    "seed": 7,
+    "vla": "lerobot/pi05_libero_finetuned_v044",
+    "scope": "Native Zetta TemporalCritic + Role1 actor + RecoveryController; local RPC/policy adapters",
+    "oracle": "Private task success; no oracle stop or privileged critic features",
+    "bundle_sha256": "bfeea0cfe4ecbcf8cfbcdc37a08c223c5317d010c000e43cacf3145b5b30dfd8"
+  },
+  "pairs": [
+    {
+      "initial": 41,
+      "control": {
+        "task": 5,
+        "initial": 41,
+        "valid": true,
+        "interventions": 0,
+        "role1_decisions": 0,
+        "termination": "physical_budget_exhausted",
+        "step": 520,
+        "task_id": 5,
+        "initial_hash": "451640f1c4890b46e0c217b0631af31eb7a45410f0055d52a98c6b219a92c6a0",
+        "settled_hash": "bb939663d5fe4b63838e42ed5502003173141b64d73d12d93139dc3c73c02329",
+        "final_success": true,
+        "ever_success": true,
+        "first_success": 210,
+        "seconds": 32.40965951606631,
+        "api_calls": 0,
+        "api_usd": 0.0
+      },
+      "candidate": {
+        "task": 5,
+        "initial": 41,
+        "valid": true,
+        "interventions": 3,
+        "role1_decisions": 3,
+        "termination": "physical_budget_exhausted",
+        "step": 520,
+        "task_id": 5,
+        "initial_hash": "451640f1c4890b46e0c217b0631af31eb7a45410f0055d52a98c6b219a92c6a0",
+        "settled_hash": "bb939663d5fe4b63838e42ed5502003173141b64d73d12d93139dc3c73c02329",
+        "final_success": true,
+        "ever_success": true,
+        "first_success": 210,
+        "seconds": 93.64733040891588,
+        "api_calls": 13,
+        "api_usd": 0.04510067999999999
+      },
+      "initial_state_matched": true,
+      "critic_activations": [
+        {
+          "step": 234,
+          "success": true,
+          "preceding_10_all_success": true
+        },
+        {
+          "step": 360,
+          "success": true,
+          "preceding_10_all_success": true
+        },
+        {
+          "step": 486,
+          "success": true,
+          "preceding_10_all_success": true
+        }
+      ],
+      "recovery_horizons": [
+        80,
+        80,
+        34
+      ],
+      "action_shape": [
+        520,
+        7
+      ],
+      "prefix_before_first_trigger_identical": true,
+      "all_actions_identical": false,
+      "max_action_difference": 0.10662981867790222
+    },
+    {
+      "initial": 42,
+      "control": {
+        "task": 5,
+        "initial": 42,
+        "valid": true,
+        "interventions": 0,
+        "role1_decisions": 0,
+        "termination": "physical_budget_exhausted",
+        "step": 520,
+        "task_id": 5,
+        "initial_hash": "6f1145f8f203cfcdaed233b71bfca46a2de7433573c946f3fab7e070ac88ad00",
+        "settled_hash": "0315e5f819491b31242b5eca085bd3b13873c85925f397b72ba0ed28ce8ffb96",
+        "final_success": false,
+        "ever_success": false,
+        "first_success": null,
+        "seconds": 32.14990344271064,
+        "api_calls": 0,
+        "api_usd": 0.0
+      },
+      "candidate": {
+        "task": 5,
+        "initial": 42,
+        "valid": true,
+        "interventions": 3,
+        "role1_decisions": 3,
+        "termination": "physical_budget_exhausted",
+        "step": 520,
+        "task_id": 5,
+        "initial_hash": "6f1145f8f203cfcdaed233b71bfca46a2de7433573c946f3fab7e070ac88ad00",
+        "settled_hash": "0315e5f819491b31242b5eca085bd3b13873c85925f397b72ba0ed28ce8ffb96",
+        "final_success": false,
+        "ever_success": false,
+        "first_success": null,
+        "seconds": 76.2767953183502,
+        "api_calls": 13,
+        "api_usd": 0.04554636
+      },
+      "initial_state_matched": true,
+      "critic_activations": [
+        {
+          "step": 155,
+          "success": false,
+          "preceding_10_all_success": false
+        },
+        {
+          "step": 284,
+          "success": false,
+          "preceding_10_all_success": false
+        },
+        {
+          "step": 427,
+          "success": false,
+          "preceding_10_all_success": false
+        }
+      ],
+      "recovery_horizons": [
+        80,
+        80,
+        80
+      ],
+      "action_shape": [
+        520,
+        7
+      ],
+      "prefix_before_first_trigger_identical": true,
+      "all_actions_identical": false,
+      "max_action_difference": 0.22637832164764404
+    },
+    {
+      "initial": 43,
+      "control": {
+        "task": 5,
+        "initial": 43,
+        "valid": true,
+        "interventions": 0,
+        "role1_decisions": 0,
+        "termination": "physical_budget_exhausted",
+        "step": 520,
+        "task_id": 5,
+        "initial_hash": "54ffff111dca730ccec1739add2d582e79aa3d0cd696966a007cbdeab2749062",
+        "settled_hash": "7214e4febeb64bf8a1f444247c6883d3e69fac5469b0c7a034557d8ca4e9aae6",
+        "final_success": true,
+        "ever_success": true,
+        "first_success": 158,
+        "seconds": 31.95542866550386,
+        "api_calls": 0,
+        "api_usd": 0.0
+      },
+      "candidate": {
+        "task": 5,
+        "initial": 43,
+        "valid": true,
+        "interventions": 3,
+        "role1_decisions": 3,
+        "termination": "physical_budget_exhausted",
+        "step": 520,
+        "task_id": 5,
+        "initial_hash": "54ffff111dca730ccec1739add2d582e79aa3d0cd696966a007cbdeab2749062",
+        "settled_hash": "7214e4febeb64bf8a1f444247c6883d3e69fac5469b0c7a034557d8ca4e9aae6",
+        "final_success": true,
+        "ever_success": true,
+        "first_success": 158,
+        "seconds": 73.35200684517622,
+        "api_calls": 12,
+        "api_usd": 0.03702132
+      },
+      "initial_state_matched": true,
+      "critic_activations": [
+        {
+          "step": 162,
+          "success": true,
+          "preceding_10_all_success": false
+        },
+        {
+          "step": 348,
+          "success": true,
+          "preceding_10_all_success": true
+        },
+        {
+          "step": 474,
+          "success": true,
+          "preceding_10_all_success": true
+        }
+      ],
+      "recovery_horizons": [
+        80,
+        80,
+        46
+      ],
+      "action_shape": [
+        520,
+        7
+      ],
+      "prefix_before_first_trigger_identical": true,
+      "all_actions_identical": false,
+      "max_action_difference": 0.6622978411614895
+    }
+  ],
+  "control_final_success": 2,
+  "candidate_final_success": 2,
+  "rescued": 0,
+  "regressed": 0,
+  "interventions": 9,
+  "api_calls": 38,
+  "api_usd": 0.12766835999999998,
+  "promoted": false
+}

@@ -1,0 +1,91 @@
+{
+  "candidate_id": "cand-task5-placement-undershoot-stall-recovery",
+  "generation": 1,
+  "parent_sha256": null,
+  "diagnosis_sha256": "031125736ef6c4c7f395b30fa7121dbd6acbdd1db30e0dc87cc43419ab4e509a",
+  "causal_hypothesis": "The frozen Pi0.5 full-task VLA policy undershoots the placement target: its learned trajectory stops the EEF at the caddy front compartment (y ≈ -0.15) and stalls there (stalled=1, direction cosine oscillating around 0), never advancing to the back-compartment depth (y ≈ -0.24 to -0.30) that the success comparator reaches. The book is consequently released in the wrong compartment. This is a VLA policy undershoot, not a scripted-servo singularity (no move_to/IK was ever called).",
+  "mechanism_change": "Add one critic/recovery pair that detects the placement-undershoot stall (EEF stalled at the caddy front compartment, y in [-0.18,-0.10], while the book is still held, gripper opening <= 0.05) and, on trigger, hands off to an authoritative full-task VLA recovery with unit scales and 5-action replanning to test whether a fresh replanning window can advance depth to the back compartment. This is a bounded provisional hypothesis test of the accepted root cause (VLA placement-depth undershoot), not a claim that the diagnosis is conclusive.",
+  "validation_plan": "Paired same-seed live gate: run the frozen Pi0.5 full-task policy with the new critic/recovery active versus the frozen policy alone on the same seed. The critic must fire on the placement-undershoot failures (book held through the stall at y ~ -0.15) and NOT fire on the success episode (EEF advances past y=-0.18) nor on the early-slip failure (bc9c69b9, grip drifts to 0.059). Attribution is measured by paired_gate_result.candidate_interventions vs successful_candidate_interventions: a rescue is only counted if the recovery intervention executes and the episode subsequently reaches official libero termination. If the authoritative full-task recovery executes but produces zero attributed rescues, the next refinement switches the recovery mechanism to the audited Actor-only semantic tool (move_to toward the back compartment) rather than another prompt-only variant.",
+  "critic_rules": [
+    {
+      "rule_id": "critic-task5-placement-undershoot-stall",
+      "title": "Placement undershoot: EEF stalled at caddy front compartment while book still held",
+      "feature": "command.realization.stalled",
+      "operator": "eq",
+      "threshold": 1,
+      "dwell_steps": 6,
+      "cooldown_steps": 120,
+      "proposal": "The EEF has stalled at the caddy front compartment (y ~ -0.15) with the book still held (gripper opening <= 0.05), matching the placement-undershoot signature: the frozen VLA stops advancing depth and emits oscillatory near-zero-progress commands. Hand off to an authoritative full-task VLA recovery to test whether a fresh replanning window can advance to the back compartment.",
+      "evidence_ids": [
+        "artifact-b6a2be51b2060032843d9e082e3e59998d3eeeb47b557f9c6d6024c404f8e307",
+        "artifact-ffa6bf9c1e0731049652df1b173df2f535832f5ddca6b750feaff3258418d2ac",
+        "artifact-5bb2cf59b7e7369c1f713ffc11920e60976da1016f4f502593f0cb41e9659ca0",
+        "artifact-bc9c69b9020f728a5881308cd44b9df37ed917dc3799d7cd36de2a761eb3ac4e"
+      ],
+      "safety_only": false,
+      "activation_conditions": [
+        {
+          "feature": "robot.eef.y",
+          "operator": "ge",
+          "threshold": -0.18
+        },
+        {
+          "feature": "robot.eef.y",
+          "operator": "le",
+          "threshold": -0.1
+        },
+        {
+          "feature": "robot.gripper.opening",
+          "operator": "le",
+          "threshold": 0.05
+        },
+        {
+          "feature": "episode.step_index",
+          "operator": "ge",
+          "threshold": 150
+        }
+      ]
+    }
+  ],
+  "recovery_rules": [
+    {
+      "recovery_id": "recovery-task5-authoritative-fulltask-vla",
+      "title": "Authoritative full-task VLA replanning to advance placement depth",
+      "trigger_rule_ids": [
+        "critic-task5-placement-undershoot-stall"
+      ],
+      "precondition": "Critic fired: EEF stalled at caddy front compartment (y in [-0.18,-0.10]) with book held (gripper opening <= 0.05) and step_index >= 150.",
+      "steps": [
+        {
+          "tool": "vla_execute",
+          "parameters": {
+            "prompt": "pick up the book and place it in the back compartment of the caddy",
+            "actions_per_chunk": 5,
+            "max_chunks": 16,
+            "translation_scale": 1.0,
+            "rotation_scale": 1.0,
+            "gripper_scale": 1.0,
+            "action_clip": 1.0,
+            "stop_on_success": true,
+            "stop_on_truncation": true
+          },
+          "stop_when": "official libero termination (success) or episode truncation or max_chunks exhausted"
+        }
+      ],
+      "safety_constraints": [
+        "Unit scales preserved; no reduction of translation/rotation/gripper/clip scales without candidate-specific evidence.",
+        "No absolute coordinates are passed to the VLA; the recovery uses only the authoritative language instruction.",
+        "Official environment termination remains the sole success criterion."
+      ],
+      "stop_condition": "official libero termination (success) or episode truncation or max_chunks exhausted",
+      "fallback": "If this authoritative full-task VLA recovery executes but produces zero attributed rescues across at least two rejected same-seed gates, switch the recovery mechanism to the audited Actor-only semantic tool (move_to toward the back compartment) rather than another prompt-only variant.",
+      "evidence_ids": [
+        "artifact-b6a2be51b2060032843d9e082e3e59998d3eeeb47b557f9c6d6024c404f8e307",
+        "artifact-ffa6bf9c1e0731049652df1b173df2f535832f5ddca6b750feaff3258418d2ac",
+        "artifact-5bb2cf59b7e7369c1f713ffc11920e60976da1016f4f502593f0cb41e9659ca0"
+      ]
+    }
+  ],
+  "tool_plugin": null,
+  "schema_version": 1
+}

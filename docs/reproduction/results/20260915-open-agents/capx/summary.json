@@ -1,0 +1,132 @@
+{
+  "completed": true,
+  "executions": [
+    {
+      "index": 0,
+      "ok": true,
+      "physical_step": 1094,
+      "seconds": 22.63972444087267,
+      "stdout": "Soup results: 5, Sauce results: 1, Basket results: 1\nSoup mask score: 0.6813881993293762\nSauce mask score: 0.6762599349021912\nBasket mask score: 0.9265093207359314\nSoup center: [0.40558678 0.06185492 0.06693854]\nSauce center: [ 0.25138815 -0.16936481  0.09267595]\nBasket center: [0.52525498 0.26217193 0.10596656]\nSoup grasp score: 0.2543652057647705\nSauce grasp score: 0.2574969232082367\nAlphabet soup placed in basket\nTomato sauce placed in basket\nTask complete: Both objects placed in basket\n",
+      "stderr": ""
+    },
+    {
+      "index": 1,
+      "ok": true,
+      "physical_step": 2244,
+      "seconds": 23.805283496156335,
+      "stdout": "Soup: 5, Sauce: 1, Basket: 1\nBasket center: [0.58712325 0.28081535 0.10530387]\nsoup center: [ 0.25071106 -0.17011134  0.09227751]\nsoup top-down grasp score: 0.2270103394985199\nsoup placed in basket\nUpdated basket center: [0.58708833 0.28083751 0.10530791]\nsauce center: [ 0.224117   -0.24204775  0.08955464]\nsauce top-down grasp score: 0.24382542073726654\nsauce placed in basket\nTask complete: Both objects placed in basket\n",
+      "stderr": ""
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "physical_step": 2915,
+      "seconds": 14.130705989897251,
+      "stdout": "Soup: 8, Basket: 1\nBasket center: [0.59302642 0.27767942 0.10623497]\nSoup center: [ 0.58886659 -0.10305088  0.09593039]\nSoup top-down grasp score: 0.2937232553958893\nSoup placed in basket\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "physical_step": 3308,
+      "seconds": 8.540800785645843,
+      "stdout": "Sauce: 2, Basket: 1\nBasket center: [0.59303389 0.27767558 0.10625012]\nSauce center: [0.59996804 0.27465502 0.15908861]\nSauce top-down grasp score: 0.27234211564064026\nSauce placed in basket\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "physical_step": 3998,
+      "seconds": 14.445628423243761,
+      "stdout": "Soup: 5, Basket: 1\nBasket center: [0.61142111 0.27958768 0.10627514]\nSoup center: [ 0.41487401 -0.15983006  0.06712441]\nSoup top-down grasp score: 0.23403438925743103\nSoup placed in basket\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "physical_step": 4588,
+      "seconds": 12.672037459909916,
+      "stdout": "Sauce: 1, Basket: 1\nBasket center: [0.6409185  0.28098439 0.1066077 ]\nSauce center: [0.64615838 0.27912655 0.15116814]\nSauce top-down grasp score: 0.22224761545658112\nSauce placed in basket\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "physical_step": 5220,
+      "seconds": 14.08311198092997,
+      "stdout": "Soup: 3, Basket: 1\nBasket center: [0.64092539 0.28097682 0.10661818]\nSoup center: [0.39792493 0.21682543 0.07162124]\nSoup top-down grasp score: 0.2094932347536087\nSoup placed in basket\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "physical_step": 6133,
+      "seconds": 21.512758515775204,
+      "stdout": "Soup: 2, Basket: 1\nBasket center: [0.68364907 0.28732639 0.10400229]\nsoup center: [0.4337746  0.15288075 0.06722541]\nsoup top-down grasp score: 0.22198361158370972\nGripper position after close: 0.7957615194113724\nsoup placed in basket\nUpdated basket center: [0.69166118 0.2875485  0.10470865]\nsauce center: [0.7041438  0.29976057 0.15214817]\nsauce top-down grasp score: 0.15240755677223206\nGripper position after close: 0.02541357945337849\nGrasp likely failed for sauce, gripper too closed\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "physical_step": 6913,
+      "seconds": 16.731368685141206,
+      "stdout": "Soup: 2, Basket: 2\nBasket center: [0.78240058 0.10755158 0.13451682]\nsoup center: [0.51570665 0.24437746 0.05987003]\nsoup top-down grasp score: 0.2251727283000946\nGripper position after close: 0.002628589567925511\nGrasp likely failed for soup, gripper too closed\nUpdated basket center: [0.78238802 0.10759233 0.13448955]\nsauce center: [0.82893803 0.10817206 0.1709004 ]\nsauce top-down grasp score: 0.25929781794548035\nGripper position after close: 0.014348875521584073\nGrasp likely failed for sauce, gripper too closed\nTask complete\n",
+      "stderr": ""
+    },
+    {
+      "index": 9,
+      "ok": false,
+      "physical_step": 7990,
+      "seconds": 24.050536304712296,
+      "stdout": "Soup: 2, Basket: 2\nBasket center: [ 0.59230293 -0.18305983  0.07359542]\nsoup center: [0.42307919 0.21886669 0.07906103]\nsoup: point cloud grasp planning found 1 candidates\nsoup trying grasp 0 score=0.172 pos=[0.39788407 0.23651905 0.110747  ]\nGripper position after close: 0.013781282812174965\nGrasp 0 failed for soup, gripper too closed\nAll grasp attempts failed for soup\nUpdated basket center: [ 0.59229182 -0.18284608  0.07354494]\nsauce center: [0.54035478 0.21410679 0.05935637]\nsauce: point cloud grasp planning found 9 candidates\nsauce trying grasp 0 score=0.193 pos=[0.56073331 0.23772371 0.05822961]\nGripper position after close: 0.03717740512147953\nGrasp 0 failed for sauce, gripper too closed\nsauce trying grasp 1 score=0.177 pos=[0.55778683 0.23429707 0.0585164 ]\nGripper position after close: 0.04076861602170127\nGrasp 1 failed for sauce, gripper too closed\nsauce trying grasp 2 score=0.175 pos=[0.56131518 0.22939662 0.05698757]\n",
+      "stderr": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/projects/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/bav/agent_audit/capx_online.py\", line 162, in exec_code\n    exec(compiled,self.audit_namespace,self.audit_namespace)\n  File \"<agent-control-program>\", line 169, in <module>\n  File \"<agent-control-program>\", line 103, in attempt_pick_and_place\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/integrations/franka/libero_reduced.py\", line 465, in goto_pose\n    self.move_to_joints(joints)\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/integrations/franka/libero_reduced.py\", line 415, in move_to_joints\n    self._env.move_to_joints_blocking(joints)\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/envs/simulators/libero.py\", line 245, in move_to_joints_blocking\n    self.handle.step(action)\n  File \"/root/autodl-tmp/projects/Budgeted-Active-Verification-and-Failure-Recovery-for-VLA-Agents/bav/agent_audit/capx_online.py\", line 141, in handle_step\n    result=original_step(self,action)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/integrations/libero/__init__.py\", line 27, in step\n    obs, reward, done, info = self.env.step(action)\n                              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/third_party/LIBERO-PRO/libero/libero/envs/env_wrapper.py\", line 88, in step\n    return self.env.step(action)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/third_party/LIBERO-PRO/libero/libero/envs/bddl_base_domain.py\", line 806, in step\n    obs, reward, done, info = super().step(action)\n                              ^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/projects/baseline-audit/CaP-X/capx/third_party/libero_dependencies/robosuite/robosuite/environments/base.py\", line 376, in step\n    raise ValueError(\"executing action in terminated episode\")\nValueError: executing action in terminated episode\n"
+    }
+  ],
+  "physical_steps": 7990,
+  "ever_success": false,
+  "final_success": false,
+  "first_success": null,
+  "success_intervals": [],
+  "valid": true,
+  "native_counts": {
+    "num_regenerations": 9,
+    "num_finishes": 0,
+    "num_code_blocks": 10
+  },
+  "protocol": {
+    "task": 0,
+    "initial": 40,
+    "horizon": 8000,
+    "canary": false,
+    "max_output_tokens": 8192,
+    "api_port": 18797,
+    "native": "CaP-X trial loop, nine-candidate single-model ensemble+synthesis, image differencing, reduced skill library, JOINT_POSITION/PyRoKi/Contact-GraspNet",
+    "changes": "DeepSeek API+Flash; SAM3=>Grounding DINO+SAM2.1; native supported single-model ensemble (not paper multimodel); seed reset bug fix; numerical/API code boundary; no oracle completion feedback",
+    "comparison": "Native 8000-step control budget; not directly comparable to 520-step VLA agents"
+  },
+  "api": {
+    "calls": 130,
+    "estimated_or_reserved_usd": 1.8959064000000014,
+    "role_counts": {
+      "decision": 110,
+      "vision_transcription": 20
+    },
+    "statuses": {
+      "ok": 130
+    },
+    "pricing": "2026-09-15 peak cache-miss; excludes GPU rental"
+  },
+  "termination": "physical_budget_exhausted",
+  "execution_end_success": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
+}

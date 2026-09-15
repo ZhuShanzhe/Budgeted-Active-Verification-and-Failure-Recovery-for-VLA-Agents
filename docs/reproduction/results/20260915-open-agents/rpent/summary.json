@@ -1,0 +1,494 @@
+{
+  "aggregate": {
+    "n": 10,
+    "planned": 10,
+    "complete": true,
+    "final_success": 2,
+    "ever_success": 3,
+    "lost_success": 1,
+    "false_success_claim": 0,
+    "api_usd": 21.56195598,
+    "api_calls": 835,
+    "physical_steps": 4328,
+    "terminations": {
+      "api_cost_budget_exhausted": 6,
+      "physical_budget_exhausted": 3,
+      "model_stop_length": 1
+    }
+  },
+  "episodes": [
+    {
+      "task": 0,
+      "initial": 40,
+      "valid": true,
+      "termination": "api_cost_budget_exhausted",
+      "step": 457,
+      "task_id": 0,
+      "initial_hash": "71a5cb5ea5975160e8c84b7e13d73358fab88840e802084554c812f21532b04c",
+      "settled_hash": "99a98f132c79c63b7db59d77e0e1e25bd3b402d4793c5fe051baf4ead42a27ff",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 474.9761880543083,
+      "api_calls": 91,
+      "api_usd": 2.469707639999999,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1",
+      "tool_counts": {
+        "read_text_file": 8,
+        "list_dir": 1,
+        "view_env_state": 3,
+        "segment": 5,
+        "move_to": 9,
+        "back_project": 14,
+        "pi0_pick": 2,
+        "set_gripper": 1,
+        "release": 1
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1/t0_i40/public/memory/task_only/10_t0_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1/t0_i40/public/memory/task_only/10_t0_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "7201273dff08c61711b51148374a9d9c3a7146e27a9924e19dd1ff9a6b217794",
+      "timeline_sha256": "b33e6cb6b3ca5f9304ace52d304c299d5a43a22b828fc3a2d394c3f3e80ef35a"
+    },
+    {
+      "task": 1,
+      "initial": 40,
+      "valid": true,
+      "termination": "api_cost_budget_exhausted",
+      "step": 490,
+      "task_id": 1,
+      "initial_hash": "730fc66f946c87f9c9550e8d69bf61c9dea73d886a192d4722b73ebfe04f0fb3",
+      "settled_hash": "850a1b4cae1f767899fc1f4c6369a50b15f2c838630ec9c1d5ae9086fb84216e",
+      "final_success": true,
+      "ever_success": true,
+      "first_success": 394,
+      "seconds": 574.7308097220957,
+      "api_calls": 110,
+      "api_usd": 2.4777629400000007,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1",
+      "tool_counts": {
+        "read_text_file": 8,
+        "list_dir": 2,
+        "view_env_state": 3,
+        "segment": 7,
+        "back_project": 1,
+        "move_to": 13,
+        "pi0_pick": 2,
+        "set_gripper": 2,
+        "release": 2
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1/t1_i40/public/memory/task_only/10_t1_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1/t1_i40/public/memory/task_only/10_t1_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "defec744374ac2594b1082ad20e614ae25d462636ce841406e3e806be6bb0ca4",
+      "timeline_sha256": "7f65d9d62b6df0eac013a627bb8d93918c3d05b79a39864f46af813700821640"
+    },
+    {
+      "task": 2,
+      "initial": 40,
+      "valid": true,
+      "termination": "api_cost_budget_exhausted",
+      "step": 406,
+      "task_id": 2,
+      "initial_hash": "7b98b977369b09e6fb9477279f46672a16a7c349dd5cad0304b583fbac2d8a93",
+      "settled_hash": "ce9129b26e00c9144eb506cf6e223bc4876e3b43af73d26bc48a15ee19320247",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 379.20764102600515,
+      "api_calls": 83,
+      "api_usd": 2.42903592,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1",
+      "tool_counts": {
+        "read_text_file": 10,
+        "list_dir": 1,
+        "view_env_state": 1,
+        "segment": 7,
+        "pi0_pick": 4,
+        "pi0_doubled": 1,
+        "move_to": 6,
+        "move_pose": 1,
+        "back_project": 6
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t2_i40/public/memory/task_only/10_t2_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t2_i40/public/memory/task_only/10_t2_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "e853901fb0333aa8628a2408893f0c55d4dd353e5ea978e0bca4c8b04530fce6",
+      "timeline_sha256": "7a4957c9bb559cdb3863471737ba09030a4ed2901c071ddeb18983fb34671147"
+    },
+    {
+      "task": 3,
+      "initial": 40,
+      "valid": true,
+      "termination": "physical_budget_exhausted",
+      "step": 520,
+      "task_id": 3,
+      "initial_hash": "5d04705371a8fc50035231c26b4ae1c7d8c5fb12ec863b7b91dcd49dbc367ece",
+      "settled_hash": "deb95e9dc38ea0bd219c4a7b1c11b0577db0aaf6942946fd55ff10aafdc12b8d",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 216.8797135744244,
+      "api_calls": 49,
+      "api_usd": 1.2843825600000007,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1",
+      "tool_counts": {
+        "read_text_file": 9,
+        "list_dir": 1,
+        "view_env_state": 1,
+        "segment": 4,
+        "back_project": 8,
+        "move_to": 6,
+        "pi0_pick": 1,
+        "set_gripper": 1
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t3_i40/public/memory/task_only/10_t3_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t3_i40/public/memory/task_only/10_t3_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "26c4136ea4ecdb8f9ef498464c4f0b37f957e7ec26ee7ba2c58cbdbb67eb87fb",
+      "timeline_sha256": "21ab8a13e66c06b83d80070eac77b3abc52d2f540657accfaff8a23b1d1a993c"
+    },
+    {
+      "task": 4,
+      "initial": 40,
+      "valid": true,
+      "termination": "physical_budget_exhausted",
+      "step": 520,
+      "task_id": 4,
+      "initial_hash": "9cb5d553882be8c6d2e48469948f88c802ca82b1f77aaf60a531ae849259d425",
+      "settled_hash": "e0de1d0d3b4f8bef3f545e3b8465f28ee18f93ed6f7e2f556f0b00542cd6baab",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 422.9974220190197,
+      "api_calls": 94,
+      "api_usd": 1.9127601000000003,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1",
+      "tool_counts": {
+        "read_text_file": 13,
+        "list_dir": 1,
+        "view_env_state": 2,
+        "segment": 12,
+        "move_to": 13,
+        "pi0_pick": 2,
+        "set_gripper": 2,
+        "release": 2
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t4_i40/public/memory/task_only/10_t4_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t4_i40/public/memory/task_only/10_t4_s0_recipe.jsonl"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t4_i40/public/robots/libero/guides/strict_hybrid_guide.md"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "a0e7c6eff881b815d7157172e3354f36a1af29a86dcf7343add19e01c358191d",
+      "timeline_sha256": "0e2ce76ed3e45a01dcdac2502fef2a55d263aabcf1157be81b68de2a08bbb042"
+    },
+    {
+      "task": 5,
+      "initial": 40,
+      "valid": true,
+      "termination": "api_cost_budget_exhausted",
+      "step": 430,
+      "task_id": 5,
+      "initial_hash": "81219188f96b3994b377a0e07fec4760b02f4bec673e51721160a69a0197d116",
+      "settled_hash": "dbf2d1506aee425afa78fb6896a328fc81767b1c007d77ceff7f1feab096507e",
+      "final_success": false,
+      "ever_success": true,
+      "first_success": 327,
+      "seconds": 412.0568539518863,
+      "api_calls": 93,
+      "api_usd": 2.4427480799999994,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1",
+      "tool_counts": {
+        "read_text_file": 14,
+        "list_dir": 2,
+        "view_env_state": 2,
+        "segment": 9,
+        "back_project": 10,
+        "move_to": 9,
+        "pi0_pick": 2,
+        "set_gripper": 1,
+        "release": 1
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t5_i40/public/memory/task_only/10_t5_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t5_i40/public/memory/task_only/10_t5_s0_recipe.jsonl"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardA-v1/t5_i40/public/robots/libero/guides/strict_hybrid_guide.md"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": true,
+      "false_success_claim": false,
+      "action_sha256": "992ce183139f30f1808e43418ff0785389e78b35d246f3ed1e8754dedd7a0d71",
+      "timeline_sha256": "82066802257e5eebc2f240044b9e65b5b09f631cfdf60905fd1661c9248bf6c4"
+    },
+    {
+      "task": 6,
+      "initial": 40,
+      "valid": true,
+      "termination": "physical_budget_exhausted",
+      "step": 520,
+      "task_id": 6,
+      "initial_hash": "34622543edf2944967c8ad886df15e881747db5e10adfafd6582f683a002a2fa",
+      "settled_hash": "5c2dfc79fa6254c35373c8a5c38239dfb89223e572f981699fb3fc374c2661f4",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 405.4553140774369,
+      "api_calls": 88,
+      "api_usd": 2.0468366400000004,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1",
+      "tool_counts": {
+        "read_text_file": 9,
+        "list_dir": 1,
+        "view_env_state": 2,
+        "view_camera_meta": 1,
+        "segment": 4,
+        "back_project": 2,
+        "move_to": 10,
+        "pi0_pick": 3,
+        "set_gripper": 4,
+        "release": 2
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t6_i40/public/memory/task_only/10_t6_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t6_i40/public/memory/task_only/10_t6_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "08f310b9b1eed4f7a6305571259ac922e70818977a783a28132900d10bbc4c2b",
+      "timeline_sha256": "35fcf24ffc27b668166f95acd9edd4540952fd26ce154da8cb6413ec80a40f89"
+    },
+    {
+      "task": 7,
+      "initial": 40,
+      "valid": true,
+      "termination": "api_cost_budget_exhausted",
+      "step": 368,
+      "task_id": 7,
+      "initial_hash": "282bb2fe44a122b5b5a6964d6af9d83e8d9c0e88347d47fc11d4fb21a23675d3",
+      "settled_hash": "043e5ad5d221639ef11d928c0e5f20d13ff786da28c9f31d7593a13bd71ceff6",
+      "final_success": true,
+      "ever_success": true,
+      "first_success": 346,
+      "seconds": 419.8454156294465,
+      "api_calls": 76,
+      "api_usd": 2.3714221799999993,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1",
+      "tool_counts": {
+        "read_text_file": 11,
+        "list_dir": 2,
+        "view_env_state": 2,
+        "segment": 6,
+        "back_project": 23,
+        "move_to": 7,
+        "pi0_pick": 2,
+        "set_gripper": 1,
+        "release": 1
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t7_i40/public/memory/task_only/10_t7_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t7_i40/public/memory/task_only/10_t7_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "8a9426997020990c99316450a9307ff9bcf925fc9bdae466adf16fbd4ba0753c",
+      "timeline_sha256": "b6722dc847dd77756cc13c3a166ef6f84e64d360ab2c2a795d9ba34dffae973c"
+    },
+    {
+      "task": 8,
+      "initial": 40,
+      "valid": true,
+      "termination": "api_cost_budget_exhausted",
+      "step": 382,
+      "task_id": 8,
+      "initial_hash": "547bef90161c679c884f8f690f88fe278114cb6983ef99d327e06dff3d9aaca2",
+      "settled_hash": "757c75c26768acca84fd6e8ed2b357638c5808210c7586f5044bbf791bcbf495",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 451.3693386372179,
+      "api_calls": 93,
+      "api_usd": 2.4244569600000005,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1",
+      "tool_counts": {
+        "read_text_file": 7,
+        "list_dir": 1,
+        "view_env_state": 1,
+        "view_camera_meta": 1,
+        "segment": 13,
+        "move_to": 6,
+        "rotate_wrist": 1,
+        "set_gripper": 2,
+        "back_project": 6,
+        "pi0_pick": 1
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t8_i40/public/memory/task_only/10_t8_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t8_i40/public/memory/task_only/10_t8_s0_recipe.jsonl"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "23cd41d2f00c9f6f293069a159a89b56f43d4ab9704b44f0ec614f2780455063",
+      "timeline_sha256": "ae5d5e43164dee6c45fadae64efc004eb9fb9f1c6eecf243505b1252a81b3a1d"
+    },
+    {
+      "task": 9,
+      "initial": 40,
+      "valid": true,
+      "termination": "model_stop_length",
+      "step": 235,
+      "task_id": 9,
+      "initial_hash": "4071ba8f538690a843dee000f6fa8728ce515fd7f73aa603660392042086b8f0",
+      "settled_hash": "c07d11d61367548cdb240736a3869034dc057a1499f0795747fbed2c3ac90ee0",
+      "final_success": false,
+      "ever_success": false,
+      "first_success": null,
+      "seconds": 297.70099902525544,
+      "api_calls": 58,
+      "api_usd": 1.7028429600000008,
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1",
+      "tool_counts": {
+        "read_text_file": 7,
+        "list_dir": 1,
+        "view_env_state": 1,
+        "segment": 3,
+        "back_project": 29,
+        "move_to": 4,
+        "pi0_pick": 1,
+        "set_gripper": 1
+      },
+      "tool_errors": [
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t9_i40/public/memory/task_only/10_t9_s0.json"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t9_i40/public/memory/task_only/10_t9_s0_recipe.jsonl"
+        },
+        {
+          "name": "read_text_file",
+          "step": 0,
+          "error": "file not found: /root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-shardB-v1/t9_i40/public/robots/libero/guides/strict_hybrid_guide.md"
+        }
+      ],
+      "finish_result": null,
+      "lost_success": false,
+      "false_success_claim": false,
+      "action_sha256": "4412b943135d7dd4379a489565ef492a1f74060fb9299cae50c951d2a19242aa",
+      "timeline_sha256": "2d4a557e191b70bfe7232b887bc3e85768d502d2a7b94caec1c094b51e4d219f"
+    }
+  ],
+  "excluded": [
+    {
+      "source_run": "/root/autodl-tmp/experiments/coding-agent/20260915-rpent-open-long-v1",
+      "episode": "t2_i40",
+      "reason": "No terminal outcome; unfinished/interrupted, not scored"
+    }
+  ],
+  "validation": "Action shape/finiteness; private per-step truth consistency; matched initial and settled hashes; structured public goal-truth masking",
+  "scope": "Adapted RPent native toolkit; not strict paper reproduction; RGBD/scripted controls/memory/chunk differ from prior same-tools comparison"
+}

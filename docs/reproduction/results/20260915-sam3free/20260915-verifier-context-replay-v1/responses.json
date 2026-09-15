@@ -1,0 +1,155 @@
+[
+  {
+    "repeat": 0,
+    "condition": "original_context",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; it remains on the table in the agentview image, so subgoal S1 is incomplete."
+      ]
+    }
+  },
+  {
+    "repeat": 0,
+    "condition": "without_blackboard",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; the gripper is empty and the can remains on the table."
+      ]
+    }
+  },
+  {
+    "repeat": 0,
+    "condition": "with_preceding_images",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "Wrist camera shows the gripper is empty and the alphabet soup can is not held; the can remains on the table in the agentview."
+      ]
+    }
+  },
+  {
+    "repeat": 1,
+    "condition": "original_context",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; the gripper is empty and the can remains on the table."
+      ]
+    }
+  },
+  {
+    "repeat": 1,
+    "condition": "without_blackboard",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; it remains on the table in the first image and is not visible in the gripper in the second image."
+      ]
+    }
+  },
+  {
+    "repeat": 1,
+    "condition": "with_preceding_images",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; the robot arm is positioned above the table with the gripper empty, and the soup can remains upright on the table."
+      ]
+    }
+  },
+  {
+    "repeat": 2,
+    "condition": "original_context",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; it remains on the table in the agentview image, so subgoal S1 is incomplete."
+      ]
+    }
+  },
+  {
+    "repeat": 2,
+    "condition": "without_blackboard",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; it remains on the table in the first image and is not visible in the gripper in the second image."
+      ]
+    }
+  },
+  {
+    "repeat": 2,
+    "condition": "with_preceding_images",
+    "finish_reason": "stop",
+    "result": {
+      "subgoal_success": false,
+      "task_success": false,
+      "partial_progress": false,
+      "failure_type": "not_done",
+      "progress_score": 0.0,
+      "should_reobserve": false,
+      "next_action": "continue_execute",
+      "notes": [
+        "The alphabet soup can is not held by the gripper; the robot arm is positioned above the table with the gripper empty, and the soup can remains upright on the table."
+      ]
+    }
+  }
+]

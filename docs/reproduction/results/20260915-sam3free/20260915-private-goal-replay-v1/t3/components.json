@@ -1,0 +1,4902 @@
+[
+  {
+    "frame": 1,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 2,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 5,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 6,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 7,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 8,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 9,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 10,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 11,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 12,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 13,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 14,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 15,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 16,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 17,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 18,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 19,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 20,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 21,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 22,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 23,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 24,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 25,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 26,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 27,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 28,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 29,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 30,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 31,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 32,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 33,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 34,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 35,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 36,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 37,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 38,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 39,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 40,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 41,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 42,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 43,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 44,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 45,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 46,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 47,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 48,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 49,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 50,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 51,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 52,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 53,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 54,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 55,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 56,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 57,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 58,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 59,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 60,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 61,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 62,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 63,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 64,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 65,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 66,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 67,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 68,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 69,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 70,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 71,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 72,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 73,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 74,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 75,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 76,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 77,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 78,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 79,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 80,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 81,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 82,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 83,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 84,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 85,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 86,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 87,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 88,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 89,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 90,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 91,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 92,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 93,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 94,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 95,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 96,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 97,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 98,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 99,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 100,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 101,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 102,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 103,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 104,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 105,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 106,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 107,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 108,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 109,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 110,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 111,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 112,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 113,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 114,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 115,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 116,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 117,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 118,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 119,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 120,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 121,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 122,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 123,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 124,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 125,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 126,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 127,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 128,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 129,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 130,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 131,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 132,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 133,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 134,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 135,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 136,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 137,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 138,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 139,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 140,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 141,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 142,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 143,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 144,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 145,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 146,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 147,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 148,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 149,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 150,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 151,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 152,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 153,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 154,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 155,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 156,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 157,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 158,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 159,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 160,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 161,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 162,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 163,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 164,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 165,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 166,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 167,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 168,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 169,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 170,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 171,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 172,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 173,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 174,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 175,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 176,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 177,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 178,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 179,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 180,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 181,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 182,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 183,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 184,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 185,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 186,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 187,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 188,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 189,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 190,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 191,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 192,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 193,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 194,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 195,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 196,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 197,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 198,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 199,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 200,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 201,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 202,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 203,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 204,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 205,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 206,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 207,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 208,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 209,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 210,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 211,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 212,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 213,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 214,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 215,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 216,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 217,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 218,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 219,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 220,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 221,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 222,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 223,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 224,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 225,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 226,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 227,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 228,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 229,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 230,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 231,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 232,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 233,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 234,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 235,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 236,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 237,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 238,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 239,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 240,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 241,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 242,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 243,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 244,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "frame": 245,
+    "predicates": [
+      {
+        "goal": [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ],
+        "value": true
+      }
+    ]
+  }
+]

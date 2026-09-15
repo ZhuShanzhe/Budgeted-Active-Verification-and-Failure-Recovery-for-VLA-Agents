@@ -1,5 +1,13 @@
 # Baseline Report
 
+## 最新机器人操作 Agent 测试汇总
+
+2026-09-16：[长程时序能力测试 PDF](pdf/robotics_agent_long_horizon_report.pdf) / [LaTeX 源文件](pdf/robotics_agent_long_horizon_report.tex)。汇总 Fixed Pi0.5、EmbodiedSkills、Thea port、RPent、Zetta 候选和 CaP-Agent0 单模型适配，共 47 条有效测试轨迹，另列 Zetta 开发数据边界。
+
+报告以具体失败案例区分状态记忆、子目标验证、完成判断、恢复触发与执行成本；不同协议不直接排名，不把全部失败归因于长期记忆退化。各 Agent 的方法、结果与原始记录索引见 [测试入口](OPEN_PERCEPTION_AGENTS.md) 和 [统一条件三组实验](SAM3_FREE_LONG_RESULTS.md)。下列旧基线报告与历史审计继续保留，不代表这些 Agent 的最新测试状态。
+
+## 既有模型基线报告
+
 当前总报告：[Baseline Report](BASELINE_REPORT.md)。它取代本目录此前分散的总表，汇总 19 项既有测试，并采用统一五列：dataset、model、harness、reported performance(in paper)、our reproduced performance。
 
 - [PDF 报告](pdf/baseline_reproduction_report.pdf) / [LaTeX 源文件](pdf/baseline_reproduction_report.tex)
@@ -27,7 +35,7 @@
 - **L1 工程核验**：代码、配置、数据格式或入口通过；不能作为论文数值基线。
 - **L0 未复现**：关键代码、权重、数据、硬件或协议缺失。
 
-## 当前状态
+## 历史状态（2026-09-05）
 
 | 工作 | 状态 | 已取得的证据 | 能否作为论文数值基线 |
 |---|---:|---|---:|

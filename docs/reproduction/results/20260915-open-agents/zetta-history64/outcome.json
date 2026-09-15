@@ -1,0 +1,99 @@
+{
+  "valid": true,
+  "online_performance": false,
+  "review": {
+    "review_id": "review-unresolved-budget-end-001",
+    "groups": [
+      {
+        "member_segment_ids": [
+          "artifact-d2b56e37a091bde552d4d4507569e989f9bcc5442cae5594c23bddcbcf1fc385",
+          "artifact-e9ad76229508980245465808f86cc8be9f125358f07ce5d250e56e66165d31aa",
+          "artifact-768800117dba0ef9f34bc6a022e6f4245f66d5bce88f93fd344e47d2ec8b7db0",
+          "artifact-c083fcb60d466b625e88c99d1f353a3ed70333ef16c56a1238c631aaf4beff15",
+          "artifact-11ad4b32485524d29f8e7ca0ebdf9ef5ef6fbfb375ab1164c2601cc2c1ab6b2a",
+          "artifact-936ed5ce33b5a1a1bfa38d7d5613ad57b026b722eb4f8b36e65bb41c3d959c3c"
+        ],
+        "representative_segment_ids": [
+          "artifact-d2b56e37a091bde552d4d4507569e989f9bcc5442cae5594c23bddcbcf1fc385"
+        ],
+        "summary": "UNRESOLVED: six segments span six distinct tasks (basket, stove+moka, mug-on-plate, two-moka-pots, mug-in-microwave, mug+chocolate) with materially different visual failure signatures (never-grasp, grasp-but-never-place, object-drop/tilt, stove-on-but-no-placement). No common pixel-grounded mechanism exists; the only shared attribute is task-incomplete at model-call budget, a termination artifact rather than a visual failure mode. Retained as unresolved rather than merged on a fallback label."
+      }
+    ],
+    "dominant_group_index": 0,
+    "visual_evidence": [
+      {
+        "content_id": "artifact-ee3357aeeebfa2352101ffa71bd297ab935b7a35427ed9cdcb4b71eebf9d1bdc",
+        "access_record_id": "visual-access-c9a55d6240c580dbc626aad2e41022a9e8774815d2bf36ffbd04129eabe6dc62",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Task 0 (basket): gripper remains open and never grasps any object; objects stay scattered; no placement into basket. Distinct from grasp-based failures."
+      },
+      {
+        "content_id": "artifact-1f3354c4fab9b9cde194eb71d814f4c5ff68705df6639e31cc309d25d0f388d9",
+        "access_record_id": "visual-access-396eb0afa86172102f56471dbbe902944f2d75dde5e2fab80fa8305db90e7817",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Task 2 (stove+moka): stove ring turns red (stove activated) but moka pot never placed on it; failure is placement, not activation."
+      },
+      {
+        "content_id": "artifact-15ae002f7c0147fb127f6d598eee23f762db95e273f748090dfc837f41a12205",
+        "access_record_id": "visual-access-5cae9982cbbdf8d8cc76e7bc8c0f15e8df8abcf1bd2a82e2ddbeb5ce2e0dc5ce",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Task 4 (mug-on-plate): red cup disappears but no verified placement; gripper empty throughout; no common mechanism with other tasks."
+      },
+      {
+        "content_id": "artifact-b850c5684547dce55d461b1599fd03b710c2c1331ef5d53b3cd8d39120437b88",
+        "access_record_id": "visual-access-3cd824e230b89d38d2e94d5895494423e85adfd182eba14ba25c5d3546caec01",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Task 8 (two moka pots): one pot disappears, no verified placement on stove; distinct object set and target."
+      },
+      {
+        "content_id": "artifact-8515a1532bd701407152e7c41cb01da79f3fe2b6620ccfbde98ec75f07a49824",
+        "access_record_id": "visual-access-f3ce27adee1c08361194f666bc864cdf52baa886d919743d08587554d5b7595c",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Task 9 (mug-in-microwave): yellow mug held throughout but never placed in microwave; microwave never closed; grasp-succeeds-place-fails signature."
+      },
+      {
+        "content_id": "artifact-572c832d2bfb3b35a2a96a9b11004d8e718cf5a3417a5d92ed684f76752d6c3c",
+        "access_record_id": "visual-access-2c72db625d73624621fc793b59a8af8bf2f60a381d08646f94fb036e85bfec7b",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Task 6 (mug+chocolate): white mug lifted then tilted/dropped on table; never placed on plate; drop/tilt signature distinct from others."
+      },
+      {
+        "content_id": "artifact-9a361618504bc39bec23dc15de596251d8fb7bcd47207b1f2da64d64eeb17b82",
+        "access_record_id": "visual-access-8598fe42f873e41280d7ea795481b44444ce90c6ba2e034b33b5d564c2d6522c",
+        "camera_views": [
+          "agentview",
+          "wrist"
+        ],
+        "step_or_frame": "steps 0-256",
+        "claim": "Success comparator (task 1): clean grasp-place-release-repeat into basket, confirming the failure segments do not share a single visual mechanism."
+      }
+    ],
+    "task_contract": {}
+  },
+  "api_calls": 4,
+  "api_usd": 0.07969103999999999
+}

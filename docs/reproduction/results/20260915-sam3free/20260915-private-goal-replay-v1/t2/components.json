@@ -1,0 +1,4502 @@
+[
+  {
+    "frame": 1,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 2,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 5,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 6,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 7,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 8,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 9,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 10,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 11,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 12,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 13,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 14,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 15,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 16,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 17,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 18,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 19,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 20,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 21,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 22,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 23,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 24,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 25,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 26,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 27,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 28,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 29,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 30,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 31,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 32,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 33,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 34,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 35,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 36,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 37,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 38,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 39,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 40,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 41,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 42,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 43,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 44,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 45,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 46,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 47,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 48,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 49,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 50,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 51,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 52,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 53,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 54,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 55,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 56,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 57,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 58,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 59,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 60,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 61,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 62,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 63,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 64,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 65,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 66,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 67,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 68,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 69,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 70,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 71,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 72,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 73,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 74,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 75,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 76,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 77,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 78,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 79,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 80,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 81,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 82,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 83,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 84,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 85,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": false
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 86,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 87,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 88,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 89,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 90,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 91,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 92,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 93,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 94,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 95,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 96,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 97,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 98,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 99,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 100,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 101,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 102,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 103,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 104,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 105,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 106,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 107,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 108,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 109,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 110,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 111,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 112,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 113,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 114,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 115,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 116,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 117,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 118,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 119,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 120,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 121,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 122,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 123,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 124,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 125,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 126,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 127,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 128,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 129,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 130,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 131,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 132,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 133,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 134,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 135,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 136,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 137,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 138,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 139,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 140,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 141,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 142,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 143,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 144,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 145,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 146,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 147,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 148,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 149,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 150,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 151,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 152,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 153,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 154,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 155,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 156,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 157,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 158,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 159,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 160,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 161,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 162,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 163,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 164,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 165,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 166,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 167,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 168,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 169,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 170,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 171,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 172,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 173,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 174,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 175,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 176,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 177,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 178,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 179,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 180,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 181,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 182,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 183,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 184,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 185,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 186,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 187,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 188,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 189,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 190,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 191,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 192,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 193,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 194,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 195,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 196,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 197,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 198,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 199,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 200,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 201,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 202,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 203,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 204,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 205,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 206,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 207,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 208,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 209,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 210,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 211,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 212,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 213,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 214,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 215,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 216,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 217,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 218,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 219,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 220,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 221,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 222,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 223,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 224,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "frame": 225,
+    "predicates": [
+      {
+        "goal": [
+          "turnon",
+          "flat_stove_1"
+        ],
+        "value": true
+      },
+      {
+        "goal": [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        "value": false
+      }
+    ]
+  }
+]

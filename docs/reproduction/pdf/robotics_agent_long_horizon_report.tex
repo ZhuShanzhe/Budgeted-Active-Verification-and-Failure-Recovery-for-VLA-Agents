@@ -1,0 +1,112 @@
+\documentclass[UTF8,11pt,a4paper,fontset=none]{ctexart}
+\usepackage[margin=20mm]{geometry}
+\usepackage{fontspec,booktabs,array,enumitem,fancyhdr}
+\usepackage[hidelinks,unicode]{hyperref}
+\setCJKmainfont{Microsoft YaHei}
+\setCJKsansfont{Microsoft YaHei}
+\setCJKmonofont{Microsoft YaHei}
+\setmainfont{Arial}
+\setmonofont{Latin Modern Mono}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{3pt}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\ctexset{section={format=\Large\bfseries,beforeskip=0pt,afterskip=0.5em},subsection={format=\normalsize\bfseries,beforeskip=0.8em,afterskip=0.15em}}
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}
+\hypersetup{pdftitle={机器人操作 Agent 长程时序能力测试报告},pdfauthor={}}
+\begin{document}
+\begin{titlepage}\thispagestyle{empty}\vspace*{0.32\textheight}
+\begin{center}{\fontsize{27}{40}\selectfont\bfseries 机器人操作 Agent\\长程时序能力测试报告}\end{center}
+\end{titlepage}
+\setcounter{page}{1}
+
+\section{测试范围与结果}
+测试面向机器人操作的 Agent，关注多步执行中的目标身份、子目标进展、历史状态、失败恢复和完成判断。全部使用真实仿真执行，不以工具模拟回复或安装检查代替性能。记录覆盖 2026 年 9 月 15--16 日。
+
+\textbf{总体结论：}现有部署能够组织操作，但“物理任务成功”“验证器认识到成功”和“正确停止”经常脱节。本轮已经定位具体失败链条，尚未证明它们都是长程记忆退化，也没有证明任何适配 Agent 带来稳定的总体提升。
+
+\begin{tabular}{@{}L{28mm}L{32mm}L{53mm}L{17mm}L{17mm}@{}}\toprule
+系统 & 场景与样本 & 实际保留的机制 & 最终成功 & 曾经成功\\\midrule
+Fixed Pi0.5 & A：LIBERO-10，10 条 & 无上层 Agent，固定策略执行 & 7/10 & 9/10\\[4pt]
+EmbodiedSkills & A：同上，10 条 & 子目标计划、阶段约束、验证与恢复 & 4/10 & 5/10\\[4pt]
+Thea port & A：同上，10 条 & 原生 Harness、任务笔记、上下文管理与独立验证 & 6/10 & 6/10\\[4pt]
+RPent & B：LIBERO-10，10 条 & 公开记忆、RGB-D 定位、VLA 与直接控制工具 & 2/10 & 3/10\\[4pt]
+Fixed Pi0.5 & C：任务 5，3 条 & 冻结策略；Zetta 的配对控制组 & 2/3 & 2/3\\[4pt]
+Zetta 候选 & C：同上，3 条 & 失败诊断、冻结 critic、Role1 复核与恢复执行 & 2/3 & 2/3\\[4pt]
+CaP-Agent0\newline 单模型适配 & D：LIBERO-PRO 中任务 0，1 条 & 九候选代码生成、综合、技能调用、视觉反馈与重写 & 0/1 & 0/1\\\bottomrule
+\end{tabular}
+
+\subsection*{表格如何比较}
+A 组为同一 Pi0.5、相同十任务与初态的比较：双路 RGB、最长 32 步动作段、520 步上限。B 组增加高清 RGB-D、直接控制和记忆，VLA 动作段为 5 步。C 组为同一任务的三个留出初态，5 步动作段、520 步上限；候选与控制组初态及首次介入前动作一致。D 组保留原生关节控制、IK 和抓取模型，原生预算 8000 步，其中十步为稳定过程。
+
+\textbf{不同协议之间不能直接排名。}主表共 47 条有效轨迹；Zetta 另采集 18 条固定策略开发轨迹，不混入留出成绩。最终成功指停止时真值，曾经成功指任一步曾满足真值；任务真值均只用于评分，不提供给 Agent 或用于自动成功停止。
+
+\clearpage\section{状态记忆、子目标与完成判断}
+
+\subsection*{Thea port：历史事件没有转化为可靠的持续状态}
+\textbf{失败事实。}任务 3 要求把碗放入抽屉并关上。动作回放确认：第 138 步起碗已入抽屉，第 208 步抽屉关闭，完整目标在 208--245 步持续成立；但 Agent 在第 245 步放弃，理由涉及看不到碗、无法辨认抽屉，甚至怀疑场景重置。Agent 没有环境重置权限。
+
+\textbf{原因与时序关联。}物体被遮挡之后，当前画面不能直接显示先前事件；当前部署未可靠保留“已放入且随后关闭”的状态及其证据。它把不可见与状态失效混淆。这是跨时刻状态维护问题；但部署缺少完整 Scene Graph，不能把结果直接归因于 Thea 完整架构。
+
+\textbf{另一个失败。}任务 2 在第 225 步宣布完成。逐步回放显示炉灶从第 86 步起已开启，但摩卡壶进入指定区域的条件始终未成立。这里是复合目标只验证了一部分。全组唯一一次 complete 为误报，而六条物理成功轨迹均没有被正确 complete 确认。
+
+\textbf{部署干扰。}Agent 还把“抬臂、获得宽视角”等观察指令交给固定 VLA，但本部署没有独立验收过的视角移动技能。因此失败同时受工具能力限制影响，不是单纯增加记忆就能解释。
+
+\subsection*{EmbodiedSkills：目标身份与验证循环阻塞子目标推进}
+\textbf{失败事实。}任务 0 的八段动作指令一直停留在抓取汤罐，未越过第一阶段。第 96 步可见夹持罐体，第 128 步罐体移到篮子上方，七次验证仍未确认抓取子目标。十条轨迹均在 256 个物理步后耗尽 160 次模型调用。
+
+\textbf{原因证据。}固定第 96 步图像，用原上下文、删除历史状态、增加历史图像三种输入各测试三次，命名目标的抓持判断均未肯定；改问“不猜商品名，是否持有任意物体”，三次均肯定。输入图像哈希核对无旧图传输问题。
+
+\textbf{归因边界。}证据更支持语言目标与视觉实体对应困难，导致重复验证和阶段停滞。添加历史图像未修复该检查点，不支持直接宣称“缺少长期记忆就是主因”。中性提问改变了问题，不能作为同一指标的准确率提升。
+
+\subsection*{固定策略：达到目标后缺少停止与状态保护}
+A 组有 9/10 曾经成功，但最终仅 7/10；任务 5、6 在达到目标后再次失效。无 Agent 控制组没有完成识别和主动停止机制。该现象说明必须分别测量达到、维持和确认目标，不能只看最终一个成功率。原生谓词也不必然包含松爪与长期稳定性要求。
+
+\clearpage\section{证据获取、恢复与代码决策}
+
+\subsection*{RPent：多轮获取证据没有保证收敛}
+\textbf{失败事实。}十条轨迹中六条耗尽费用预算，三条耗尽物理预算，一条遇到输出长度上限。任务 5 累计决策输入约 177 万 tokens，反复读取案例、分割、反投影与移动；在第 332 步声称成功谓词尚未触发，但该真值并未提供给它。
+
+\textbf{原因与边界。}日志支持未知状态被当作负面证据、冲突图像描述下继续反复定位，以及低收益工具循环消耗预算。公开记忆还存在任务文件命名不匹配和跨布局案例迁移，属于部署与检索干扰。没有消融证据证明上下文长度本身导致失败。任务 5 仅在第 327--328 步短暂满足真值，第 329 步已失效；不能声称它稳定完成后被 Agent 重启破坏。
+
+\subsection*{Zetta：critic 把完成后静止误判为需要恢复}
+\textbf{失败事实。}用开发失败轨迹生成并冻结候选后，在三个留出初态进行配对测试。候选实际触发九次恢复，其中六次发生在已成功状态，五次之前连续十步也已成功；唯一失败初态三次恢复后仍未成功。控制与候选均为 2/3，无救回、无退化，候选未晋升。
+
+\textbf{原因与时序关联。}本候选把动作停滞、末端位置和夹爪开度组合成失败条件，不能可靠区分“仍握物”“已释放”和“完成后保持”。恢复仍调用同一 VLA 与完整任务指令，没有新增观察或有效子目标切换。首次介入后的动作确实改变，但未产生收益；不是完全未执行的空操作。
+
+\textbf{归因边界。}这是单个候选的小规模在线测试，不是完整演化训练。早期诊断还把未执行的 IK 工具当作失败原因，经控制来源澄清后重新生成；通过引用与格式校验不等于因果解释正确。
+
+\subsection*{CaP-Agent0：代码无异常不等于后置条件成立}
+\textbf{失败事实。}任务 0 共执行十段代码、九次重写，记录 7990 个实际操作步；前九段无运行异常，第十段达到环境上限。第一段打印两个物体均已入篮，但后续图像显示篮子仍空，逐步真值始终未成功。后续持续重新定位、抓取和放置，未满足组合目标。
+
+\textbf{原因与时序关联。}代码的局部完成声明没有验证真实物体关系；多候选分割、抓取分数和到达位姿不足以证明指定物体已入篮并保持。图像还显示物品被带倒、篮子位移。原生 Agent 选择继续重写而非 FINISH，因此这里不是最终完成误报，而是局部后置条件薄弱、状态改变后重试无法稳定推进。尚不能分离感知、接触控制和规划各自的贡献。
+
+\clearpage\section{结论与可复核记录}
+\subsection*{与长程时序能力直接相关的研究问题}
+本轮最明确的研究对象不是笼统的“更长上下文”，而是下列三个状态转换：
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.4em,topsep=0.2em]
+\item \textbf{从观察到持久状态：}对象身份是否一致；已完成事件在遮挡后是否仍成立；什么时候必须重新观察。
+\item \textbf{从停滞到恢复：}区分进行中、证据不足、动作失败与已完成；避免仅凭夹爪或静止信号启动恢复。
+\item \textbf{从执行返回到任务完成：}验证多个子目标的联合后置条件，保护已完成部分，并依据证据决定继续、恢复或停止。
+\end{enumerate}
+
+这些问题都有可回放的案例。当前实验没有系统改变任务长度，没有多种子置信区间，也没有未见任务或扰动 OOD 评测；因此结论是\textbf{已识别与时序决策相关的失败机制，不是已证明长期记忆退化或跨分布性能不足}。
+
+\subsection*{必要的适配说明}
+上层使用 DeepSeek V4-Pro；图像由 Flash 转写，Thea 等独立验证器另读取图像。RPent 和 CaP 的 SAM3 换成公开 Grounding DINO 与 SAM2.1；感知误差可能向后传播，替换不视为数值等价。Thea port 未部署完整场景图、真机技能和跨任务经验库；Zetta 未开展论文规模演化；CaP 使用原生单模型集成而非论文异构模型集成。
+
+修复仅针对依赖、EGL、数据/模型接口、初态重置、动作计数和数值兼容，保留各自核心决策流程。新增接口与边界回归测试 17 项通过。调试与 canary 不计成功率；环境预算终止和合法动作失败仍计为方法失败，不因成绩低而排除。
+
+\subsection*{复核文件}
+本报告使用本项目真实实验记录，不填入原论文成绩冒充实测。仓库 \texttt{docs/reproduction/} 下保存详细方法与案例：
+\begin{itemize}[leftmargin=1.4em,itemsep=0.25em,topsep=0.2em]
+\item \texttt{SAM3\_FREE\_LONG\_RESULTS.md}：Fixed、EmbodiedSkills、Thea port；含动作回放与输入诊断。
+\item \texttt{RPENT\_OPEN\_LONG\_RESULTS.md}：十任务结果、记忆/工具调用与真值时间线。
+\item \texttt{ZETTA\_ONLINE\_RESULTS.md}：冻结候选、三组配对结果和逐次 critic 触发。
+\item \texttt{CAPX\_ONLINE\_RESULTS.md}：原生代码闭环、逐段输出与执行图像。
+\item \texttt{ROBOTICS\_AGENT\_RUNTIME\_ADAPTATIONS.md}：保留机制、修复项与部署边界。
+\end{itemize}
+机器可读摘要位于 \texttt{results/20260915-sam3free/} 和 \texttt{results/20260915-open-agents/}，含来源路径、固定版本与样本记录。服务器数据盘 \texttt{experiments/coding-agent/} 保留原始图像、动作、模型输出和私有真值；API 密钥不进入报告或 Git。
+\end{document}

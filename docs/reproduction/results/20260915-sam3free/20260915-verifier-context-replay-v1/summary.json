@@ -1,0 +1,50 @@
+{
+  "checkpoint": 96,
+  "source_episode": "/root/autodl-tmp/experiments/coding-agent/20260915-sam3free-embodiedskills-v1/t0_i40_embodiedskills",
+  "source_call": 65,
+  "repetitions": 3,
+  "original_model": "deepseek-flash",
+  "output_cap": 2048,
+  "interpretation": "Input sensitivity only; no independent subgoal labels, no population accuracy or closed-loop improvement claim.",
+  "removed_blackboard_keys": [
+    "task_instruction",
+    "stage",
+    "world_state",
+    "task_plan",
+    "current_subgoal",
+    "grounding_overlay",
+    "motion_state",
+    "last_scheduler_decision",
+    "recent_loop_history",
+    "last_skill_exception",
+    "last_perception_error",
+    "last_localization_error",
+    "bootstrap_observe_failures",
+    "last_safety_report",
+    "preflight_report",
+    "last_action_validation_report",
+    "last_verification_report",
+    "inactive_verification_report_present",
+    "last_recovery_directive",
+    "last_retry_request",
+    "event_count"
+  ],
+  "estimated_usd": 0.008433600000000001,
+  "conditions": {
+    "original_context": {
+      "n": 3,
+      "subgoal_true": 0,
+      "task_true": 0
+    },
+    "without_blackboard": {
+      "n": 3,
+      "subgoal_true": 0,
+      "task_true": 0
+    },
+    "with_preceding_images": {
+      "n": 3,
+      "subgoal_true": 0,
+      "task_true": 0
+    }
+  }
+}
